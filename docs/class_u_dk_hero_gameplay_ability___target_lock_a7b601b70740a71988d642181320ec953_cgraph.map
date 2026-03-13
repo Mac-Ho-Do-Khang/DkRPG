@@ -1,0 +1,15 @@
+<map id="UDkHeroGameplayAbility_TargetLock::SwitchTarget" name="UDkHeroGameplayAbility_TargetLock::SwitchTarget">
+<area shape="rect" id="Node000001" title="Switches the locked&#45;on target based on the given direction tag." alt="" coords="5,96,182,139"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#afe09b4facc319d2e0e0e5936a31794b9" title="Divides available actors into those on the left and right of the current locked&#45;on target." alt="" coords="232,5,444,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,93,237,68,233,71,160,98"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a5ca08a76443b78b7c377c354a6eeac11" title="Finds all available targets to lock on within a box trace in front of the hero." alt="" coords="230,88,447,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="182,115,216,116,211,118,183,120"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a30267c84ceda045b6d43a204e3decaa8" title="From the given list of available targets, finds and returns the nearest one to the hero." alt="" coords="237,171,440,229"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="159,137,237,164,232,166,159,142"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ac9a66690dcc5872d933fa3013e427105" title="Calls the parent ability&#39;s CancelAbility function to end this ability." alt="" coords="502,5,707,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,32,488,34,483,35,445,37"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="495,96,713,139"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="435,62,521,91,516,91,435,67"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="447,115,482,117,477,118,448,120"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="434,167,516,144,521,143,436,173"/>
+</map>

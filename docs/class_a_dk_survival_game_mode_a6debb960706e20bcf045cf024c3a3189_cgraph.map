@@ -1,0 +1,16 @@
+<map id="ADkSurvivalGameMode::RegisterSpawnedEnemy" name="ADkSurvivalGameMode::RegisterSpawnedEnemy">
+<area shape="rect" id="Node000001" title="Registers spawned enemies to keep track of them, so the game mode knows when they are destroyed." alt="" coords="5,109,179,152"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html#a2168be343ddf8a37d6063083006f3f59" title="Callback function when an enemy is destroyed." alt="" coords="227,109,388,152"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,128,214,130,208,131,179,133"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_survival_game_mode.html#a00b8305595d43a3200596dfbc6946850" title="Sets the current state of the survival game mode." alt="" coords="436,5,642,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,106,450,71,455,70,362,111"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_survival_game_mode.html#acb24ef1db632f9f54e5494853eec84d8" title="Determines if more enemies should be spawned in the current wave." alt="" coords="690,72,898,131"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="388,123,677,108,672,109,389,128"/>
+<area shape="rect" id="Node000006" href="$class_a_dk_survival_game_mode.html#a40eedc364ab41af351ce4b9e29b540eb" title="Attempts to spawn enemies for the current wave." alt="" coords="453,139,625,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="388,147,440,156,435,156,388,152"/>
+<area shape="rect" id="Node000005" href="$class_a_dk_survival_game_mode.html#a0f478977ff0d6315292d224321ffa8af" title="Retrieves the current wave spawner table row." alt="" coords="946,113,1181,156"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="898,112,933,118,927,118,898,117"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="450,140,403,137,403,131,455,140"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="625,138,673,129,678,128,626,143"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="626,153,898,140,928,141,933,141,898,145,626,159"/>
+</map>

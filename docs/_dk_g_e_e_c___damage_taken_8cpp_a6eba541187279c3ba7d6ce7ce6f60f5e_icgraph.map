@@ -1,0 +1,7 @@
+<map id="GetDkDamageCapture" name="GetDkDamageCapture">
+<area shape="rect" id="Node000001" title="Singleton getter for FDkDamageCapture." alt="" coords="239,47,393,73"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_g_e_e_c___damage_taken.html#a16beff23fc58fbf4191e5d78716dd90a" title="Called when the GE using this execution is applied to a target." alt="" coords="9,5,187,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,46,187,43,187,38,226,45"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_g_e_e_c___damage_taken.html#a4f62542e97ccb89948f5b175b003953d" title="Captures necessary attributes and tags for damage calculation." alt="" coords="5,72,191,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,75,191,82,191,77,226,74"/>
+</map>

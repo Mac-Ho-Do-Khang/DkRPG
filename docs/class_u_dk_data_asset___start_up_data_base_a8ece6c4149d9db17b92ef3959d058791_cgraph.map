@@ -1,0 +1,5 @@
+<map id="UDkDataAsset_StartUpDataBase::GiveToAbilitySystemComponent" name="UDkDataAsset_StartUpDataBase::GiveToAbilitySystemComponent">
+<area shape="rect" id="Node000001" title="Grants abilities to the given ASC." alt="" coords="5,5,254,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_data_asset___start_up_data_base.html#ae36854eac38514652372534a181901c9" title="Grants the given abilities to a given ASC." alt="" coords="302,5,492,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,24,289,27,283,27,254,29"/>
+</map>

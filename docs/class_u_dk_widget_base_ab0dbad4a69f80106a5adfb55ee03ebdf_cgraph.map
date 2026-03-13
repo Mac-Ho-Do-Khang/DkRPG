@@ -1,0 +1,7 @@
+<map id="UDkWidgetBase::InitEnemyCreateWidget" name="UDkWidgetBase::InitEnemyCreateWidget">
+<area shape="rect" id="Node000001" title="Calls the Blueprint version." alt="" coords="5,29,192,72"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_widget_base.html#a204eb7ffa85dfd04239b3cce8a329dd5" title="To be overridden in Widget Blueprints." alt="" coords="240,29,453,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,57,227,60,221,60,192,62"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="237,42,208,44,207,39,242,42"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="300,27,298,19,305,10,322,5,346,3,373,5,390,14,385,13,372,10,346,8,323,10,308,15,303,21,304,30"/>
+</map>

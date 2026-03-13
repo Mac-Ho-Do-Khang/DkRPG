@@ -1,0 +1,5 @@
+<map id="UDkPawnCombatComponent::OnHitTargetActor" name="UDkPawnCombatComponent::OnHitTargetActor">
+<area shape="rect" id="Node000001" title="Callback when the weapon hits a target actor, actual logic implemented in overriden version." alt="" coords="248,5,442,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_combat_component.html#a65203832585219e456dd69b9c819b2cf" title="Registers a spawned weapon to the character&#39;s carried weapon map and binds hit delegates." alt="" coords="5,5,200,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,27,200,29,200,24,235,26"/>
+</map>

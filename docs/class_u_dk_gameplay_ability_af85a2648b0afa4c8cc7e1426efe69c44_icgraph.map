@@ -1,0 +1,5 @@
+<map id="UDkGameplayAbility::OnGameplayTagChanged_CancelAbility" name="UDkGameplayAbility::OnGameplayTagChanged_CancelAbility">
+<area shape="rect" id="Node000001" title="Callback when a gameplay tag changes that may cancel this ability." alt="" coords="197,5,375,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#a1d19bde0a2925eeb00cdb08cbadd0189" title="Called right before the ability is activated." alt="" coords="5,13,149,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,35,149,37,149,32,184,34"/>
+</map>

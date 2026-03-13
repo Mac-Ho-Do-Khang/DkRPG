@@ -1,0 +1,7 @@
+<map id="UDkGameplayAbility::NativeApplyEffectSpecHandleToTarget" name="UDkGameplayAbility::NativeApplyEffectSpecHandleToTarget">
+<area shape="rect" id="Node000001" title="Applies a gameplay effect spec handle to a target actor." alt="" coords="280,47,485,105"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#a96c196614a369c1dd10e4537c60fc5e7" title="Applies a gameplay effect spec handle to multiple hit results." alt="" coords="5,5,232,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,58,232,55,232,50,267,57"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_gameplay_ability.html#afc9fbd5c059cb5933b1e135ff61babf5" title="Blueprint wrapper of NativeApplyEffectSpecHandleToTarget." alt="" coords="22,88,215,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,95,216,105,215,100,267,94"/>
+</map>

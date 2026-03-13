@@ -1,0 +1,7 @@
+<map id="UDkWidgetBase::BP_OnOwningEnemyUIComponentInitialized" name="UDkWidgetBase::BP_OnOwningEnemyUIComponentInitialized">
+<area shape="rect" id="Node000001" title="To be overridden in Widget Blueprints." alt="" coords="5,29,219,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="65,28,63,19,71,10,87,5,112,3,138,5,156,14,151,14,137,10,112,8,89,10,74,15,68,21,70,29"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_widget_base.html#ab0dbad4a69f80106a5adfb55ee03ebdf" title="Calls the Blueprint version." alt="" coords="267,29,453,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="219,57,254,60,248,60,219,62"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="264,42,234,44,234,39,269,42"/>
+</map>

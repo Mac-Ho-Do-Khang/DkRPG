@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_TargetLock::GetAvailableTargetsToLockOn" name="UDkHeroGameplayAbility_TargetLock::GetAvailableTargetsToLockOn">
+<area shape="rect" id="Node000001" title="Finds all available targets to lock on within a box trace in front of the hero." alt="" coords="5,5,223,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="271,13,489,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,32,258,34,252,35,223,37"/>
+</map>

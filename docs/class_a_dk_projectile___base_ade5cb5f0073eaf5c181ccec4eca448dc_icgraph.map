@@ -1,0 +1,5 @@
+<map id="ADkProjectile_Base::OnProjectileBeginOverlap" name="ADkProjectile_Base::OnProjectileBeginOverlap">
+<area shape="rect" id="Node000001" title="Callback when the projectile begins overlapping with another actor." alt="" coords="200,5,378,48"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_projectile___base.html#af4b5ec064f5ff74bf13b2980afa102d1" title=" " alt="" coords="5,5,152,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,27,152,29,152,24,187,26"/>
+</map>

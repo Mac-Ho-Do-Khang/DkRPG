@@ -1,0 +1,7 @@
+<map id="UDkHeroCombatComponent::OnHitTargetActor" name="UDkHeroCombatComponent::OnHitTargetActor">
+<area shape="rect" id="Node000001" title="Callback when the hero&#39;s weapon hits a target actor." alt="" coords="5,39,195,81"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_extension_component_base.html#a20f79d05705da0bb621f8779f18c24cc" title="Gets the owning Pawn cast to the specified type T." alt="" coords="243,5,449,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,45,230,42,225,43,196,50"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_weapon_hit_additional_info.html#aba364960de82b9e63736d114fac39369" title="Setter for the HitLocation property." alt="" coords="250,72,442,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,70,237,78,232,79,195,76"/>
+</map>

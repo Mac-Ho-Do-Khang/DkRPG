@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_TargetLock::GetAvailableActorsAroundTarget" name="UDkHeroGameplayAbility_TargetLock::GetAvailableActorsAroundTarget">
+<area shape="rect" id="Node000001" title="Divides available actors into those on the left and right of the current locked&#45;on target." alt="" coords="230,5,442,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a7b601b70740a71988d642181320ec953" title="Switches the locked&#45;on target based on the given direction tag." alt="" coords="5,13,182,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,35,182,37,182,32,217,34"/>
+</map>

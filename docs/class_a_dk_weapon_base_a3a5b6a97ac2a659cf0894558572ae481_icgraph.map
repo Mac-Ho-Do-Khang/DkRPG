@@ -1,0 +1,5 @@
+<map id="ADkWeaponBase::OnCollisionBoxBeginOverlap" name="ADkWeaponBase::OnCollisionBoxBeginOverlap">
+<area shape="rect" id="Node000001" title="Callback when weapon collision box begins overlap with another actor/component." alt="" coords="289,5,488,48"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_weapon_base.html#ac044646035581739a6063e73d623c216" title=" " alt="" coords="5,13,241,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,27,241,29,241,24,276,27"/>
+</map>

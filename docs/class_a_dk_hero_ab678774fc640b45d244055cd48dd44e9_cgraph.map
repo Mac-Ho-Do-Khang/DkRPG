@@ -1,0 +1,28 @@
+<map id="ADkHero::SetupPlayerInputComponent" name="ADkHero::SetupPlayerInputComponent">
+<area shape="rect" id="Node000001" title="Binds callbacks to input actions." alt="" coords="5,341,189,384"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_input_component.html#a08fae0f453c7ae27b4c87dde8621ed7e" title="Binds an ability input action defined in the input config using a Gameplay Tag." alt="" coords="260,29,412,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,340,115,288,141,219,181,146,206,112,235,82,248,75,244,79,238,86,210,115,185,149,146,221,120,290,106,341"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_input_component.html#a1cf32a62a6c6ec2817ee1d4d53ea9f84" title="Binds a native input action defined in the input config using a Gameplay Tag." alt="" coords="260,96,412,139"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="104,340,122,300,151,248,188,195,235,149,247,142,244,146,238,153,192,198,155,251,127,302,109,342"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_r_p_g_function_library.html#ab22b07924c232426443379dcecabbc32" title="Retrieves the main hero character default IMC priority when applied to the Enhanced Input Subsystem." alt="" coords="237,163,435,221"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="115,339,166,286,200,257,235,231,245,227,242,231,238,236,203,261,170,290,119,342"/>
+<area shape="rect" id="Node000007" href="$class_a_dk_hero.html#ac2f2e9498261e2033a81d640456d9188" title="Callback to handle ability input pressed events." alt="" coords="244,245,428,288"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="142,339,236,298,255,292,251,295,238,302,145,343"/>
+<area shape="rect" id="Node000008" href="$class_a_dk_hero.html#a0b48e4b49f193a0672826528d157c6a1" title="Callback to handle ability input released events." alt="" coords="244,312,428,355"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="188,349,230,345,226,348,191,354"/>
+<area shape="rect" id="Node000009" href="$class_a_dk_hero.html#a87afd5499308fe9e2f0e3a6481f2e709" title="Callback to look around on response to input." alt="" coords="262,379,410,405"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="189,371,249,380,244,382,190,377"/>
+<area shape="rect" id="Node000010" href="$class_a_dk_hero.html#a505f61a5e672d74b7effe2b36bc24ccd" title="Callback to move the character on repsonse to input." alt="" coords="260,429,412,456"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="149,382,238,415,264,424,258,425,236,420,149,387"/>
+<area shape="rect" id="Node000011" href="$class_a_dk_hero.html#af9664bc5e08061d5ea698cb499214b73" title="Callback to handle stone pickup input when started." alt="" coords="255,480,417,523"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="122,382,174,424,238,466,250,473,245,474,235,470,171,428,122,387"/>
+<area shape="rect" id="Node000012" href="$class_a_dk_hero.html#a9346363ccba33d3a50850df2afad02ce" title="Callback to handle target switching input when completed during target lock." alt="" coords="238,547,434,589"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="111,382,161,456,197,497,238,533,246,539,241,539,235,537,193,501,157,459,110,387"/>
+<area shape="rect" id="Node000013" href="$class_a_dk_hero.html#a8406383682f9c58ffd8e37dbf80bc8fa" title="Callback to handle target switching input when triggered during target lock." alt="" coords="238,613,434,656"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="105,382,124,429,152,487,190,547,213,575,238,599,244,605,239,604,235,603,209,578,185,550,147,489,119,431,105,387"/>
+<area shape="rect" id="Node000003" href="$struct_f_dk_input_action_config.html#a58602db816cfa205e8be49ea92a9d8e1" title="true when both InputTag and InputAction are valid" alt="" coords="500,29,650,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,48,486,49,482,52,413,53"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="530,28,528,19,536,10,551,5,575,3,601,5,618,13,612,14,599,10,575,8,553,10,539,15,533,21,535,29"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_data_asset___input_config.html#abe4f61611c4b7361d2f0129fd13b42ac" title="Finds an input action associated with the given Gameplay Tag." alt="" coords="483,96,667,139"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="411,115,470,116,465,119,413,120"/>
+</map>

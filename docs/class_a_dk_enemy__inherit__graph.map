@@ -1,0 +1,13 @@
+<map id="ADkEnemy" name="ADkEnemy">
+<area shape="rect" id="Node000001" title="Base class for all enemy characters, whose Blueprint will be subclassed for each specific enemy type." alt="" coords="246,155,334,181"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_character_base.html" title="Base class for all characters in the DkRPG game." alt="" coords="223,80,358,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="292,121,292,156,288,153,288,124"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,93,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,34,250,78,246,81,106,40"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="117,5,274,32"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="225,39,277,79,271,80,224,44"/>
+<area shape="rect" id="Node000005" href="$class_i_dk_pawn_combat_interface.html" title="Interface for Pawn Combat functionality." alt="" coords="299,5,471,32"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="359,41,308,82,305,77,354,43"/>
+<area shape="rect" id="Node000006" href="$class_i_dk_pawn_u_i_interface.html" title="Interface for pawns that have a Pawn UI Component." alt="" coords="495,5,635,32"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="500,37,339,82,338,77,505,36"/>
+</map>

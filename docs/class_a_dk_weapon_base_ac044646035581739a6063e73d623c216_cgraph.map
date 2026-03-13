@@ -1,0 +1,10 @@
+<map id="ADkWeaponBase::ADkWeaponBase" name="ADkWeaponBase::ADkWeaponBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,241,73"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_weapon_base.html#a3a5b6a97ac2a659cf0894558572ae481" title="Callback when weapon collision box begins overlap with another actor/component." alt="" coords="289,5,488,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,43,276,40,271,42,235,49"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_weapon_base.html#a13ba523e8859f1097251f57773978779" title="Callback when weapon collision box ends overlap with another actor/component." alt="" coords="289,72,488,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="235,71,276,79,271,79,235,77"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_r_p_g_function_library.html#a8981c26c97b380e30ef9a01dbad95e42" title="Checks whether the TargetPawn is hostile towards the QueryPawn." alt="" coords="536,39,702,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="488,38,523,46,518,46,488,44"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="488,76,518,75,523,74,489,82"/>
+</map>

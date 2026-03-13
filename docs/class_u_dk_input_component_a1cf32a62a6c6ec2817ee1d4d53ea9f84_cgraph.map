@@ -1,0 +1,5 @@
+<map id="UDkInputComponent::BindNativeInputAction" name="UDkInputComponent::BindNativeInputAction">
+<area shape="rect" id="Node000001" title="Binds a native input action defined in the input config using a Gameplay Tag." alt="" coords="5,5,158,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_data_asset___input_config.html#abe4f61611c4b7361d2f0129fd13b42ac" title="Finds an input action associated with the given Gameplay Tag." alt="" coords="206,5,390,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,24,193,26,187,27,158,29"/>
+</map>

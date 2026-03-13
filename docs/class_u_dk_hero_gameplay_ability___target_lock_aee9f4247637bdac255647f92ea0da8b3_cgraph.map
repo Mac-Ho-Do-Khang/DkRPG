@@ -1,0 +1,30 @@
+<map id="UDkHeroGameplayAbility_TargetLock::ActivateAbility" name="UDkHeroGameplayAbility_TargetLock::ActivateAbility">
+<area shape="rect" id="Node000001" title="Actually activates the ability." alt="" coords="5,208,190,251"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a37e2907e68f103c0b9e1b2bd339f631a" title="Attempts to lock onto a target." alt="" coords="238,208,438,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,227,224,228,220,231,191,232"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ac9a66690dcc5872d933fa3013e427105" title="Calls the parent ability&#39;s CancelAbility function to end this ability." alt="" coords="784,17,989,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="346,206,365,167,394,119,434,72,458,52,485,36,519,22,555,13,629,4,702,6,771,16,766,18,702,11,629,9,556,18,521,27,487,41,461,57,438,76,399,122,369,170,350,209"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a2348c12fac0682a364414e83cf35502e" title="Draws the target lock widget on the HUD." alt="" coords="490,133,726,176"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="416,205,485,186,515,179,511,182,487,191,418,210"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a5ca08a76443b78b7c377c354a6eeac11" title="Finds all available targets to lock on within a box trace in front of the hero." alt="" coords="499,432,716,491"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="351,249,373,286,404,331,442,378,488,418,494,425,489,423,484,422,438,381,400,334,369,289,349,254"/>
+<area shape="rect" id="Node000008" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a30267c84ceda045b6d43a204e3decaa8" title="From the given list of available targets, finds and returns the nearest one to the hero." alt="" coords="506,283,709,341"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="410,249,498,277,492,278,410,254"/>
+<area shape="rect" id="Node000009" href="$class_u_dk_hero_gameplay_ability___target_lock.html#aa692808ed50487b4a6aefa718a163234" title="Adds the target lock input mapping context to the hero&#39;s input subsystem." alt="" coords="492,200,723,259"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="438,227,479,229,474,230,439,232"/>
+<area shape="rect" id="Node000011" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a12c25c53331c4e92033114ad3cc5f4d0" title="Initializes movement settings for the hero while target locking." alt="" coords="486,365,729,408"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="360,248,415,300,450,328,487,351,501,359,495,359,485,356,447,332,411,304,358,254"/>
+<area shape="rect" id="Node000012" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a2d57d6ef38745287f3bcbfedb769b2bf" title="Adjusts the target lock widget&#39;s position based on the current locked&#45;on actor." alt="" coords="495,51,720,109"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="362,206,416,163,485,119,499,115,495,117,487,124,419,167,365,210"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability.html#a74459071791a558b52bb73389adc3b63" title="Retrieves the hero controller from the actor info." alt="" coords="778,133,995,176"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="726,152,765,154,760,155,727,157"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="777,365,996,408"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="716,430,787,413,792,412,717,435"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="710,337,792,361,787,361,710,342"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="719,197,792,180,787,181,721,202"/>
+<area shape="rect" id="Node000010" href="$class_u_dk_r_p_g_function_library.html#ab22b07924c232426443379dcecabbc32" title="Retrieves the main hero character default IMC priority when applied to the Enhanced Input Subsystem." alt="" coords="787,200,986,259"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="723,227,775,229,769,230,724,232"/>
+<area shape="poly" id="edge13_Node000011_Node000007" title=" " alt="" coords="730,384,765,387,759,387,730,389"/>
+<area shape="poly" id="edge15_Node000012_Node000003" title=" " alt="" coords="720,64,771,60,766,62,722,69"/>
+<area shape="poly" id="edge16_Node000012_Node000005" title=" " alt="" coords="720,107,792,129,787,129,720,113"/>
+</map>

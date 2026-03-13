@@ -1,0 +1,7 @@
+<map id="ADkEnemy::ADkEnemy" name="ADkEnemy::ADkEnemy">
+<area shape="rect" id="Node000001" title="Initializes default values for enemies&#39; properties." alt="" coords="5,13,169,40"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_enemy.html#a617adf22ca90171c40c0765ab688ce9b" title=" " alt="" coords="217,5,410,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,24,204,26,198,27,169,29"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_r_p_g_function_library.html#a8981c26c97b380e30ef9a01dbad95e42" title="Checks whether the TargetPawn is hostile towards the QueryPawn." alt="" coords="458,5,624,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="410,24,445,27,439,27,410,29"/>
+</map>

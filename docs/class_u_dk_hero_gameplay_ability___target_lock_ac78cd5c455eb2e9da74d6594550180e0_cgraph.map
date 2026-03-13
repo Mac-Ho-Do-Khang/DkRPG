@@ -1,0 +1,17 @@
+<map id="UDkHeroGameplayAbility_TargetLock::OnTargetLockTick" name="UDkHeroGameplayAbility_TargetLock::OnTargetLockTick">
+<area shape="rect" id="Node000001" title="Called every tick while the ability is active." alt="" coords="5,111,212,154"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ac9a66690dcc5872d933fa3013e427105" title="Calls the parent ability&#39;s CancelAbility function to end this ability." alt="" coords="539,14,744,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,109,184,62,220,39,259,22,326,7,395,3,462,6,526,16,521,17,462,11,395,8,326,13,260,27,222,44,187,66,133,113"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="263,37,482,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,108,282,82,277,86,188,113"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability.html#a74459071791a558b52bb73389adc3b63" title="Retrieves the hero controller from the actor info." alt="" coords="533,141,750,183"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="175,152,260,171,326,177,392,179,520,176,515,177,392,184,325,183,259,176,175,157"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_r_p_g_function_library.html#a1e8bae7602bd8e5ee3949b56b7d243dd" title="Checks whether the given Actor has the specified Gameplay Tag in its DkASC." alt="" coords="282,237,463,279"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="144,152,199,184,261,215,293,231,288,231,259,220,196,188,144,157"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a2d57d6ef38745287f3bcbfedb769b2bf" title="Adjusts the target lock widget&#39;s position based on the current locked&#45;on actor." alt="" coords="260,103,485,162"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="212,130,247,132,242,133,213,135"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_r_p_g_function_library.html#a927b2a547192308111a737d253c0b803" title="Retrieves the DkASC from the given Actor." alt="" coords="544,237,739,279"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="464,255,532,258,526,258,464,261"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="462,100,539,77,534,79,464,105"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="485,142,520,148,515,149,486,148"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="UDkHeroGameplayAbility_PickStones::EndAbility" name="UDkHeroGameplayAbility_PickStones::EndAbility">
+<area shape="rect" id="Node000001" title="Called when an ability ends normally or abnormally." alt="" coords="5,39,177,81"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#aa7c202a1ed4070752757f0474e5b07c2" title="Cleans up any movement and UI state related to this ability." alt="" coords="260,5,432,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,46,248,39,243,41,178,51"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html#a268d34ae106b87d90c94370c5c578227" title="Retrieves the hero UI component from the actor info." alt="" coords="225,72,467,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,69,212,75,207,76,177,74"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="515,43,733,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="467,78,502,77,497,77,468,83"/>
+<area shape="rect" id="Node000005" href="$class_a_dk_hero.html#a5beb62baf68e7b5e98de780a8e1275cc" title="Override to return the Hero UI Component." alt="" coords="518,109,731,136"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="467,103,505,110,499,110,467,109"/>
+</map>

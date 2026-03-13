@@ -1,0 +1,19 @@
+<map id="UDkPawnCombatComponent::GetCharacterCarriedWeaponByTag" name="UDkPawnCombatComponent::GetCharacterCarriedWeaponByTag">
+<area shape="rect" id="Node000001" title="Retrieves the weapon currently carried by the character associated with the provided gameplay tag." alt="" coords="798,201,1032,244"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_combat_component.html#aba71c7a546745b47eb34c12c0256ee3d" title="Retrieves the character&#39;s currently equipped weapon." alt="" coords="546,156,750,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="780,204,751,202,751,197,785,204"/>
+<area shape="rect" id="Node000009" href="$class_u_dk_hero_combat_component.html#a40a8a122b817e120595a28a784b7e1b0" title="Retrieves the hero&#39;s carried weapon that matches the specified gameplay tag." alt="" coords="546,239,750,281"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="785,241,751,248,750,243,780,241"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_combat_component.html#a22ac0fd3f01b76e10ff46be642f3b084" title="Retrieves the hero&#39;s currently equipped weapon." alt="" coords="276,117,498,160"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="528,164,498,161,498,156,533,164"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_pawn_combat_component.html#ae2fdb299d28810bfcd4a9f330657b892" title="Enables or disables collision for the character&#39;s currently equipped weapon." alt="" coords="281,204,492,263"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="533,206,493,217,492,211,528,207"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_combat_component.html#a1ef633bac9335cf887dea015e1014aa5" title="Retrieves the base damage of the hero&#39;s currently equipped weapon at the specified level." alt="" coords="5,5,228,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="314,112,227,78,198,67,197,62,229,74,319,110"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_combat_component.html#ad71721ffbc41d60a1840eaf27f63ee8a" title="Retrieves the heavy attack stamina cost of the hero&#39;s currently equipped weapon at the specified leve..." alt="" coords="5,88,228,147"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="258,130,229,129,227,124,263,128"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_combat_component.html#a45b4d11e463501be7a48cf4e8a9675a9" title="Retrieves the attack stamina cost of the hero&#39;s currently equipped weapon at the specified level." alt="" coords="5,171,228,229"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="272,165,229,177,227,172,277,163"/>
+<area shape="rect" id="Node000008" href="$class_u_dk_pawn_combat_component.html#ada07619affb3e197c8e065418fcbd90c" title="Enables or disables weapon collision. Clears OverlappedActors when disabling collision." alt="" coords="19,253,214,296"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="263,252,215,262,214,257,268,251"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UDkPawnCombatComponent::RegisterSpawnedWeapon" name="UDkPawnCombatComponent::RegisterSpawnedWeapon">
+<area shape="rect" id="Node000001" title="Registers a spawned weapon to the character&#39;s carried weapon map and binds hit delegates." alt="" coords="5,39,200,81"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_combat_component.html#a4e8f2e7e99fe6ed3e3cf80a79248b306" title="Callback when the weapon hits a target actor, actual logic implemented in overriden version." alt="" coords="264,5,458,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,45,251,41,246,42,201,50"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_pawn_combat_component.html#a02003619f1d1de6085859c2dced29526" title="Callback when the weapon is pulled from a target actor (end hitting), actual logic implemented in ove..." alt="" coords="248,72,474,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,70,235,77,230,77,200,75"/>
+</map>

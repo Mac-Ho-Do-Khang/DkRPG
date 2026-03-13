@@ -1,0 +1,39 @@
+<map id="UDkHeroGameplayAbility::GetHeroCharacterFromActorInfo" name="UDkHeroGameplayAbility::GetHeroCharacterFromActorInfo">
+<area shape="rect" id="Node000001" title="Retrieves the hero character from the actor info." alt="" coords="857,320,1076,363"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#aa919d641bb2d44f83ce63b13a5f84488" title="Performs multi box trace to detect and store collectible stones. If there&#39;s none, cancels the ability..." alt="" coords="595,5,780,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="953,304,934,251,904,185,862,119,836,88,808,62,781,46,781,41,811,58,840,85,866,115,908,183,939,249,958,306"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___target_lock.html#afe09b4facc319d2e0e0e5936a31794b9" title="Divides available actors into those on the left and right of the current locked&#45;on target." alt="" coords="582,72,794,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="944,306,921,270,889,226,851,182,808,145,790,134,790,128,811,141,855,179,894,223,925,267,949,307"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a5ca08a76443b78b7c377c354a6eeac11" title="Finds all available targets to lock on within a box trace in front of the hero." alt="" coords="579,237,796,296"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="867,316,797,299,797,293,872,315"/>
+<area shape="rect" id="Node000009" href="$class_u_dk_hero_gameplay_ability.html#a7448104d67a31c1bca35e106ad86a3f0" title="Retrieves the hero combat component from the actor info." alt="" coords="577,387,798,445"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="867,368,800,389,798,384,872,366"/>
+<area shape="rect" id="Node000010" href="$class_u_dk_hero_gameplay_ability.html#a268d34ae106b87d90c94370c5c578227" title="Retrieves the hero UI component from the actor info." alt="" coords="566,469,809,512"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="933,372,877,419,811,460,782,471,781,466,808,455,874,415,928,375"/>
+<area shape="rect" id="Node000013" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a30267c84ceda045b6d43a204e3decaa8" title="From the given list of available targets, finds and returns the nearest one to the hero." alt="" coords="586,155,789,213"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="927,309,873,269,808,228,785,216,785,211,811,223,876,264,932,310"/>
+<area shape="rect" id="Node000014" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a12c25c53331c4e92033114ad3cc5f4d0" title="Initializes movement settings for the hero while target locking." alt="" coords="566,320,809,363"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="839,342,810,344,809,339,844,341"/>
+<area shape="rect" id="Node000015" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ac78cd5c455eb2e9da74d6594550180e0" title="Called every tick while the ability is active." alt="" coords="584,536,791,579"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="947,375,892,453,854,493,811,526,789,538,787,533,808,522,850,489,888,449,943,377"/>
+<area shape="rect" id="Node000016" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ab9955038a362dc006027c0195f95f592" title="Resets movement settings for the hero after target locking ends." alt="" coords="588,603,787,661"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="954,376,933,426,902,484,861,542,837,569,811,593,789,607,787,602,808,589,834,565,857,539,897,481,928,424,950,379"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a91d1391a9af5b54f039840fc6bce6b13" title="Called every tick while the ability is active." alt="" coords="238,5,518,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="577,28,519,29,517,24,582,25"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a7b601b70740a71988d642181320ec953" title="Switches the locked&#45;on target based on the given direction tag." alt="" coords="290,163,466,205"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="564,135,462,164,459,160,569,132"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="561,235,461,209,460,203,566,233"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a37e2907e68f103c0b9e1b2bd339f631a" title="Attempts to lock onto a target." alt="" coords="278,245,478,288"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="561,268,479,269,478,264,566,266"/>
+<area shape="rect" id="Node000008" href="$class_u_dk_hero_gameplay_ability___target_lock.html#aee9f4247637bdac255647f92ea0da8b3" title="Actually activates the ability." alt="" coords="5,245,190,288"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="260,268,191,269,189,264,264,265"/>
+<area shape="rect" id="Node000011" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a4f30f2202b3a80e6a9671d24c9d1928c" title="Actually activates the ability." alt="" coords="284,436,472,479"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="548,476,472,470,472,465,554,475"/>
+<area shape="rect" id="Node000012" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#ae020803ef219fb2b4e8d6a2e8c3dc291" title="Called when an ability ends normally or abnormally." alt="" coords="292,503,464,545"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="549,506,465,517,464,512,554,505"/>
+<area shape="poly" id="edge14_Node000013_Node000005" title=" " alt="" coords="568,185,467,187,466,181,573,183"/>
+<area shape="poly" id="edge15_Node000013_Node000007" title=" " alt="" coords="569,216,462,247,459,242,574,214"/>
+<area shape="poly" id="edge17_Node000014_Node000007" title=" " alt="" coords="579,317,470,291,469,286,584,315"/>
+<area shape="rect" id="Node000017" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ad2720f70c1e2cbd8bd32230acd7fb717" title="Called when an ability ends normally or abnormally." alt="" coords="292,611,464,653"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="570,632,464,635,464,629,575,632"/>
+</map>

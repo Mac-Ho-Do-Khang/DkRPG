@@ -1,0 +1,5 @@
+<map id="UDkHeroCombatComponent::OnWeaponPulledFromTargetActor" name="UDkHeroCombatComponent::OnWeaponPulledFromTargetActor">
+<area shape="rect" id="Node000001" title="Callback when the hero&#39;s weapon is pulled from a target actor (end hitting)." alt="" coords="5,5,232,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_extension_component_base.html#a20f79d05705da0bb621f8779f18c24cc" title="Gets the owning Pawn cast to the specified type T." alt="" coords="280,5,486,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,24,266,27,261,27,232,29"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="UDkWidgetBase::BP_OnOwningHeroUIComponentInitialized" name="UDkWidgetBase::BP_OnOwningHeroUIComponentInitialized">
+<area shape="rect" id="Node000001" title="To be overridden in Widget Blueprints." alt="" coords="291,29,504,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="441,14,426,10,397,8,371,10,355,15,349,21,351,30,346,27,344,19,353,10,370,5,397,3,427,5,446,14"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_widget_base.html#a7da632d65b1e87ecd73dbcec798ecef1" title="Called once when the widget is initialized." alt="" coords="5,37,243,64"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="272,51,243,53,243,48,278,51"/>
+</map>

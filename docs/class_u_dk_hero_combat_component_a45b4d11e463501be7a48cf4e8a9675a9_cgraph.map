@@ -1,0 +1,9 @@
+<map id="UDkHeroCombatComponent::GetHeroCurrentEquippedWeaponLightAttackStaminaCostAtLevel" name="UDkHeroCombatComponent::GetHeroCurrentEquippedWeaponLightAttackStaminaCostAtLevel">
+<area shape="rect" id="Node000001" title="Retrieves the attack stamina cost of the hero&#39;s currently equipped weapon at the specified level." alt="" coords="5,5,228,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_combat_component.html#a22ac0fd3f01b76e10ff46be642f3b084" title="Retrieves the hero&#39;s currently equipped weapon." alt="" coords="276,13,498,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,32,263,34,258,35,228,37"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_pawn_combat_component.html#aba71c7a546745b47eb34c12c0256ee3d" title="Retrieves the character&#39;s currently equipped weapon." alt="" coords="546,5,750,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,32,533,35,527,35,499,37"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_pawn_combat_component.html#a9f108d837d85648eac62e7f4e14df793" title="Retrieves the weapon currently carried by the character associated with the provided gameplay tag." alt="" coords="798,13,1032,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="751,32,786,35,780,35,751,37"/>
+</map>

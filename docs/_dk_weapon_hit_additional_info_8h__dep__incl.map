@@ -1,0 +1,9 @@
+<map id="D:/DkRPG/Source/DkRPG/DkTypes/DkWeaponHitAdditionalInfo.h" name="D:/DkRPG/Source/DkRPG/DkTypes/DkWeaponHitAdditionalInfo.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="299,5,518,64"/>
+<area shape="rect" id="Node000002" href="$_dk_enemy_combat_component_8cpp.html" title=" " alt="" coords="5,112,263,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="321,69,210,114,208,109,316,71"/>
+<area shape="rect" id="Node000003" href="$_dk_hero_combat_component_8cpp.html" title=" " alt="" coords="286,112,531,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="410,78,411,113,407,110,407,82"/>
+<area shape="rect" id="Node000004" href="$_dk_weapon_hit_additional_info_8cpp.html" title=" " alt="" coords="555,112,774,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="493,68,597,112,592,111,492,73"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="ADkProjectile_Base::BP_OnSpawnProjectileHitFX" name="ADkProjectile_Base::BP_OnSpawnProjectileHitFX">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,205,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="58,28,56,19,64,10,80,5,105,3,132,5,149,13,144,14,131,10,105,8,81,10,67,15,61,21,63,29"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_projectile___base.html#a7192b8dce155aa49040865fff1f0d062" title="Applies projectile damage to the hit pawn via the ProjectileDamageEffectSpecHandle." alt="" coords="253,29,459,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="205,48,240,50,235,51,205,53"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_r_p_g_function_library.html#acbdd5ce4f91a65c1845b8c82e18d7075" title="Applies the given Gameplay Effect Spec Handle to the Target Actor." alt="" coords="507,21,733,80"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="459,48,494,51,489,51,460,53"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_r_p_g_function_library.html#a927b2a547192308111a737d253c0b803" title="Retrieves the DkASC from the given Actor." alt="" coords="781,29,976,72"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="734,48,768,51,763,51,734,53"/>
+</map>

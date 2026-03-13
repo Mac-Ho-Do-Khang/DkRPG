@@ -1,0 +1,5 @@
+<map id="ADkEnemy::GetRightHandCollisionBox" name="ADkEnemy::GetRightHandCollisionBox">
+<area shape="rect" id="Node000001" title="Getter for the right hand collision box." alt="" coords="274,13,526,40"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_enemy_combat_component.html#ab9a975fe8652300001a3aa7895155732" title="Enables or disables (and clear OverlappedActors) collision for the enemy&#39;s body collision boxes (e...." alt="" coords="5,5,226,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,27,226,29,226,24,261,27"/>
+</map>

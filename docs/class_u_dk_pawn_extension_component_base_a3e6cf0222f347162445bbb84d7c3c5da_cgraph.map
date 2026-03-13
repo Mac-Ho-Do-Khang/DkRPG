@@ -1,0 +1,5 @@
+<map id="UDkPawnExtensionComponentBase::GetOwningController" name="UDkPawnExtensionComponentBase::GetOwningController">
+<area shape="rect" id="Node000001" title="Gets the controller of the owning Pawn cast to the specified type T." alt="" coords="5,5,212,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_extension_component_base.html#a20f79d05705da0bb621f8779f18c24cc" title="Gets the owning Pawn cast to the specified type T." alt="" coords="260,5,466,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,24,247,27,242,27,212,29"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="UDkEnemyCombatComponent::ToggleBodyCollisionBoxCollision" name="UDkEnemyCombatComponent::ToggleBodyCollisionBoxCollision">
+<area shape="rect" id="Node000001" title="Enables or disables (and clear OverlappedActors) collision for the enemy&#39;s body collision boxes (e...." alt="" coords="5,56,226,99"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_enemy.html#a5c0db1f438d1dc43061530fce4d8beab" title="Getter for the left hand collision box." alt="" coords="278,5,522,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,53,273,41,317,35,312,36,274,47,220,58"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_pawn_extension_component_base.html#a20f79d05705da0bb621f8779f18c24cc" title="Gets the owning Pawn cast to the specified type T." alt="" coords="297,56,503,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,75,284,77,278,78,226,80"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_enemy.html#a99d7b038b654011997c1efaf2258b32e" title="Getter for the right hand collision box." alt="" coords="274,123,526,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="219,97,274,108,317,119,312,119,273,113,219,102"/>
+</map>

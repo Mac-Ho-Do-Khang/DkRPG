@@ -1,0 +1,9 @@
+<map id="UDkGameplayAbility::ApplyGameplayEffectSpecHandleToHitResults" name="UDkGameplayAbility::ApplyGameplayEffectSpecHandleToHitResults">
+<area shape="rect" id="Node000001" title="Applies a gameplay effect spec handle to multiple hit results." alt="" coords="5,35,232,93"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_r_p_g_function_library.html#a8981c26c97b380e30ef9a01dbad95e42" title="Checks whether the TargetPawn is hostile towards the QueryPawn." alt="" coords="299,5,466,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,45,286,40,281,41,233,51"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_gameplay_ability.html#a0f8de8cdccb26af989c9bf15a2bc986d" title="Applies a gameplay effect spec handle to a target actor." alt="" coords="280,72,485,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,77,267,84,262,85,232,83"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_gameplay_ability.html#adb28a39750be3163cf3b2a22c186d72e" title="Retrieves the ASC from the actor info." alt="" coords="533,72,748,131"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="485,99,520,101,515,101,486,104"/>
+</map>

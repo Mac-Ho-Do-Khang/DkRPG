@@ -1,0 +1,9 @@
+<map id="UDkRPGFunctionLibrary::IsValidBlock" name="UDkRPGFunctionLibrary::IsValidBlock">
+<area shape="rect" id="Node000001" title="Determines whether an attack from Attacker to Defender is a valid block." alt="" coords="450,39,616,81"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_enemy_combat_component.html#aadbb8596eed7d6594c7d77c44de69a89" title="Overrides with actual implementation." alt="" coords="200,5,402,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="432,46,402,44,402,39,437,46"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_projectile___base.html#a26faae9c758c649675c534dfc96071c3" title="Callback when the projectile hits another actor." alt="" coords="232,72,370,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="437,74,371,86,370,81,432,74"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_projectile___base.html#af4b5ec064f5ff74bf13b2980afa102d1" title=" " alt="" coords="5,72,152,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,94,152,96,152,91,219,93"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ADkEnemy::PossessedBy" name="ADkEnemy::PossessedBy">
+<area shape="rect" id="Node000001" title="Virtual function from ACharacter that must be overridden." alt="" coords="5,13,183,40"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_enemy.html#a0a2f6d007fb593a950ad3b017d09c5d4" title="Helper function to load enemies&#39; data asynchronously." alt="" coords="231,5,414,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,24,218,26,213,27,183,29"/>
+</map>

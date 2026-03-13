@@ -1,0 +1,5 @@
+<map id="UDkPawnCombatComponent::ToggleCurrentEquippedWeaponCollision" name="UDkPawnCombatComponent::ToggleCurrentEquippedWeaponCollision">
+<area shape="rect" id="Node000001" title="Enables or disables collision for the character&#39;s currently equipped weapon." alt="" coords="248,5,459,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_combat_component.html#ada07619affb3e197c8e065418fcbd90c" title="Enables or disables weapon collision. Clears OverlappedActors when disabling collision." alt="" coords="5,13,200,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,35,200,37,200,32,235,34"/>
+</map>

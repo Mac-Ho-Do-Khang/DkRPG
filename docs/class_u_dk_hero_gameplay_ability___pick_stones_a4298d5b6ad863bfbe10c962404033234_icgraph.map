@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_PickStones::DrawPickUpPromptWidget" name="UDkHeroGameplayAbility_PickStones::DrawPickUpPromptWidget">
+<area shape="rect" id="Node000001" title="Draws the pick&#45;up prompt widget on the hero&#39;s HUD." alt="" coords="241,5,460,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a4f30f2202b3a80e6a9671d24c9d1928c" title="Actually activates the ability." alt="" coords="5,13,193,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,35,193,37,193,32,228,34"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UDkHeroGameplayAbility_TargetLock::SetTargetLockWidgetPosition" name="UDkHeroGameplayAbility_TargetLock::SetTargetLockWidgetPosition">
+<area shape="rect" id="Node000001" title="Adjusts the target lock widget&#39;s position based on the current locked&#45;on actor." alt="" coords="5,43,231,101"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ac9a66690dcc5872d933fa3013e427105" title="Calls the parent ability&#39;s CancelAbility function to end this ability." alt="" coords="285,5,490,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,54,272,50,266,52,232,59"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html#a74459071791a558b52bb73389adc3b63" title="Retrieves the hero controller from the actor info." alt="" coords="279,88,496,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,85,266,92,261,92,231,90"/>
+</map>

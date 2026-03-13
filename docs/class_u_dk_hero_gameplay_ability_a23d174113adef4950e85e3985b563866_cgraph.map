@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility::MakeHeroWeaponAttackStaminaCostEffectSpecHandle" name="UDkHeroGameplayAbility::MakeHeroWeaponAttackStaminaCostEffectSpecHandle">
+<area shape="rect" id="Node000001" title="Creates a gameplay effect spec handle for hero weapon attack stamina cost effects." alt="" coords="5,5,228,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#adb28a39750be3163cf3b2a22c186d72e" title="Retrieves the ASC from the actor info." alt="" coords="276,5,491,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,32,263,34,258,35,228,37"/>
+</map>

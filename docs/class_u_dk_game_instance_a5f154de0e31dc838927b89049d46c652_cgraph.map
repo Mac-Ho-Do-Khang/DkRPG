@@ -1,0 +1,7 @@
+<map id="UDkGameInstance::PushMusic" name="UDkGameInstance::PushMusic">
+<area shape="rect" id="Node000001" title="Pushes a music track onto the stack and plays it." alt="" coords="5,47,212,73"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_game_instance.html#a94aa57898378a052da8af93799c29312" title="Plays music associated with the given gameplay tag." alt="" coords="260,5,462,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,44,247,41,242,43,213,49"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_game_instance.html#a64623c4ae982c8c9bece3b03b5deec59" title="Stops music associated with the given gameplay tag." alt="" coords="260,72,463,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,71,247,78,242,78,212,76"/>
+</map>

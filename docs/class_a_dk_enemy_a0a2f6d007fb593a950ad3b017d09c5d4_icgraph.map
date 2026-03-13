@@ -1,0 +1,5 @@
+<map id="ADkEnemy::InitEnemyStartUpData" name="ADkEnemy::InitEnemyStartUpData">
+<area shape="rect" id="Node000001" title="Helper function to load enemies&#39; data asynchronously." alt="" coords="231,5,414,48"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_enemy.html#a54af1261faf848a89c3d74355d44d67c" title="Virtual function from ACharacter that must be overridden." alt="" coords="5,13,183,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,27,183,29,183,24,218,26"/>
+</map>

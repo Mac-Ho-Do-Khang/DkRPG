@@ -1,0 +1,13 @@
+<map id="UDkEnemyCombatComponent::OnHitTargetActor" name="UDkEnemyCombatComponent::OnHitTargetActor">
+<area shape="rect" id="Node000001" title="Overrides with actual implementation." alt="" coords="5,105,208,148"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_extension_component_base.html#a20f79d05705da0bb621f8779f18c24cc" title="Gets the owning Pawn cast to the specified type T." alt="" coords="256,5,462,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,103,255,58,275,52,270,55,257,62,154,107"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_r_p_g_function_library.html#a9501cc7dc5f5ba6c016b603ba14d83a0" title="Determines whether an attack from Attacker to Defender is a valid block." alt="" coords="276,72,442,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,111,263,105,258,107,209,116"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_r_p_g_function_library.html#a1e8bae7602bd8e5ee3949b56b7d243dd" title="Checks whether the given Actor has the specified Gameplay Tag in its DkASC." alt="" coords="268,139,450,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,137,255,145,250,147,209,143"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_weapon_hit_additional_info.html#aba364960de82b9e63736d114fac39369" title="Setter for the HitLocation property." alt="" coords="263,205,454,248"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="153,146,257,191,275,200,270,200,255,196,152,151"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_r_p_g_function_library.html#a927b2a547192308111a737d253c0b803" title="Retrieves the DkASC from the given Actor." alt="" coords="510,139,704,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="450,157,497,160,492,160,450,163"/>
+</map>

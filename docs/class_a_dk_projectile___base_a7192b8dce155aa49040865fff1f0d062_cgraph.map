@@ -1,0 +1,7 @@
+<map id="ADkProjectile_Base::HandleApplyProjectileDamage" name="ADkProjectile_Base::HandleApplyProjectileDamage">
+<area shape="rect" id="Node000001" title="Applies projectile damage to the hit pawn via the ProjectileDamageEffectSpecHandle." alt="" coords="5,13,212,56"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_r_p_g_function_library.html#acbdd5ce4f91a65c1845b8c82e18d7075" title="Applies the given Gameplay Effect Spec Handle to the Target Actor." alt="" coords="260,5,486,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,32,247,34,242,35,212,37"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_r_p_g_function_library.html#a927b2a547192308111a737d253c0b803" title="Retrieves the DkASC from the given Actor." alt="" coords="534,13,728,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,32,521,35,515,35,486,37"/>
+</map>

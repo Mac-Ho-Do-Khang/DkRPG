@@ -1,0 +1,7 @@
+<map id="UDkHeroGameplayAbility_TargetLock::InitTargetLockMovement" name="UDkHeroGameplayAbility_TargetLock::InitTargetLockMovement">
+<area shape="rect" id="Node000001" title="Initializes movement settings for the hero while target locking." alt="" coords="486,5,729,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a37e2907e68f103c0b9e1b2bd339f631a" title="Attempts to lock onto a target." alt="" coords="238,5,438,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="468,27,439,29,438,24,473,27"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability___target_lock.html#aee9f4247637bdac255647f92ea0da8b3" title="Actually activates the ability." alt="" coords="5,5,190,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,27,190,29,190,24,225,26"/>
+</map>

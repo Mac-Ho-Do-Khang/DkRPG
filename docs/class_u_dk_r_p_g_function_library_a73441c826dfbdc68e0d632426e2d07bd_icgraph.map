@@ -1,0 +1,5 @@
+<map id="UDkRPGFunctionLibrary::TryLoadCurrentGameDifficultyLevel" name="UDkRPGFunctionLibrary::TryLoadCurrentGameDifficultyLevel">
+<area shape="rect" id="Node000001" title="Tries to load the current game difficulty level from the save game." alt="" coords="215,5,420,64"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html#acaff346875ba5d49c0461d989d6b6c77" title="Initializes the game with the specified map and options." alt="" coords="5,13,167,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,35,167,37,167,32,202,34"/>
+</map>

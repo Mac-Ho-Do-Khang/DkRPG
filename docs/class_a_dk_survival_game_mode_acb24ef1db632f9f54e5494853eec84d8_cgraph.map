@@ -1,0 +1,5 @@
+<map id="ADkSurvivalGameMode::ShouldKeepSpawningEnemiesThisWave" name="ADkSurvivalGameMode::ShouldKeepSpawningEnemiesThisWave">
+<area shape="rect" id="Node000001" title="Determines if more enemies should be spawned in the current wave." alt="" coords="5,5,213,64"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html#a0f478977ff0d6315292d224321ffa8af" title="Retrieves the current wave spawner table row." alt="" coords="261,13,496,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,32,248,34,242,35,213,37"/>
+</map>

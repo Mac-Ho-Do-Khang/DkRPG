@@ -1,0 +1,5 @@
+<map id="UDkRPGFunctionLibrary::CountDown" name="UDkRPGFunctionLibrary::CountDown">
+<area shape="rect" id="Node000001" title="Performs a countdown over a specified total time, updating at given intervals." alt="" coords="5,5,172,48"/>
+<area shape="rect" id="Node000002" href="$class_f_dk_count_down_action.html#ad86e9b99af7871384d247be83e35aa83" title="Requests cancellation of the latent action." alt="" coords="220,5,372,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,24,206,26,201,27,172,29"/>
+</map>

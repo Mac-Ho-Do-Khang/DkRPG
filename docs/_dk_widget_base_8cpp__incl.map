@@ -1,0 +1,18 @@
+<map id="D:/DkRPG/Source/DkRPG/Widgets/DkWidgetBase.cpp" name="D:/DkRPG/Source/DkRPG/Widgets/DkWidgetBase.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="336,5,527,48"/>
+<area shape="rect" id="Node000002" href="$_dk_widget_base_8h.html" title=" " alt="" coords="188,96,411,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="400,48,334,90,332,85,395,50"/>
+<area shape="rect" id="Node000006" href="$_dk_pawn_u_i_interface_8h.html" title=" " alt="" coords="447,96,706,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="469,46,543,88,538,88,468,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="392,171,498,197"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,121,409,163,403,163,324,126"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,171,162,197"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="264,124,136,168,135,163,259,122"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="186,171,368,197"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="298,122,287,158,283,154,293,125"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="556,123,482,166,480,161,551,124"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="521,171,656,197"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="581,121,586,157,582,154,577,125"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="681,171,889,197"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="614,121,737,165,731,165,613,126"/>
+</map>

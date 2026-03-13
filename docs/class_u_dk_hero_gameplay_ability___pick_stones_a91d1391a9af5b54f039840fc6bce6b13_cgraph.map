@@ -1,0 +1,13 @@
+<map id="UDkHeroGameplayAbility_PickStones::OnPickUpStoneInteractedTick" name="UDkHeroGameplayAbility_PickStones::OnPickUpStoneInteractedTick">
+<area shape="rect" id="Node000001" title="Called every tick while the ability is active." alt="" coords="5,43,286,85"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#aa919d641bb2d44f83ce63b13a5f84488" title="Performs multi box trace to detect and store collectible stones. If there&#39;s none, cancels the ability..." alt="" coords="345,5,530,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,43,332,40,327,41,287,49"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a05b99d7a61eb711cfad85538f8902477" title="Adjusts the pick&#45;up prompt widget&#39;s position based on the current pick&#45;up stone location." alt="" coords="334,72,542,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="286,79,321,86,315,86,286,85"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="595,5,813,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="531,24,582,26,577,27,531,29"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#aaff34ea984dea7e6d25bf832626daf5a" title="Calls the parent ability&#39;s CancelAbility function to end this ability." alt="" coords="590,72,818,131"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="542,99,577,101,572,102,543,104"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_gameplay_ability.html#a74459071791a558b52bb73389adc3b63" title="Retrieves the hero controller from the actor info." alt="" coords="596,155,813,197"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="543,128,614,150,608,150,542,133"/>
+</map>

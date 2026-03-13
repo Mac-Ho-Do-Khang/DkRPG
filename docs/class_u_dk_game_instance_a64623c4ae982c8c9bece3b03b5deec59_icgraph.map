@@ -1,0 +1,9 @@
+<map id="UDkGameInstance::StopMusicByTag" name="UDkGameInstance::StopMusicByTag">
+<area shape="rect" id="Node000001" title="Stops music associated with the given gameplay tag." alt="" coords="268,48,471,91"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_game_instance.html#a2ac6801a7df1afb33ecb8b93eb7b5023" title="Pops all music tracks from the stack and stops any currently playing music." alt="" coords="5,5,220,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,47,184,35,184,30,255,46"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_game_instance.html#acdb6ac57bdee635e85e5a3fc9d96f88f" title="Pops the currently active music track from the stack and returns to the previous one." alt="" coords="13,56,212,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,70,213,72,212,67,254,69"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_game_instance.html#a5f154de0e31dc838927b89049d46c652" title="Pushes a music track onto the stack and plays it." alt="" coords="9,107,216,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,92,184,109,184,103,250,93"/>
+</map>

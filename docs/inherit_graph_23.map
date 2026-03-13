@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,99,57"/>
+<area shape="rect" id="Node000001" href="$class_u_dk_data_asset___input_config.html" title="Data asset that stores input mapping context and input action configurations. Acts as a central place..." alt="" coords="165,5,349,32"/>
+<area shape="poly" id="edge38_Node000000_Node000001" title=" " alt="" coords="114,34,167,29,162,31,115,39"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_data_asset___start_up_data_base.html" title="Base class for startup data assets, shared by both hero and enemies." alt="" coords="147,56,367,83"/>
+<area shape="poly" id="edge39_Node000000_Node000002" title=" " alt="" coords="114,49,149,55,144,56,114,54"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_data_asset___enemy_start_up_data.html" title="Implements startup data specifically for enemies." alt="" coords="415,31,646,57"/>
+<area shape="poly" id="edge40_Node000002_Node000003" title=" " alt="" coords="382,55,417,54,412,55,383,60"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_data_asset___hero_start_up_data.html" title="Implements startup data for specifically for the main hero." alt="" coords="422,81,640,108"/>
+<area shape="poly" id="edge41_Node000002_Node000004" title=" " alt="" coords="382,78,424,85,418,85,382,84"/>
+</map>

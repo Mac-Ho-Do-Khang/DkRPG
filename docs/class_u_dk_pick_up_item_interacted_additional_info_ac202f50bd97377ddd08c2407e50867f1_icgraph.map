@@ -1,0 +1,5 @@
+<map id="UDkPickUpItemInteractedAdditionalInfo::GetPickUpItemLocation" name="UDkPickUpItemInteractedAdditionalInfo::GetPickUpItemLocation">
+<area shape="rect" id="Node000001" title="Getter for the ItemLocation property." alt="" coords="241,5,473,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a4f30f2202b3a80e6a9671d24c9d1928c" title="Actually activates the ability." alt="" coords="5,5,193,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,27,193,29,193,24,228,26"/>
+</map>

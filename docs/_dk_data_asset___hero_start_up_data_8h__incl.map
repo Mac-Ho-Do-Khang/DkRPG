@@ -1,0 +1,22 @@
+<map id="D:/DkRPG/Source/DkRPG/DataAssets/StartUpData/DkDataAsset_HeroStartUpData.h" name="D:/DkRPG/Source/DkRPG/DataAssets/StartUpData/DkDataAsset_HeroStartUpData.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="450,5,674,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,219,111,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="448,47,328,71,264,90,203,114,167,135,133,161,81,210,77,205,130,156,164,131,201,110,263,85,327,66,452,45"/>
+<area shape="rect" id="Node000003" href="$_dk_data_asset___start_up_data_base_8h.html" title=" " alt="" coords="214,112,427,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="499,63,402,108,400,103,494,65"/>
+<area shape="rect" id="Node000006" href="$_dk_struct_types_8h.html" title=" " alt="" coords="575,128,800,155"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="597,62,664,119,658,118,595,67"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="824,128,1105,155"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="673,62,904,123,898,124,672,67"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="236,174,111,216,109,211,234,169"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="134,219,272,245"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="285,170,233,212,231,207,280,172"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="297,219,579,245"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="359,168,412,210,407,209,358,174"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="603,219,772,245"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="689,153,689,205,685,201,685,157"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="796,219,907,245"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="712,153,817,211,812,211,710,158"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="930,219,1111,245"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="735,153,961,214,956,214,735,158"/>
+</map>

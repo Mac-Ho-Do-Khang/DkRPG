@@ -1,0 +1,5 @@
+<map id="ADkSurvivalGameMode::InitGame" name="ADkSurvivalGameMode::InitGame">
+<area shape="rect" id="Node000001" title="Initializes the game with the specified map and options." alt="" coords="5,13,167,56"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_r_p_g_function_library.html#a73441c826dfbdc68e0d632426e2d07bd" title="Tries to load the current game difficulty level from the save game." alt="" coords="215,5,420,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,32,202,34,197,35,167,37"/>
+</map>

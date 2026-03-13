@@ -1,0 +1,16 @@
+<map id="D:/DkRPG/Source/DkRPG/Components/UI/DkPawnUIComponent.cpp" name="D:/DkRPG/Source/DkRPG/Components/UI/DkPawnUIComponent.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="97,5,374,48"/>
+<area shape="rect" id="Node000002" href="$_dk_pawn_u_i_component_8h.html" title=" " alt="" coords="152,96,319,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,46,238,81,233,80,234,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,285,111,312"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,141,130,161,97,188,84,207,75,229,64,271,59,269,70,227,80,205,93,185,127,157,169,137"/>
+<area shape="rect" id="Node000004" href="$_dk_pawn_extension_component_base_8h.html" title=" " alt="" coords="107,187,364,229"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="237,137,238,172,233,170,234,141"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="388,195,613,221"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="298,137,451,188,446,190,297,142"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="195,232,98,280,96,276,192,228"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="135,285,344,312"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="238,228,240,271,236,268,234,232"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="368,277,564,320"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="290,227,400,271,395,272,289,233"/>
+</map>

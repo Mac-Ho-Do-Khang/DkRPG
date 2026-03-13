@@ -1,0 +1,9 @@
+<map id="UDkHeroGameplayAbility_TargetLock::SetTargetLockWidgetPosition" name="UDkHeroGameplayAbility_TargetLock::SetTargetLockWidgetPosition">
+<area shape="rect" id="Node000001" title="Adjusts the target lock widget&#39;s position based on the current locked&#45;on actor." alt="" coords="492,31,717,89"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ac78cd5c455eb2e9da74d6594550180e0" title="Called every tick while the ability is active." alt="" coords="238,5,444,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="474,44,444,42,444,37,479,44"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a37e2907e68f103c0b9e1b2bd339f631a" title="Attempts to lock onto a target." alt="" coords="241,72,441,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="479,76,442,83,441,78,474,76"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___target_lock.html#aee9f4247637bdac255647f92ea0da8b3" title="Actually activates the ability." alt="" coords="5,72,190,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="222,94,190,96,190,91,228,93"/>
+</map>

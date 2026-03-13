@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_TargetLock::TryLockOnTarget" name="UDkHeroGameplayAbility_TargetLock::TryLockOnTarget">
+<area shape="rect" id="Node000001" title="Attempts to lock onto a target." alt="" coords="238,5,438,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___target_lock.html#aee9f4247637bdac255647f92ea0da8b3" title="Actually activates the ability." alt="" coords="5,5,190,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,27,190,29,190,24,225,26"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_TargetLock::GetNearestTargetFromAvailableActors" name="UDkHeroGameplayAbility_TargetLock::GetNearestTargetFromAvailableActors">
+<area shape="rect" id="Node000001" title="From the given list of available targets, finds and returns the nearest one to the hero." alt="" coords="5,5,209,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="257,13,475,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,32,244,34,238,35,209,37"/>
+</map>

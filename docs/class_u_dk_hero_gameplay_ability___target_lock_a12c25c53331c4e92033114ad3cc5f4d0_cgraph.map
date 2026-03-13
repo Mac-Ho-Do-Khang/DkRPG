@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_TargetLock::InitTargetLockMovement" name="UDkHeroGameplayAbility_TargetLock::InitTargetLockMovement">
+<area shape="rect" id="Node000001" title="Initializes movement settings for the hero while target locking." alt="" coords="5,5,249,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="297,5,515,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,24,284,27,279,27,249,29"/>
+</map>

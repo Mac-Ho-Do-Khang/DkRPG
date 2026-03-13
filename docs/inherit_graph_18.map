@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,117,57"/>
+<area shape="rect" id="Node000001" href="$class_u_dk_base_anim_instance.html" title="Contains helper functions for both Hero and Enemy animation instances." alt="" coords="165,31,323,57"/>
+<area shape="poly" id="edge30_Node000000_Node000001" title=" " alt="" coords="132,41,167,43,162,45,132,47"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_character_anim_instance.html" title="Animation instance containing shared logics for both hero and enemies." alt="" coords="371,5,556,32"/>
+<area shape="poly" id="edge31_Node000001_Node000002" title=" " alt="" coords="338,30,373,29,368,30,339,36"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_linked_anim_layer.html" title="Animation layer instance that is linked to a hero animation instance." alt="" coords="376,56,552,83"/>
+<area shape="poly" id="edge33_Node000001_Node000004" title=" " alt="" coords="339,52,378,59,372,59,339,58"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_anim_instance.html" title="Animation instance class specifically for the hero character." alt="" coords="604,5,761,32"/>
+<area shape="poly" id="edge32_Node000002_Node000003" title=" " alt="" coords="572,16,606,19,601,19,572,21"/>
+</map>

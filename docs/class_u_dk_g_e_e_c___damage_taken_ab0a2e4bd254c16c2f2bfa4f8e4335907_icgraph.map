@@ -1,0 +1,5 @@
+<map id="UDkGEEC_DamageTaken::CalculateHealthWithered" name="UDkGEEC_DamageTaken::CalculateHealthWithered">
+<area shape="rect" id="Node000001" title="Calculates the amount of wither health based on the amount of damage blocked." alt="" coords="231,5,408,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_g_e_e_c___damage_taken.html#a16beff23fc58fbf4191e5d78716dd90a" title="Called when the GE using this execution is applied to a target." alt="" coords="5,5,183,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,27,183,29,183,24,218,26"/>
+</map>

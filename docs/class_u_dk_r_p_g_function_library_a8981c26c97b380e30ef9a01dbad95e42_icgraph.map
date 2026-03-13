@@ -1,0 +1,23 @@
+<map id="UDkRPGFunctionLibrary::IsTargetPawnHostile" name="UDkRPGFunctionLibrary::IsTargetPawnHostile">
+<area shape="rect" id="Node000001" title="Checks whether the TargetPawn is hostile towards the QueryPawn." alt="" coords="563,188,729,231"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#a96c196614a369c1dd10e4537c60fc5e7" title="Applies a gameplay effect spec handle to multiple hit results." alt="" coords="289,5,515,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="617,175,572,127,544,101,514,78,495,67,495,62,516,74,547,97,576,123,622,176"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_enemy.html#a617adf22ca90171c40c0765ab688ce9b" title=" " alt="" coords="305,88,498,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="591,181,514,145,483,134,483,129,516,140,597,180"/>
+<area shape="rect" id="Node000005" href="$class_a_dk_weapon_base.html#a3a5b6a97ac2a659cf0894558572ae481" title="Callback when weapon collision box begins overlap with another actor/component." alt="" coords="302,155,502,197"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="545,196,502,192,502,187,550,196"/>
+<area shape="rect" id="Node000007" href="$class_a_dk_weapon_base.html#a13ba523e8859f1097251f57773978779" title="Callback when weapon collision box ends overlap with another actor/component." alt="" coords="302,221,502,264"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="545,223,503,232,501,226,550,222"/>
+<area shape="rect" id="Node000008" href="$class_a_dk_projectile___base.html#ade5cb5f0073eaf5c181ccec4eca448dc" title="Callback when the projectile begins overlapping with another actor." alt="" coords="313,288,491,331"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="596,237,516,278,484,290,482,285,514,274,591,239"/>
+<area shape="rect" id="Node000010" href="$class_a_dk_projectile___base.html#a26faae9c758c649675c534dfc96071c3" title="Callback when the projectile hits another actor." alt="" coords="333,355,471,397"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="622,242,577,296,548,323,516,345,472,364,470,359,514,340,544,318,573,293,618,244"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_enemy.html#af1b91e896475653b865029c699037e09" title="Initializes default values for enemies&#39; properties." alt="" coords="41,96,205,123"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="287,111,206,112,204,107,292,108"/>
+<area shape="rect" id="Node000006" href="$class_a_dk_weapon_base.html#ac044646035581739a6063e73d623c216" title=" " alt="" coords="5,196,241,223"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="284,191,241,198,239,193,289,189"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="284,230,240,226,240,221,289,228"/>
+<area shape="rect" id="Node000009" href="$class_a_dk_projectile___base.html#af4b5ec064f5ff74bf13b2980afa102d1" title=" " alt="" coords="50,321,196,364"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="295,323,197,337,196,331,300,321"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="315,367,197,354,197,349,320,365"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="UDkGameInstance::OnDestinationWorldLoaded" name="UDkGameInstance::OnDestinationWorldLoaded">
+<area shape="rect" id="Node000001" title="Callback for post&#45;loading a map with its world context." alt="" coords="213,5,437,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_game_instance.html#af6f9367938bf145275303bc30595f1ab" title="Initializes the game instance." alt="" coords="5,13,165,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,27,165,29,165,24,200,26"/>
+</map>

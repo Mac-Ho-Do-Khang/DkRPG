@@ -1,0 +1,10 @@
+<map id="UDkAttributeSet::PostGameplayEffectExecute" name="UDkAttributeSet::PostGameplayEffectExecute">
+<area shape="rect" id="Node000001" title="Called just before a GameplayEffect is executed to modify the base value of an attribute...." alt="" coords="5,43,217,85"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_r_p_g_function_library.html#ab185767546295fa58bd8ed703744d479" title="Adds the given Gameplay Tag to the Actor&#39;s ASC if it doesn&#39;t already have it." alt="" coords="266,5,482,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,46,253,43,248,45,218,52"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_r_p_g_function_library.html#a907a491a4752f803f5e1439df43f7ed6" title="Removes the given Gameplay Tag from the Actor&#39;s ASC if it has it." alt="" coords="265,72,484,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,76,252,83,246,84,217,82"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_r_p_g_function_library.html#a927b2a547192308111a737d253c0b803" title="Retrieves the DkASC from the given Actor." alt="" coords="532,43,726,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="483,40,519,47,514,48,483,45"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="484,83,514,81,519,80,485,88"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ADkProjectile_Base::BP_OnSpawnProjectileHitFX" name="ADkProjectile_Base::BP_OnSpawnProjectileHitFX">
+<area shape="rect" id="Node000001" title=" " alt="" coords="386,29,585,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="519,13,508,10,486,8,465,10,453,15,448,21,449,30,445,27,443,19,450,10,464,5,486,3,509,5,524,14"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_projectile___base.html#a26faae9c758c649675c534dfc96071c3" title="Callback when the projectile hits another actor." alt="" coords="200,29,338,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="368,51,338,53,338,48,373,51"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_projectile___base.html#af4b5ec064f5ff74bf13b2980afa102d1" title=" " alt="" coords="5,29,152,72"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="181,51,152,53,152,48,187,50"/>
+</map>

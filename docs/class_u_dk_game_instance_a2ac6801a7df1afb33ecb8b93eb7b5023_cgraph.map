@@ -1,0 +1,5 @@
+<map id="UDkGameInstance::PopAllMusic" name="UDkGameInstance::PopAllMusic">
+<area shape="rect" id="Node000001" title="Pops all music tracks from the stack and stops any currently playing music." alt="" coords="5,13,220,40"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_game_instance.html#a64623c4ae982c8c9bece3b03b5deec59" title="Stops music associated with the given gameplay tag." alt="" coords="268,5,471,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,24,255,27,250,27,220,29"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="UDkGEEC_DamageTaken" name="UDkGEEC_DamageTaken">
+<area shape="rect" id="Node000001" title="Implements calculation logic related to damage taken by both the player and enemy characters." alt="" coords="8,96,185,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,188,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,62,99,96,94,94,95,66"/>
+</map>

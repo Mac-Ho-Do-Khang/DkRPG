@@ -1,0 +1,30 @@
+<map id="ADkProjectile_Base::ADkProjectile_Base" name="ADkProjectile_Base::ADkProjectile_Base">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,138,152,181"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_projectile___base.html#ade5cb5f0073eaf5c181ccec4eca448dc" title="Callback when the projectile begins overlapping with another actor." alt="" coords="200,38,378,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,135,230,86,227,90,127,139"/>
+<area shape="rect" id="Node000007" href="$class_a_dk_projectile___base.html#a26faae9c758c649675c534dfc96071c3" title="Callback when the projectile hits another actor." alt="" coords="220,209,358,251"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="144,179,211,202,206,204,145,184"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_projectile___base.html#a7192b8dce155aa49040865fff1f0d062" title="Applies projectile damage to the hit pawn via the ProjectileDamageEffectSpecHandle." alt="" coords="723,138,930,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="352,35,421,17,503,5,547,3,591,5,634,11,676,24,714,43,749,69,803,126,797,126,745,73,712,48,674,28,633,16,590,10,547,8,504,10,422,23,355,40"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_r_p_g_function_library.html#a8981c26c97b380e30ef9a01dbad95e42" title="Checks whether the TargetPawn is hostile towards the QueryPawn." alt="" coords="468,38,634,81"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="378,57,454,58,449,61,380,62"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_r_p_g_function_library.html#acbdd5ce4f91a65c1845b8c82e18d7075" title="Applies the given Gameplay Effect Spec Handle to the Target Actor." alt="" coords="978,150,1204,209"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="930,165,965,169,960,170,930,170"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_r_p_g_function_library.html#a927b2a547192308111a737d253c0b803" title="Retrieves the DkASC from the given Actor." alt="" coords="1252,229,1446,271"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1201,207,1257,224,1251,224,1200,212"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="313,206,362,170,393,153,425,141,497,126,571,122,643,125,711,135,706,136,643,130,571,127,498,132,427,146,395,158,365,175,316,210"/>
+<area shape="poly" id="edge12_Node000007_Node000006" title=" " alt="" coords="305,206,355,152,388,123,425,97,456,84,451,87,427,102,392,127,359,156,309,210"/>
+<area shape="rect" id="Node000008" href="$class_a_dk_projectile___base.html#ae2395865305f415bb2d8f3ee9fd8c2ad" title=" " alt="" coords="451,179,650,222"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="358,220,438,212,433,215,359,225"/>
+<area shape="rect" id="Node000009" href="$class_a_dk_character_base.html#ad394d081506aaebaa6d54e66204d0aeb" title="Getter for the Attribute Set." alt="" coords="426,246,675,273"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="358,235,413,243,408,244,359,240"/>
+<area shape="rect" id="Node000010" href="$class_u_dk_r_p_g_function_library.html#a9501cc7dc5f5ba6c016b603ba14d83a0" title="Determines whether an attack from Attacker to Defender is a valid block." alt="" coords="468,297,634,339"/>
+<area shape="poly" id="edge13_Node000007_Node000010" title=" " alt="" coords="341,249,427,282,456,293,450,293,425,287,341,255"/>
+<area shape="rect" id="Node000011" href="$class_u_dk_r_p_g_function_library.html#a1e8bae7602bd8e5ee3949b56b7d243dd" title="Checks whether the given Actor has the specified Gameplay Tag in its DkASC." alt="" coords="736,337,917,379"/>
+<area shape="poly" id="edge14_Node000007_Node000011" title=" " alt="" coords="307,249,357,303,390,329,427,349,501,369,578,378,653,378,723,375,718,376,653,384,577,384,500,375,425,354,387,333,353,307,305,254"/>
+<area shape="rect" id="Node000012" href="$class_u_dk_enemy_attack_successfully_blocked_addtional_info.html#a70134e6c3d00496ee96a05d49634bbdb" title="Setter for the EnemyDamageEffectSpecHandle property." alt="" coords="444,414,657,473"/>
+<area shape="poly" id="edge16_Node000007_Node000012" title=" " alt="" coords="304,249,354,320,388,359,428,393,446,407,441,406,424,397,384,363,349,323,302,254"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="650,183,710,176,705,178,651,188"/>
+<area shape="poly" id="edge8_Node000008_Node000008" title=" " alt="" coords="501,178,499,169,508,160,525,155,551,153,579,155,597,164,592,164,577,160,551,158,526,160,510,165,505,171,506,180"/>
+<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="917,337,1234,274,1239,273,918,342"/>
+</map>

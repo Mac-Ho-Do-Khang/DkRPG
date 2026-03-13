@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility::MakeHeroDamageEffectSpecHandle" name="UDkHeroGameplayAbility::MakeHeroDamageEffectSpecHandle">
+<area shape="rect" id="Node000001" title="Creates a gameplay effect spec handle for hero damage effects." alt="" coords="5,13,249,56"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#adb28a39750be3163cf3b2a22c186d72e" title="Retrieves the ASC from the actor info." alt="" coords="297,5,512,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,32,284,34,278,35,249,37"/>
+</map>

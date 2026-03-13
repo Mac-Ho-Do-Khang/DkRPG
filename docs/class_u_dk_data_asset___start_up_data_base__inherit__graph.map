@@ -1,0 +1,9 @@
+<map id="UDkDataAsset_StartUpDataBase" name="UDkDataAsset_StartUpDataBase">
+<area shape="rect" id="Node000001" title="Base class for startup data assets, shared by both hero and enemies." alt="" coords="135,80,355,107"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_data_asset___enemy_start_up_data.html" title="Implements startup data specifically for enemies." alt="" coords="5,155,237,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,114,144,156,142,152,208,115"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_data_asset___hero_start_up_data.html" title="Implements startup data for specifically for the main hero." alt="" coords="261,155,480,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="280,112,351,154,346,154,279,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="198,5,292,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,46,247,81,243,78,243,50"/>
+</map>

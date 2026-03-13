@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_PickStones::ConsumeStones" name="UDkHeroGameplayAbility_PickStones::ConsumeStones">
+<area shape="rect" id="Node000001" title="Called upon receiving the Player_Event_Consume_Stones tag." alt="" coords="5,13,206,56"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#adb28a39750be3163cf3b2a22c186d72e" title="Retrieves the ASC from the actor info." alt="" coords="254,5,469,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,32,241,34,235,35,206,37"/>
+</map>

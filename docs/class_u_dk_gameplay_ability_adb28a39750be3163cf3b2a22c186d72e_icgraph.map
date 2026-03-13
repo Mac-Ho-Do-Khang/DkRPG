@@ -1,0 +1,19 @@
+<map id="UDkGameplayAbility::GetDkAbilitySystemComponentFromActorInfo" name="UDkGameplayAbility::GetDkAbilitySystemComponentFromActorInfo">
+<area shape="rect" id="Node000001" title="Retrieves the ASC from the actor info." alt="" coords="584,164,799,223"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#ab6efa7349719bc29cc27a95bc303b9af" title="Called upon receiving the Player_Event_Consume_Stones tag." alt="" coords="308,5,508,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="651,152,599,106,568,82,535,62,509,51,508,45,537,58,571,78,602,102,656,153"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html#ab1f6605fa5b98ae35a1f8681bca3ec14" title="Gets the remaining and total cooldown time for an ability by its cooldown tag. Returns true if the ab..." alt="" coords="286,72,530,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="610,158,535,129,500,118,499,113,537,124,616,157"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_enemy_gameplay_ability.html#a3ac749112f319bea70534aa6929186e9" title="Creates a gameplay effect spec handle for enemy damage effects." alt="" coords="280,139,536,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="566,179,537,178,536,172,571,178"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability.html#aa3949a9ca163083f6fd21b7b5f5b3290" title="Creates a gameplay effect spec handle for hero damage effects." alt="" coords="286,205,530,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="566,209,531,215,529,210,571,207"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_gameplay_ability.html#a23d174113adef4950e85e3985b563866" title="Creates a gameplay effect spec handle for hero weapon attack stamina cost effects." alt="" coords="297,272,519,331"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="614,228,537,262,505,274,503,269,535,258,609,230"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_gameplay_ability.html#a0f8de8cdccb26af989c9bf15a2bc986d" title="Applies a gameplay effect spec handle to a target actor." alt="" coords="305,355,510,413"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="659,234,605,293,572,321,537,345,512,358,510,353,535,340,569,316,602,289,654,236"/>
+<area shape="rect" id="Node000008" href="$class_u_dk_gameplay_ability.html#a96c196614a369c1dd10e4537c60fc5e7" title="Applies a gameplay effect spec handle to multiple hit results." alt="" coords="5,313,232,372"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="287,368,232,362,232,356,292,367"/>
+<area shape="rect" id="Node000009" href="$class_u_dk_gameplay_ability.html#afc9fbd5c059cb5933b1e135ff61babf5" title="Blueprint wrapper of NativeApplyEffectSpecHandleToTarget." alt="" coords="22,396,215,455"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="287,401,216,414,215,409,292,400"/>
+</map>

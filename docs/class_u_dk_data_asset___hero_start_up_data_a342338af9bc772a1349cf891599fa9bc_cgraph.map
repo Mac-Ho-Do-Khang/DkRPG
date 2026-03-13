@@ -1,0 +1,5 @@
+<map id="UDkDataAsset_HeroStartUpData::GiveToAbilitySystemComponent" name="UDkDataAsset_HeroStartUpData::GiveToAbilitySystemComponent">
+<area shape="rect" id="Node000001" title="Grants the startup abilities to the given Ability System Component." alt="" coords="5,5,252,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_data_asset___hero_start_up_data.html#a2ebc9b2ca1a17b1dfb71ac0a737cadf6" title="Helper function to update the ability icon slot in the HUD." alt="" coords="300,5,526,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="252,24,286,27,281,27,252,29"/>
+</map>

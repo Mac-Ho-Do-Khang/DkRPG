@@ -1,0 +1,5 @@
+<map id="ADkWeaponBase::OnCollisionBoxBeginOverlap" name="ADkWeaponBase::OnCollisionBoxBeginOverlap">
+<area shape="rect" id="Node000001" title="Callback when weapon collision box begins overlap with another actor/component." alt="" coords="5,5,205,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_r_p_g_function_library.html#a8981c26c97b380e30ef9a01dbad95e42" title="Checks whether the TargetPawn is hostile towards the QueryPawn." alt="" coords="253,5,419,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,24,239,26,234,27,205,29"/>
+</map>

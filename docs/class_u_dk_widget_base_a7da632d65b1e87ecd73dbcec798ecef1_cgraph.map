@@ -1,0 +1,6 @@
+<map id="UDkWidgetBase::NativeOnInitialized" name="UDkWidgetBase::NativeOnInitialized">
+<area shape="rect" id="Node000001" title="Called once when the widget is initialized." alt="" coords="5,37,243,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_widget_base.html#a1532bfc21535e692a1c6150dfef17cd2" title="To be overridden in Widget Blueprints." alt="" coords="291,29,504,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,48,278,51,272,51,243,53"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="346,27,344,19,353,10,370,5,397,3,427,5,446,14,441,14,426,10,397,8,371,10,355,15,349,21,351,30"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UDkHeroGameplayAbility::GetHeroUIComponentFromActorInfo" name="UDkHeroGameplayAbility::GetHeroUIComponentFromActorInfo">
+<area shape="rect" id="Node000001" title="Retrieves the hero UI component from the actor info." alt="" coords="5,35,248,77"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="296,5,514,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="248,41,283,39,277,40,248,46"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_hero.html#a5beb62baf68e7b5e98de780a8e1275cc" title="Override to return the Hero UI Component." alt="" coords="298,72,512,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,66,285,72,280,73,248,71"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UDkHeroCombatComponent::GetHeroCurrentEquippedWeapon" name="UDkHeroCombatComponent::GetHeroCurrentEquippedWeapon">
+<area shape="rect" id="Node000001" title="Retrieves the hero&#39;s currently equipped weapon." alt="" coords="5,13,228,56"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_combat_component.html#aba71c7a546745b47eb34c12c0256ee3d" title="Retrieves the character&#39;s currently equipped weapon." alt="" coords="276,5,480,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,32,262,34,257,35,228,37"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_pawn_combat_component.html#a9f108d837d85648eac62e7f4e14df793" title="Retrieves the weapon currently carried by the character associated with the provided gameplay tag." alt="" coords="528,13,761,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="480,32,515,35,510,35,481,37"/>
+</map>

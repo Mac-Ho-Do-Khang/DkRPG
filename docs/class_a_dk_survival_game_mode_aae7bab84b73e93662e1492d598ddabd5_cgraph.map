@@ -1,0 +1,7 @@
+<map id="ADkSurvivalGameMode::PreLoadNextWaveEnemies" name="ADkSurvivalGameMode::PreLoadNextWaveEnemies">
+<area shape="rect" id="Node000001" title="Pre&#45;loads the enemies for the next wave to ensure spawning on time." alt="" coords="5,39,195,81"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html#a0f478977ff0d6315292d224321ffa8af" title="Retrieves the current wave spawner table row." alt="" coords="243,5,478,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,45,229,43,224,44,196,50"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_survival_game_mode.html#a2c8536cea51137dffc79aba1ee250710" title="Checks if all waves have been completed." alt="" coords="280,72,441,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,69,267,81,262,81,195,75"/>
+</map>

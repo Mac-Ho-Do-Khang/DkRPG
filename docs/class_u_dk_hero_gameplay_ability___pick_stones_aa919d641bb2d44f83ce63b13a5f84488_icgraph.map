@@ -1,0 +1,5 @@
+<map id="UDkHeroGameplayAbility_PickStones::CollectStones" name="UDkHeroGameplayAbility_PickStones::CollectStones">
+<area shape="rect" id="Node000001" title="Performs multi box trace to detect and store collectible stones. If there&#39;s none, cancels the ability..." alt="" coords="334,5,519,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a91d1391a9af5b54f039840fc6bce6b13" title="Called every tick while the ability is active." alt="" coords="5,5,286,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="315,27,286,29,286,24,321,27"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="ADkSurvivalGameMode::BeginPlay" name="ADkSurvivalGameMode::BeginPlay">
+<area shape="rect" id="Node000001" title="Called when the game starts or when spawned." alt="" coords="5,76,167,119"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html#aae7bab84b73e93662e1492d598ddabd5" title="Pre&#45;loads the enemies for the next wave to ensure spawning on time." alt="" coords="223,39,412,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,82,210,77,205,79,168,87"/>
+<area shape="rect" id="Node000005" href="$class_a_dk_survival_game_mode.html#a00b8305595d43a3200596dfbc6946850" title="Sets the current state of the survival game mode." alt="" coords="215,105,421,164"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="167,108,202,115,197,116,167,113"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_survival_game_mode.html#a0f478977ff0d6315292d224321ffa8af" title="Retrieves the current wave spawner table row." alt="" coords="469,5,704,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="413,46,456,43,451,44,414,51"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_survival_game_mode.html#a2c8536cea51137dffc79aba1ee250710" title="Checks if all waves have been completed." alt="" coords="506,72,667,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="413,69,493,81,488,82,413,74"/>
+</map>

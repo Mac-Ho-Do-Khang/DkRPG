@@ -1,0 +1,7 @@
+<map id="UDkHeroGameplayAbility_PickStones::CancelPickUpStonesAbility" name="UDkHeroGameplayAbility_PickStones::CancelPickUpStonesAbility">
+<area shape="rect" id="Node000001" title="Calls the parent ability&#39;s CancelAbility function to end this ability." alt="" coords="590,5,818,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a05b99d7a61eb711cfad85538f8902477" title="Adjusts the pick&#45;up prompt widget&#39;s position based on the current pick&#45;up stone location." alt="" coords="334,5,542,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="572,35,542,37,542,32,577,35"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a91d1391a9af5b54f039840fc6bce6b13" title="Called every tick while the ability is active." alt="" coords="5,13,286,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="315,35,286,37,286,32,321,35"/>
+</map>

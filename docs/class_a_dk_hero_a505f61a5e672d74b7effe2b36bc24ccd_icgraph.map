@@ -1,0 +1,5 @@
+<map id="ADkHero::Input_Move" name="ADkHero::Input_Move">
+<area shape="rect" id="Node000001" title="Callback to move the character on repsonse to input." alt="" coords="237,13,388,40"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_hero.html#ab678774fc640b45d244055cd48dd44e9" title="Binds callbacks to input actions." alt="" coords="5,5,189,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,27,189,29,189,24,223,26"/>
+</map>

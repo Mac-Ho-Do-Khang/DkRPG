@@ -1,0 +1,5 @@
+<map id="UDkRPGFunctionLibrary::BP_GetPawnCombatComponentFromActor" name="UDkRPGFunctionLibrary::BP_GetPawnCombatComponentFromActor">
+<area shape="rect" id="Node000001" title="Blueprint wrapper for NativeGetPawnCombatComponentFromActor." alt="" coords="5,5,227,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_r_p_g_function_library.html#a8c058e1e2680a9d4c4f3dcdd5ad94957" title="Retrieves the Pawn Combat Component from the given Actor." alt="" coords="275,5,509,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,32,262,34,256,35,227,37"/>
+</map>

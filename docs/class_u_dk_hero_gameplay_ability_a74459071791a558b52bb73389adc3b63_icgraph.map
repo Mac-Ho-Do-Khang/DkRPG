@@ -1,0 +1,30 @@
+<map id="UDkHeroGameplayAbility::GetHeroControllerFromActorInfo" name="UDkHeroGameplayAbility::GetHeroControllerFromActorInfo">
+<area shape="rect" id="Node000001" title="Retrieves the hero controller from the actor info." alt="" coords="850,245,1068,288"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a4298d5b6ad863bfbe10c962404033234" title="Draws the pick&#45;up prompt widget on the hero&#39;s HUD." alt="" coords="574,5,794,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="935,232,881,156,843,114,801,78,783,67,783,62,804,74,847,110,885,153,941,233"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a2348c12fac0682a364414e83cf35502e" title="Draws the target lock widget on the HUD." alt="" coords="566,88,802,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="923,234,869,189,836,166,801,145,776,134,776,129,804,140,839,161,872,185,928,235"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_hero_gameplay_ability___target_lock.html#aa692808ed50487b4a6aefa718a163234" title="Adds the target lock input mapping context to the hero&#39;s input subsystem." alt="" coords="568,155,800,213"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="868,241,784,217,784,211,874,240"/>
+<area shape="rect" id="Node000008" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ac78cd5c455eb2e9da74d6594550180e0" title="Called every tick while the ability is active." alt="" coords="275,279,481,321"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="873,293,803,311,718,318,633,320,482,313,481,308,633,314,718,313,802,305,878,292"/>
+<area shape="rect" id="Node000009" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a55613629468653c9ffedc3348cc8eba4" title="Removes the target lock input mapping context from the hero&#39;s input subsystem." alt="" coords="584,371,784,429"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="910,295,804,354,762,373,761,368,801,350,905,297"/>
+<area shape="rect" id="Node000011" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a05b99d7a61eb711cfad85538f8902477" title="Adjusts the pick&#45;up prompt widget&#39;s position based on the current pick&#45;up stone location." alt="" coords="580,453,788,512"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="938,300,882,373,845,411,804,444,783,455,782,450,801,439,841,407,878,370,933,302"/>
+<area shape="rect" id="Node000013" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a2d57d6ef38745287f3bcbfedb769b2bf" title="Adjusts the target lock widget&#39;s position based on the current locked&#45;on actor." alt="" coords="572,237,797,296"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="832,267,798,269,797,264,837,266"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a4f30f2202b3a80e6a9671d24c9d1928c" title="Actually activates the ability." alt="" coords="284,13,472,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="557,36,473,37,471,32,561,34"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___target_lock.html#a37e2907e68f103c0b9e1b2bd339f631a" title="Attempts to lock onto a target." alt="" coords="278,163,478,205"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="576,136,470,164,468,160,581,134"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_gameplay_ability___target_lock.html#aee9f4247637bdac255647f92ea0da8b3" title="Actually activates the ability." alt="" coords="5,163,190,205"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="260,186,191,186,189,182,264,182"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="550,185,479,187,478,181,555,183"/>
+<area shape="rect" id="Node000010" href="$class_u_dk_hero_gameplay_ability___target_lock.html#ad2720f70c1e2cbd8bd32230acd7fb717" title="Called when an ability ends normally or abnormally." alt="" coords="292,379,464,421"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="566,400,464,403,464,397,572,400"/>
+<area shape="rect" id="Node000012" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a91d1391a9af5b54f039840fc6bce6b13" title="Called every tick while the ability is active." alt="" coords="238,461,518,504"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="562,483,518,485,518,480,567,483"/>
+<area shape="poly" id="edge15_Node000013_Node000005" title=" " alt="" coords="556,233,460,209,460,203,561,232"/>
+<area shape="poly" id="edge14_Node000013_Node000008" title=" " alt="" coords="553,281,482,291,481,286,558,280"/>
+</map>

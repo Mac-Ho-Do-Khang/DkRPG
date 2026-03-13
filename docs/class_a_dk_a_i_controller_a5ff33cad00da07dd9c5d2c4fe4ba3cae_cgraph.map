@@ -1,0 +1,5 @@
+<map id="ADkAIController::BeginPlay" name="ADkAIController::BeginPlay">
+<area shape="rect" id="Node000001" title="Called when the game starts or when spawned." alt="" coords="5,5,189,32"/>
+<area shape="rect" id="Node000002" href="$namespace_debug.html#a03b067d0cdb87edc0cd0c65d8e5dcab5" title="Prints a debug message to the screen and the output log." alt="" coords="237,5,331,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,16,224,19,218,19,189,21"/>
+</map>

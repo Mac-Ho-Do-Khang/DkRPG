@@ -1,0 +1,5 @@
+<map id="FDkCountDownAction::CancelAction" name="FDkCountDownAction::CancelAction">
+<area shape="rect" id="Node000001" title="Requests cancellation of the latent action." alt="" coords="220,5,372,48"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_r_p_g_function_library.html#a352756e19f683b27d91c72daf6ed8ecf" title="Performs a countdown over a specified total time, updating at given intervals." alt="" coords="5,5,172,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,27,172,29,172,24,207,26"/>
+</map>

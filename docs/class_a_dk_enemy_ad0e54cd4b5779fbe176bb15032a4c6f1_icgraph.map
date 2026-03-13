@@ -1,0 +1,6 @@
+<map id="ADkEnemy::GetEnemyCombatComponent" name="ADkEnemy::GetEnemyCombatComponent">
+<area shape="rect" id="Node000001" title="Getter for the enemy combat component." alt="" coords="288,29,492,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="432,14,417,10,390,8,364,10,349,15,343,21,344,30,340,27,338,19,346,10,363,5,390,3,418,5,437,14"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_enemy_gameplay_ability.html#a1b8679ae53b449d87712365c4feaa1db" title="Retrieves the enemy combat component from the actor info." alt="" coords="5,21,240,80"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="270,51,240,53,240,48,275,50"/>
+</map>

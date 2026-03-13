@@ -1,0 +1,7 @@
+<map id="UDkHeroLinkedAnimLayer" name="UDkHeroLinkedAnimLayer">
+<area shape="rect" id="Node000001" title="Animation layer instance that is linked to a hero animation instance." alt="" coords="5,155,182,181"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_base_anim_instance.html" title="Contains helper functions for both Hero and Enemy animation instances." alt="" coords="14,80,173,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,121,96,155,91,153,92,124"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="38,5,149,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,45,96,80,91,79,92,50"/>
+</map>

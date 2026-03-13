@@ -1,0 +1,5 @@
+<map id="ADkPickUpBase::OnPickUpSphereBeginOverlap" name="ADkPickUpBase::OnPickUpSphereBeginOverlap">
+<area shape="rect" id="Node000001" title="Callback for when another actor begins overlapping with the pick&#45;up collision sphere." alt="" coords="281,5,510,48"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_pick_up_base.html#ad7967c2802c4a2b4283f7fe5d4c27c68" title=" " alt="" coords="5,13,233,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,27,233,29,233,24,268,27"/>
+</map>

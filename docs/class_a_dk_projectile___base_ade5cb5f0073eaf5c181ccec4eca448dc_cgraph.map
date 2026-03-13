@@ -1,0 +1,11 @@
+<map id="ADkProjectile_Base::OnProjectileBeginOverlap" name="ADkProjectile_Base::OnProjectileBeginOverlap">
+<area shape="rect" id="Node000001" title="Callback when the projectile begins overlapping with another actor." alt="" coords="5,47,184,89"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_projectile___base.html#a7192b8dce155aa49040865fff1f0d062" title="Applies projectile damage to the hit pawn via the ProjectileDamageEffectSpecHandle." alt="" coords="232,13,438,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,53,219,50,214,52,185,58"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_r_p_g_function_library.html#a8981c26c97b380e30ef9a01dbad95e42" title="Checks whether the TargetPawn is hostile towards the QueryPawn." alt="" coords="252,80,418,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="184,78,239,87,234,88,184,83"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_r_p_g_function_library.html#acbdd5ce4f91a65c1845b8c82e18d7075" title="Applies the given Gameplay Effect Spec Handle to the Target Actor." alt="" coords="486,5,712,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="438,32,473,34,468,35,439,37"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_r_p_g_function_library.html#a927b2a547192308111a737d253c0b803" title="Retrieves the DkASC from the given Actor." alt="" coords="760,13,955,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="712,32,747,34,742,35,713,37"/>
+</map>

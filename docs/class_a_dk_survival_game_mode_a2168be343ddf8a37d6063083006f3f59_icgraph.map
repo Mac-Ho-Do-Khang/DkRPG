@@ -1,0 +1,10 @@
+<map id="ADkSurvivalGameMode::OnEnemyDestroyed" name="ADkSurvivalGameMode::OnEnemyDestroyed">
+<area shape="rect" id="Node000001" title="Callback function when an enemy is destroyed." alt="" coords="436,72,597,115"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html#a6debb960706e20bcf045cf024c3a3189" title="Registers spawned enemies to keep track of them, so the game mode knows when they are destroyed." alt="" coords="215,5,388,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="428,67,372,51,373,46,434,67"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_survival_game_mode.html#a40eedc364ab41af351ce4b9e29b540eb" title="Attempts to spawn enemies for the current wave." alt="" coords="215,72,388,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="418,102,388,105,388,100,423,102"/>
+<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="403,82,438,84,433,85,403,87"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_survival_game_mode.html#ab590b0fdb3b97544502c72823251604b" title="Handle state transitions based on the current game mode state." alt="" coords="5,72,167,115"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="197,94,167,96,167,91,202,93"/>
+</map>

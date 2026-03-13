@@ -1,0 +1,5 @@
+<map id="UDkEnemyGameplayAbility::GetEnemyCharacterFromActorInfo" name="UDkEnemyGameplayAbility::GetEnemyCharacterFromActorInfo">
+<area shape="rect" id="Node000001" title="Retrieves the enemy character from the actor info." alt="" coords="288,13,519,56"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_enemy_gameplay_ability.html#a1b8679ae53b449d87712365c4feaa1db" title="Retrieves the enemy combat component from the actor info." alt="" coords="5,5,240,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,35,240,37,240,32,275,34"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="IDkPawnUIInterface::GetHeroUIComponent" name="IDkPawnUIInterface::GetHeroUIComponent">
+<area shape="rect" id="Node000001" title="Getter for the Hero UI Component. Returns null if the pawn is not a Hero." alt="" coords="218,5,377,48"/>
+<area shape="rect" id="Node000002" href="$class_i_dk_pawn_u_i_interface.html#a67c354682bb6cd545d7271dbc6bb95d3" title="Getter for the Pawn UI Component." alt="" coords="5,5,170,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,27,170,29,170,24,204,26"/>
+</map>

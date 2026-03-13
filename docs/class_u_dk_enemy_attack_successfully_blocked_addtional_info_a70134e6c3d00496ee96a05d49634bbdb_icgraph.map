@@ -1,0 +1,7 @@
+<map id="UDkEnemyAttackSuccessfullyBlockedAddtionalInfo::SetEnemyDamageEffectSpecHandle" name="UDkEnemyAttackSuccessfullyBlockedAddtionalInfo::SetEnemyDamageEffectSpecHandle">
+<area shape="rect" id="Node000001" title="Setter for the EnemyDamageEffectSpecHandle property." alt="" coords="386,5,599,64"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_projectile___base.html#a26faae9c758c649675c534dfc96071c3" title="Callback when the projectile hits another actor." alt="" coords="200,13,338,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="368,35,338,37,338,32,373,35"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_projectile___base.html#af4b5ec064f5ff74bf13b2980afa102d1" title=" " alt="" coords="5,13,152,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="181,35,152,37,152,32,187,34"/>
+</map>

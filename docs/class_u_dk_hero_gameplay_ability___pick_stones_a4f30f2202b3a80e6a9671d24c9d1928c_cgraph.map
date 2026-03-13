@@ -1,0 +1,15 @@
+<map id="UDkHeroGameplayAbility_PickStones::ActivateAbility" name="UDkHeroGameplayAbility_PickStones::ActivateAbility">
+<area shape="rect" id="Node000001" title="Actually activates the ability." alt="" coords="5,88,193,131"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability___pick_stones.html#a4298d5b6ad863bfbe10c962404033234" title="Draws the pick&#45;up prompt widget on the hero&#39;s HUD." alt="" coords="252,5,472,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,85,244,67,240,70,178,90"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability.html#a268d34ae106b87d90c94370c5c578227" title="Retrieves the hero UI component from the actor info." alt="" coords="241,88,483,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,107,228,109,223,110,194,112"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_pick_up_item_interacted_additional_info.html#ac202f50bd97377ddd08c2407e50867f1" title="Getter for the ItemLocation property." alt="" coords="246,155,478,197"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="186,129,263,150,258,151,186,134"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html#a74459071791a558b52bb73389adc3b63" title="Retrieves the hero controller from the actor info." alt="" coords="532,13,749,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,32,519,34,513,35,472,37"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="531,84,749,127"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="483,105,518,107,513,107,484,110"/>
+<area shape="rect" id="Node000006" href="$class_a_dk_hero.html#a5beb62baf68e7b5e98de780a8e1275cc" title="Override to return the Hero UI Component." alt="" coords="534,151,747,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="474,129,556,147,551,147,474,134"/>
+</map>

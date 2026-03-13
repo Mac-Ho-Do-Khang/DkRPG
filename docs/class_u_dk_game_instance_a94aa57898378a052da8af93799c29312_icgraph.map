@@ -1,0 +1,7 @@
+<map id="UDkGameInstance::PlayMusicByTag" name="UDkGameInstance::PlayMusicByTag">
+<area shape="rect" id="Node000001" title="Plays music associated with the given gameplay tag." alt="" coords="260,23,462,65"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_game_instance.html#acdb6ac57bdee635e85e5a3fc9d96f88f" title="Pops the currently active music track from the stack and returns to the previous one." alt="" coords="9,5,208,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,33,209,31,208,26,247,32"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_game_instance.html#a5f154de0e31dc838927b89049d46c652" title="Pushes a music track onto the stack and plays it." alt="" coords="5,56,212,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,56,212,62,212,56,247,55"/>
+</map>

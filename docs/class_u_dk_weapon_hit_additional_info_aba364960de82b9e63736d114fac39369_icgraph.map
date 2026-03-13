@@ -1,0 +1,7 @@
+<map id="UDkWeaponHitAdditionalInfo::SetHitLocation" name="UDkWeaponHitAdditionalInfo::SetHitLocation">
+<area shape="rect" id="Node000001" title="Setter for the HitLocation property." alt="" coords="256,39,447,81"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_enemy_combat_component.html#aadbb8596eed7d6594c7d77c44de69a89" title="Overrides with actual implementation." alt="" coords="5,5,208,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,45,208,43,208,38,243,45"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_combat_component.html#a0927803a9931102ad69c06a56c791cb8" title="Callback when the hero&#39;s weapon hits a target actor." alt="" coords="12,72,201,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="238,76,202,83,201,78,243,75"/>
+</map>

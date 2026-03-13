@@ -1,0 +1,5 @@
+<map id="UDkEnemyGameplayAbility::MakeEnemyDamageEffectSpecHandle" name="UDkEnemyGameplayAbility::MakeEnemyDamageEffectSpecHandle">
+<area shape="rect" id="Node000001" title="Creates a gameplay effect spec handle for enemy damage effects." alt="" coords="5,13,262,56"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#adb28a39750be3163cf3b2a22c186d72e" title="Retrieves the ASC from the actor info." alt="" coords="310,5,525,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,32,297,34,291,35,262,37"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="UDkHeroCombatComponent::GetHeroCurrentEquippedWeapon" name="UDkHeroCombatComponent::GetHeroCurrentEquippedWeapon">
+<area shape="rect" id="Node000001" title="Retrieves the hero&#39;s currently equipped weapon." alt="" coords="276,96,498,139"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_combat_component.html#a1ef633bac9335cf887dea015e1014aa5" title="Retrieves the base damage of the hero&#39;s currently equipped weapon at the specified level." alt="" coords="5,5,228,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="298,92,215,67,215,62,303,90"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_combat_component.html#ad71721ffbc41d60a1840eaf27f63ee8a" title="Retrieves the heavy attack stamina cost of the hero&#39;s currently equipped weapon at the specified leve..." alt="" coords="5,88,228,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,118,228,120,228,115,263,117"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_combat_component.html#a45b4d11e463501be7a48cf4e8a9675a9" title="Retrieves the attack stamina cost of the hero&#39;s currently equipped weapon at the specified level." alt="" coords="5,171,228,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="303,143,216,173,214,167,298,144"/>
+</map>

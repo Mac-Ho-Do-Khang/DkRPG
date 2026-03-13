@@ -1,0 +1,14 @@
+<map id="ADkProjectile_Base::HandleApplyProjectileDamage" name="ADkProjectile_Base::HandleApplyProjectileDamage">
+<area shape="rect" id="Node000001" title="Applies projectile damage to the hit pawn via the ProjectileDamageEffectSpecHandle." alt="" coords="673,88,880,131"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_projectile___base.html#ae2395865305f415bb2d8f3ee9fd8c2ad" title=" " alt="" coords="426,29,625,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="665,84,620,75,620,70,671,84"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_projectile___base.html#a26faae9c758c649675c534dfc96071c3" title="Callback when the projectile hits another actor." alt="" coords="220,72,358,115"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="655,107,358,98,358,93,660,104"/>
+<area shape="rect" id="Node000005" href="$class_a_dk_projectile___base.html#ade5cb5f0073eaf5c181ccec4eca448dc" title="Callback when the projectile begins overlapping with another actor." alt="" coords="200,139,378,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="660,121,379,153,378,148,655,122"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="562,14,550,10,526,8,503,10,490,15,484,21,486,30,481,27,479,19,487,10,502,5,526,3,551,5,568,14"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="408,72,359,83,358,78,413,71"/>
+<area shape="rect" id="Node000004" href="$class_a_dk_projectile___base.html#af4b5ec064f5ff74bf13b2980afa102d1" title=" " alt="" coords="5,105,152,148"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="202,108,153,118,152,112,207,106"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="182,144,152,141,152,136,187,143"/>
+</map>

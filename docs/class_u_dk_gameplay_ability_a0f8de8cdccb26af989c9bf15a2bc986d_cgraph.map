@@ -1,0 +1,5 @@
+<map id="UDkGameplayAbility::NativeApplyEffectSpecHandleToTarget" name="UDkGameplayAbility::NativeApplyEffectSpecHandleToTarget">
+<area shape="rect" id="Node000001" title="Applies a gameplay effect spec handle to a target actor." alt="" coords="5,5,211,64"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#adb28a39750be3163cf3b2a22c186d72e" title="Retrieves the ASC from the actor info." alt="" coords="259,5,474,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,32,246,34,240,35,211,37"/>
+</map>

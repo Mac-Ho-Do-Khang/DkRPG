@@ -1,0 +1,5 @@
+<map id="ADkAIController::OnEnemyPerceptionUpdated" name="ADkAIController::OnEnemyPerceptionUpdated">
+<area shape="rect" id="Node000001" title="Called when an enemy detects a hostile pawn." alt="" coords="273,5,455,48"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_a_i_controller.html#af4549263d95cffbfe358f74279cfa4b0" title="Sets up the path following algorithm to be Detour crowd avoidance." alt="" coords="5,13,225,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,27,225,29,225,24,260,27"/>
+</map>

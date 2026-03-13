@@ -1,0 +1,15 @@
+<map id="UDkPawnExtensionComponentBase::GetOwningPawn" name="UDkPawnExtensionComponentBase::GetOwningPawn">
+<area shape="rect" id="Node000001" title="Gets the owning Pawn cast to the specified type T." alt="" coords="280,172,486,215"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_extension_component_base.html#a3e6cf0222f347162445bbb84d7c3c5da" title="Gets the controller of the owning Pawn cast to the specified type T." alt="" coords="15,5,222,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,161,298,111,265,85,230,62,207,51,206,46,233,58,268,80,301,107,355,160"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_pawn_extension_component_base.html#a71f4e15edc16fe8fff9e1222d8381944" title="Gets the owning Pawn as an APawn." alt="" coords="15,72,222,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="320,166,231,129,198,118,197,113,233,124,325,164"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_enemy_combat_component.html#aadbb8596eed7d6594c7d77c44de69a89" title="Overrides with actual implementation." alt="" coords="17,139,220,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="262,179,221,175,219,170,266,177"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_combat_component.html#a0927803a9931102ad69c06a56c791cb8" title="Callback when the hero&#39;s weapon hits a target actor." alt="" coords="24,205,213,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="262,209,214,217,213,212,267,207"/>
+<area shape="rect" id="Node000006" href="$class_u_dk_hero_combat_component.html#a38ea5007f0e6e5ce9a33abfb9496b4a1" title="Callback when the hero&#39;s weapon is pulled from a target actor (end hitting)." alt="" coords="5,272,232,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="320,223,233,262,199,274,197,269,231,258,325,220"/>
+<area shape="rect" id="Node000007" href="$class_u_dk_enemy_combat_component.html#ab9a975fe8652300001a3aa7895155732" title="Enables or disables (and clear OverlappedActors) collision for the enemy&#39;s body collision boxes (e...." alt="" coords="8,339,229,381"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="355,225,301,280,268,306,233,329,208,341,206,336,230,324,265,302,298,276,350,227"/>
+</map>

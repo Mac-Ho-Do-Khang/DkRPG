@@ -1,0 +1,7 @@
+<map id="UDkHeroGameplayAbility::GetHeroCombatComponentFromActorInfo" name="UDkHeroGameplayAbility::GetHeroCombatComponentFromActorInfo">
+<area shape="rect" id="Node000001" title="Retrieves the hero combat component from the actor info." alt="" coords="5,27,227,85"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_hero_gameplay_ability.html#a9e7ffc43c9773ff4f593203ee143c609" title="Retrieves the hero character from the actor info." alt="" coords="288,5,506,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,42,275,39,270,40,227,47"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_hero.html#ac9768d7b7b2c579fe3af2b3c58598507" title="Getter for the Combat component." alt="" coords="275,72,520,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="227,65,262,71,257,71,227,70"/>
+</map>
