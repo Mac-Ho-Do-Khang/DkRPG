@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" title=" " alt="" coords="5,23,188,65"/>
-<area shape="rect" id="Node000001" href="$class_u_dk_g_e_e_c___damage_taken.html" title="Implements calculation logic related to damage taken by both the player and enemy characters." alt="" coords="263,5,440,32"/>
+<area shape="rect" id="Node000001" href="$class_u_dk_g_e_e_c___damage_taken.html" title="Gameplay Effect Execution Calculation that computes damage taken by both the Hero and enemy character..." alt="" coords="263,5,440,32"/>
 <area shape="poly" id="edge49_Node000000_Node000001" title=" " alt="" coords="203,31,265,27,260,28,203,36"/>
-<area shape="rect" id="Node000002" href="$class_u_dk_g_e_e_c___wither_health_recovered.html" title="Implements calculation logic related to wither health recovery. Applied to player character only." alt="" coords="236,56,468,83"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_g_e_e_c___wither_health_recovered.html" title="Gameplay Effect Execution Calculation that handles wither health recovery for the Hero." alt="" coords="236,56,468,83"/>
 <area shape="poly" id="edge50_Node000000_Node000002" title=" " alt="" coords="203,52,238,58,233,58,203,57"/>
 </map>

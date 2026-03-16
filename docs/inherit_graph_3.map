@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" title=" " alt="" coords="5,5,133,32"/>
-<area shape="rect" id="Node000001" href="$class_a_dk_game_mode_base.html" title="Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules." alt="" coords="181,5,325,32"/>
+<area shape="rect" id="Node000001" href="$class_a_dk_game_mode_base.html" title="Base game mode for the DkRPG game that defines custom spawning behavior and game rules." alt="" coords="181,5,325,32"/>
 <area shape="poly" id="edge13_Node000000_Node000001" title=" " alt="" coords="148,16,183,19,177,19,148,21"/>
-<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html" title="Class representing the survival game mode." alt="" coords="373,5,534,32"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_survival_game_mode.html" title="Game mode implementing the survival gameplay rules." alt="" coords="373,5,534,32"/>
 <area shape="poly" id="edge14_Node000001_Node000002" title=" " alt="" coords="340,16,375,19,370,19,341,21"/>
 </map>

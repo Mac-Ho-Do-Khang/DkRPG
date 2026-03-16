@@ -1,5 +1,5 @@
 <map id="UDkGMMC_AttackStaminaCost" name="UDkGMMC_AttackStaminaCost">
-<area shape="rect" id="Node000001" title="Determines the stamina cost of an attack, which varies based on the attack type (light or heavy) and ..." alt="" coords="20,80,231,107"/>
+<area shape="rect" id="Node000001" title="Gameplay Mod Magnitude Calculation that determines the stamina cost of attacks." alt="" coords="20,80,231,107"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,5,246,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,46,128,81,123,78,124,50"/>
 </map>

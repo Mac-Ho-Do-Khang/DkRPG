@@ -1,13 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" title=" " alt="" coords="5,31,132,57"/>
-<area shape="rect" id="Node000001" href="$class_u_dk_gameplay_ability.html" title="Provides general helper functionalities. To be subclassed for each specific ability." alt="" coords="180,31,323,57"/>
+<area shape="rect" id="Node000001" href="$class_u_dk_gameplay_ability.html" title="Base Gameplay Ability class providing common helper functionality." alt="" coords="180,31,323,57"/>
 <area shape="poly" id="edge44_Node000000_Node000001" title=" " alt="" coords="147,41,182,43,177,45,148,47"/>
-<area shape="rect" id="Node000002" href="$class_u_dk_enemy_gameplay_ability.html" title="Gameplay ability class specific for enemy characters." alt="" coords="371,5,555,32"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_enemy_gameplay_ability.html" title="Gameplay Ability class used for enemy&#45;specific abilities." alt="" coords="371,5,555,32"/>
 <area shape="poly" id="edge45_Node000001_Node000002" title=" " alt="" coords="338,31,373,29,368,30,339,36"/>
-<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html" title="Provides hero&#45;specific utility functions. Most hero abilities are Blueprint subclasses of this class." alt="" coords="378,56,549,83"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_hero_gameplay_ability.html" title="Base gameplay ability class providing hero&#45;specific helper functions." alt="" coords="378,56,549,83"/>
 <area shape="poly" id="edge46_Node000001_Node000003" title=" " alt="" coords="339,52,380,59,374,59,339,57"/>
-<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___pick_stones.html" title="Detects nearby stones upon activation, and shows a pick&#45;up prompt widget on HUD." alt="" coords="603,15,775,57"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___pick_stones.html" title="Gameplay Ability that detects nearby stones and displays a pick&#45;up prompt." alt="" coords="603,15,775,57"/>
 <area shape="poly" id="edge47_Node000003_Node000004" title=" " alt="" coords="564,52,600,49,605,48,564,57"/>
-<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___target_lock.html" title="Enables the Hero to lock onto a target." alt="" coords="603,81,775,124"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___target_lock.html" title="Gameplay Ability that allows the Hero to lock onto a target." alt="" coords="603,81,775,124"/>
 <area shape="poly" id="edge48_Node000003_Node000005" title=" " alt="" coords="564,82,605,90,600,90,564,87"/>
 </map>

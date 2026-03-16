@@ -94,7 +94,7 @@ $(function(){initNavTree('class_a_dk_game_mode_base.html','','class_a_dk_game_mo
 </div><!--header-->
 <div class="contents">
 
-<p>Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules.  
+<p>Base game mode for the DkRPG game that defines custom spawning behavior and game rules.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_dk_game_mode_base_8h_source.html">DkGameModeBase.h</a>&gt;</code></p>
@@ -103,8 +103,8 @@ Inheritance diagram for ADkGameModeBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_dk_game_mode_base__inherit__graph.png" border="0" usemap="#a_a_dk_game_mode_base_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
 <map name="a_a_dk_game_mode_base_inherit__map" id="a_a_dk_game_mode_base_inherit__map">
-<area shape="rect" title="Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules." alt="" coords="14,80,158,107"/>
-<area shape="rect" href="class_a_dk_survival_game_mode.html" title="Class representing the survival game mode." alt="" coords="5,155,167,181"/>
+<area shape="rect" title="Base game mode for the DkRPG game that defines custom spawning behavior and game rules." alt="" coords="14,80,158,107"/>
+<area shape="rect" href="class_a_dk_survival_game_mode.html" title="Game mode implementing the survival gameplay rules." alt="" coords="5,155,167,181"/>
 <area shape="poly" title=" " alt="" coords="88,121,88,155,84,153,84,124"/>
 <area shape="rect" title=" " alt="" coords="22,5,150,32"/>
 <area shape="poly" title=" " alt="" coords="87,45,89,80,83,79,85,50"/>
@@ -115,7 +115,7 @@ Collaboration diagram for ADkGameModeBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_dk_game_mode_base__coll__graph.png" border="0" usemap="#a_a_dk_game_mode_base_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_a_dk_game_mode_base_coll__map" id="a_a_dk_game_mode_base_coll__map">
-<area shape="rect" title="Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules." alt="" coords="5,80,150,107"/>
+<area shape="rect" title="Base game mode for the DkRPG game that defines custom spawning behavior and game rules." alt="" coords="5,80,150,107"/>
 <area shape="rect" title=" " alt="" coords="14,5,141,32"/>
 <area shape="poly" title=" " alt="" coords="79,46,80,80,75,79,76,50"/>
 </map>
@@ -142,7 +142,8 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:ad311e4c9b77dbd0a5b46a3a52d06e27a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The gameplay tag associated with the music to play for this level.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules. </p>
+<div class="textblock"><p>Base game mode for the DkRPG game that defines custom spawning behavior and game rules. </p>
+<p>Overrides default spawning behavior and game rules. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af87e97d3ad601508772272da3dc5743a" name="af87e97d3ad601508772272da3dc5743a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af87e97d3ad601508772272da3dc5743a">&#9670;&#160;</a></span>ADkGameModeBase()</h2>
@@ -203,7 +204,7 @@ Protected Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   19</span>        }</div>
 <div class="line"><span class="lineno">   20</span>    }</div>
 <div class="line"><span class="lineno">   21</span>}</div>
-<div class="ttc" id="aclass_a_dk_game_mode_base_html_ad311e4c9b77dbd0a5b46a3a52d06e27a"><div class="ttname"><a href="#ad311e4c9b77dbd0a5b46a3a52d06e27a">ADkGameModeBase::LevelMusicTag</a></div><div class="ttdeci">FGameplayTag LevelMusicTag</div><div class="ttdoc">The gameplay tag associated with the music to play for this level.</div><div class="ttdef"><b>Definition</b> DkGameModeBase.h:30</div></div>
+<div class="ttc" id="aclass_a_dk_game_mode_base_html_ad311e4c9b77dbd0a5b46a3a52d06e27a"><div class="ttname"><a href="#ad311e4c9b77dbd0a5b46a3a52d06e27a">ADkGameModeBase::LevelMusicTag</a></div><div class="ttdeci">FGameplayTag LevelMusicTag</div><div class="ttdoc">The gameplay tag associated with the music to play for this level.</div><div class="ttdef"><b>Definition</b> DkGameModeBase.h:31</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="#ad311e4c9b77dbd0a5b46a3a52d06e27a">LevelMusicTag</a>.</p>
 
@@ -268,8 +269,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the current game difficulty level. </p>
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a91ec6567e70b8fa1cc2574a65801a614">CurrentGameDifficultyLevel</a>; }</div>
-<div class="ttc" id="aclass_a_dk_game_mode_base_html_a91ec6567e70b8fa1cc2574a65801a614"><div class="ttname"><a href="#a91ec6567e70b8fa1cc2574a65801a614">ADkGameModeBase::CurrentGameDifficultyLevel</a></div><div class="ttdeci">EDkGameDifficultyLevel CurrentGameDifficultyLevel</div><div class="ttdoc">The current game difficulty level.</div><div class="ttdef"><b>Definition</b> DkGameModeBase.h:26</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="#a91ec6567e70b8fa1cc2574a65801a614">CurrentGameDifficultyLevel</a>; }</div>
+<div class="ttc" id="aclass_a_dk_game_mode_base_html_a91ec6567e70b8fa1cc2574a65801a614"><div class="ttname"><a href="#a91ec6567e70b8fa1cc2574a65801a614">ADkGameModeBase::CurrentGameDifficultyLevel</a></div><div class="ttdeci">EDkGameDifficultyLevel CurrentGameDifficultyLevel</div><div class="ttdoc">The current game difficulty level.</div><div class="ttdef"><b>Definition</b> DkGameModeBase.h:27</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="#a91ec6567e70b8fa1cc2574a65801a614">CurrentGameDifficultyLevel</a>, and <a class="el" href="#a525fb4336f26b700a444e65560b6107a">GetGameDifficultyLevel()</a>.</p>
 

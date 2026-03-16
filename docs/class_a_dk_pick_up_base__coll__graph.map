@@ -1,5 +1,5 @@
 <map id="ADkPickUpBase" name="ADkPickUpBase">
-<area shape="rect" id="Node000001" title="Base class for all pickable items in the game. Provides basic functionality. To be subclassed for spe..." alt="" coords="5,80,126,107"/>
+<area shape="rect" id="Node000001" title="Base class for all pick&#45;up items, providing common interaction and functionality." alt="" coords="5,80,126,107"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="35,5,96,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,46,68,80,63,79,64,50"/>
 </map>

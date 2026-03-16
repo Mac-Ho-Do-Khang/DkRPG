@@ -94,7 +94,7 @@ $(function(){initNavTree('class_a_dk_projectile___base.html','','class_a_dk_proj
 </div><!--header-->
 <div class="contents">
 
-<p>Base class for all projectiles in the game, used by both player and enemy characters.  
+<p>Base projectile class used by both player and enemy characters.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_dk_projectile___base_8h_source.html">DkProjectile_Base.h</a>&gt;</code></p>
@@ -103,7 +103,7 @@ Inheritance diagram for ADkProjectile_Base:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_dk_projectile___base__inherit__graph.png" border="0" usemap="#a_a_dk_projectile___base_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
 <map name="a_a_dk_projectile___base_inherit__map" id="a_a_dk_projectile___base_inherit__map">
-<area shape="rect" title="Base class for all projectiles in the game, used by both player and enemy characters." alt="" coords="5,80,144,107"/>
+<area shape="rect" title="Base projectile class used by both player and enemy characters." alt="" coords="5,80,144,107"/>
 <area shape="rect" title=" " alt="" coords="44,5,105,32"/>
 <area shape="poly" title=" " alt="" coords="76,46,77,80,72,79,73,50"/>
 </map>
@@ -113,7 +113,7 @@ Collaboration diagram for ADkProjectile_Base:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_dk_projectile___base__coll__graph.png" border="0" usemap="#a_a_dk_projectile___base_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_a_dk_projectile___base_coll__map" id="a_a_dk_projectile___base_coll__map">
-<area shape="rect" title="Base class for all projectiles in the game, used by both player and enemy characters." alt="" coords="5,80,144,107"/>
+<area shape="rect" title="Base projectile class used by both player and enemy characters." alt="" coords="5,80,144,107"/>
 <area shape="rect" title=" " alt="" coords="44,5,105,32"/>
 <area shape="poly" title=" " alt="" coords="76,46,77,80,72,79,73,50"/>
 </map>
@@ -156,7 +156,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:aca66cc013cab3516cf9da0f2bb69b384"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of actors that have already been damaged by this projectile, avoids multiple damage applications on a same actor.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Base class for all projectiles in the game, used by both player and enemy characters. </p>
+<div class="textblock"><p>Base projectile class used by both player and enemy characters. </p>
 <dl class="section note"><dt>Note</dt><dd>Decide whether or not the projectile can pierce through multiple targets via <span class="tt"><a class="el" href="#aa90461b2af40481407da971e28192e4c" title="Damage policy for the projectile.">ProjectileDamagePolicy</a></span>:<ul>
 <li><span class="tt"><a class="el" href="_dk_projectile___base_8h.html#a8a7b12abd65faf6dbf3ab6648a00129bac63f02f6baa2cdef618c088d6c7b8bb7" title="Damage is applied once upon hitting a target.">EProjectileDamagePolicy::OnHit</a></span>: explodes upon contacting 1st target</li>
 <li><span class="tt"><a class="el" href="_dk_projectile___base_8h.html#a8a7b12abd65faf6dbf3ab6648a00129bade5c534b584ec30a4298c66fd877fe76" title="Damage is applied multiple times upon beginning overlap with multiple targets.">EProjectileDamagePolicy::OnBeginOverlap</a></span>: persists through multiple targets </li>

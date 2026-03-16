@@ -102,32 +102,32 @@ $(function(){initNavTree('_dk_widget_base_8h_source.html','',''); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span><a class="code hl_class" href="class_u_dk_hero_u_i_component.html">UDkHeroUIComponent</a>;</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span><a class="code hl_class" href="class_u_dk_enemy_u_i_component.html">UDkEnemyUIComponent</a>;</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>UCLASS()</div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_u_dk_widget_base.html">   14</a></span>class DKRPG_API <a class="code hl_class" href="class_u_dk_widget_base.html">UDkWidgetBase</a> : public UUserWidget</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    GENERATED_BODY()</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_dk_widget_base.html#a7da632d65b1e87ecd73dbcec798ecef1">NativeOnInitialized</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = <span class="stringliteral">&quot;On Owning Hero UI Component Initialized&quot;</span>))</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_u_dk_widget_base.html#a1532bfc21535e692a1c6150dfef17cd2">   25</a></span>    void <a class="code hl_function" href="class_u_dk_widget_base.html#a1532bfc21535e692a1c6150dfef17cd2">BP_OnOwningHeroUIComponentInitialized</a>(<a class="code hl_class" href="class_u_dk_hero_u_i_component.html">UDkHeroUIComponent</a>* OwningHeroUIComponent);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = <span class="stringliteral">&quot;On Owning Enemy UI Component Initialized&quot;</span>))</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_u_dk_widget_base.html#a204eb7ffa85dfd04239b3cce8a329dd5">   29</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_dk_widget_base.html#a204eb7ffa85dfd04239b3cce8a329dd5">BP_OnOwningEnemyUIComponentInitialized</a>(<a class="code hl_class" href="class_u_dk_enemy_u_i_component.html">UDkEnemyUIComponent</a>* OwningEnemyUIComponent);</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>public:</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UFUNCTION(BlueprintCallable)</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_dk_widget_base.html#ab0dbad4a69f80106a5adfb55ee03ebdf">InitEnemyCreateWidget</a>(AActor* OwningEnemyActor);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>UCLASS()</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_u_dk_widget_base.html">   16</a></span>class DKRPG_API <a class="code hl_class" href="class_u_dk_widget_base.html">UDkWidgetBase</a> : public UUserWidget</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    GENERATED_BODY()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_dk_widget_base.html#a7da632d65b1e87ecd73dbcec798ecef1">NativeOnInitialized</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = <span class="stringliteral">&quot;On Owning Hero UI Component Initialized&quot;</span>))</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_u_dk_widget_base.html#a1532bfc21535e692a1c6150dfef17cd2">   27</a></span>    void <a class="code hl_function" href="class_u_dk_widget_base.html#a1532bfc21535e692a1c6150dfef17cd2">BP_OnOwningHeroUIComponentInitialized</a>(<a class="code hl_class" href="class_u_dk_hero_u_i_component.html">UDkHeroUIComponent</a>* OwningHeroUIComponent);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = <span class="stringliteral">&quot;On Owning Enemy UI Component Initialized&quot;</span>))</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_u_dk_widget_base.html#a204eb7ffa85dfd04239b3cce8a329dd5">   31</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_dk_widget_base.html#a204eb7ffa85dfd04239b3cce8a329dd5">BP_OnOwningEnemyUIComponentInitialized</a>(<a class="code hl_class" href="class_u_dk_enemy_u_i_component.html">UDkEnemyUIComponent</a>* OwningEnemyUIComponent);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>public:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    UFUNCTION(BlueprintCallable)</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_u_dk_widget_base.html#ab0dbad4a69f80106a5adfb55ee03ebdf">InitEnemyCreateWidget</a>(AActor* OwningEnemyActor);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
 </div>
-<div class="ttc" id="aclass_u_dk_enemy_u_i_component_html"><div class="ttname"><a href="class_u_dk_enemy_u_i_component.html">UDkEnemyUIComponent</a></div><div class="ttdoc">Allows for more enemy-specific UI functionality.</div><div class="ttdef"><b>Definition</b> DkEnemyUIComponent.h:14</div></div>
-<div class="ttc" id="aclass_u_dk_hero_u_i_component_html"><div class="ttname"><a href="class_u_dk_hero_u_i_component.html">UDkHeroUIComponent</a></div><div class="ttdoc">Contains Hero-specific UI functionality.</div><div class="ttdef"><b>Definition</b> DkHeroUIComponent.h:18</div></div>
-<div class="ttc" id="aclass_u_dk_widget_base_html"><div class="ttname"><a href="class_u_dk_widget_base.html">UDkWidgetBase</a></div><div class="ttdoc">Blueprint of this will bind to delegates/events from the owning Pawn UI Component when initialized.</div><div class="ttdef"><b>Definition</b> DkWidgetBase.h:15</div></div>
+<div class="ttc" id="aclass_u_dk_enemy_u_i_component_html"><div class="ttname"><a href="class_u_dk_enemy_u_i_component.html">UDkEnemyUIComponent</a></div><div class="ttdoc">UI component providing enemy-specific UI functionality.</div><div class="ttdef"><b>Definition</b> DkEnemyUIComponent.h:14</div></div>
+<div class="ttc" id="aclass_u_dk_hero_u_i_component_html"><div class="ttname"><a href="class_u_dk_hero_u_i_component.html">UDkHeroUIComponent</a></div><div class="ttdoc">UI component providing Hero-specific UI functionality.</div><div class="ttdef"><b>Definition</b> DkHeroUIComponent.h:18</div></div>
+<div class="ttc" id="aclass_u_dk_widget_base_html"><div class="ttname"><a href="class_u_dk_widget_base.html">UDkWidgetBase</a></div><div class="ttdoc">Base widget class that binds to events from the owning Pawn UI component.</div><div class="ttdef"><b>Definition</b> DkWidgetBase.h:17</div></div>
 <div class="ttc" id="aclass_u_dk_widget_base_html_a1532bfc21535e692a1c6150dfef17cd2"><div class="ttname"><a href="class_u_dk_widget_base.html#a1532bfc21535e692a1c6150dfef17cd2">UDkWidgetBase::BP_OnOwningHeroUIComponentInitialized</a></div><div class="ttdeci">void BP_OnOwningHeroUIComponentInitialized(UDkHeroUIComponent *OwningHeroUIComponent)</div><div class="ttdoc">To be overridden in Widget Blueprints.</div></div>
 <div class="ttc" id="aclass_u_dk_widget_base_html_a204eb7ffa85dfd04239b3cce8a329dd5"><div class="ttname"><a href="class_u_dk_widget_base.html#a204eb7ffa85dfd04239b3cce8a329dd5">UDkWidgetBase::BP_OnOwningEnemyUIComponentInitialized</a></div><div class="ttdeci">void BP_OnOwningEnemyUIComponentInitialized(UDkEnemyUIComponent *OwningEnemyUIComponent)</div><div class="ttdoc">To be overridden in Widget Blueprints.</div></div>
 <div class="ttc" id="aclass_u_dk_widget_base_html_a7da632d65b1e87ecd73dbcec798ecef1"><div class="ttname"><a href="class_u_dk_widget_base.html#a7da632d65b1e87ecd73dbcec798ecef1">UDkWidgetBase::NativeOnInitialized</a></div><div class="ttdeci">virtual void NativeOnInitialized() override</div><div class="ttdoc">Called once when the widget is initialized.</div><div class="ttdef"><b>Definition</b> DkWidgetBase.cpp:4</div></div>

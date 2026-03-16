@@ -1,5 +1,5 @@
 <map id="FDkHeroSpecialAbilitySet" name="FDkHeroSpecialAbilitySet">
-<area shape="rect" id="Node000001" title="Extends the base ability set with additional properties: icon and cooldown mechanics." alt="" coords="5,80,179,107"/>
-<area shape="rect" id="Node000002" href="$struct_f_dk_hero_ability_set.html" title="Defines a mapping between an input action (via gameplay tag) and an ability to grant." alt="" coords="27,5,157,32"/>
+<area shape="rect" id="Node000001" title="Data structure representing an extended hero ability set that includes icon and cooldown properties." alt="" coords="5,80,179,107"/>
+<area shape="rect" id="Node000002" href="$struct_f_dk_hero_ability_set.html" title="Data structure defining the mapping between an input action (via gameplay tag) and the ability to gra..." alt="" coords="27,5,157,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,46,94,81,90,79,90,50"/>
 </map>

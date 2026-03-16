@@ -94,7 +94,7 @@ $(function(){initNavTree('class_u_dk_enemy_combat_component.html','','class_u_dk
 </div><!--header-->
 <div class="contents">
 
-<p>Combat component specific for the enemy characters.  
+<p>Combat component implementing enemy-specific combat behavior.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_dk_enemy_combat_component_8h_source.html">DkEnemyCombatComponent.h</a>&gt;</code></p>
@@ -103,10 +103,10 @@ Inheritance diagram for UDkEnemyCombatComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_u_dk_enemy_combat_component__inherit__graph.png" border="0" usemap="#a_u_dk_enemy_combat_component_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
 <map name="a_u_dk_enemy_combat_component_inherit__map" id="a_u_dk_enemy_combat_component_inherit__map">
-<area shape="rect" title="Combat component specific for the enemy characters." alt="" coords="22,229,225,256"/>
-<area shape="rect" href="class_u_dk_pawn_combat_component.html" title="Component responsible for handling combat&#45;related functionalities for both Hero and enemy characters." alt="" coords="26,155,221,181"/>
+<area shape="rect" title="Combat component implementing enemy&#45;specific combat behavior." alt="" coords="22,229,225,256"/>
+<area shape="rect" href="class_u_dk_pawn_combat_component.html" title="Base combat component providing shared combat functionality for Hero and enemy characters." alt="" coords="26,155,221,181"/>
 <area shape="poly" title=" " alt="" coords="125,195,126,230,121,228,122,199"/>
-<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Component responsible for handling general combat&#45;related functionalities only, no actual combat logi..." alt="" coords="5,80,242,107"/>
+<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Base extension component providing shared pawn functionality without implementing combat logic." alt="" coords="5,80,242,107"/>
 <area shape="poly" title=" " alt="" coords="125,120,126,155,121,153,122,125"/>
 <area shape="rect" title=" " alt="" coords="59,5,188,32"/>
 <area shape="poly" title=" " alt="" coords="124,45,126,80,121,79,123,50"/>
@@ -117,10 +117,10 @@ Collaboration diagram for UDkEnemyCombatComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_u_dk_enemy_combat_component__coll__graph.png" border="0" usemap="#a_u_dk_enemy_combat_component_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_u_dk_enemy_combat_component_coll__map" id="a_u_dk_enemy_combat_component_coll__map">
-<area shape="rect" title="Combat component specific for the enemy characters." alt="" coords="22,229,225,256"/>
-<area shape="rect" href="class_u_dk_pawn_combat_component.html" title="Component responsible for handling combat&#45;related functionalities for both Hero and enemy characters." alt="" coords="26,155,221,181"/>
+<area shape="rect" title="Combat component implementing enemy&#45;specific combat behavior." alt="" coords="22,229,225,256"/>
+<area shape="rect" href="class_u_dk_pawn_combat_component.html" title="Base combat component providing shared combat functionality for Hero and enemy characters." alt="" coords="26,155,221,181"/>
 <area shape="poly" title=" " alt="" coords="125,195,126,230,121,228,122,199"/>
-<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Component responsible for handling general combat&#45;related functionalities only, no actual combat logi..." alt="" coords="5,80,242,107"/>
+<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Base extension component providing shared pawn functionality without implementing combat logic." alt="" coords="5,80,242,107"/>
 <area shape="poly" title=" " alt="" coords="125,120,126,155,121,153,122,125"/>
 <area shape="rect" title=" " alt="" coords="59,5,188,32"/>
 <area shape="poly" title=" " alt="" coords="124,45,126,80,121,79,123,50"/>
@@ -170,7 +170,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:acf76d6c93578a5af0377e65b088c311d inherit pro_attribs_class_u_dk_pawn_combat_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of actors currently being hit by the character's weapon, to make sure damage is only applied once per attack.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Combat component specific for the enemy characters. </p>
+<div class="textblock"><p>Combat component implementing enemy-specific combat behavior. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="aadbb8596eed7d6594c7d77c44de69a89" name="aadbb8596eed7d6594c7d77c44de69a89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aadbb8596eed7d6594c7d77c44de69a89">&#9670;&#160;</a></span>OnHitTargetActor()</h2>
@@ -323,7 +323,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Enables or disables (and clear <span class="tt"><a class="el" href="class_u_dk_pawn_combat_component.html#acf76d6c93578a5af0377e65b088c311d" title="Array of actors currently being hit by the character&#39;s weapon, to make sure damage is only applied on...">OverlappedActors</a></span>) collision for the enemy's body collision boxes (e.g., hands). </p>
-<p>Currently, our Hero character does not use body collision boxes for melee attacks, only enemies do. So we implement this function here instead of in the base <span class="tt"><a class="el" href="class_u_dk_pawn_combat_component.html" title="Component responsible for handling combat-related functionalities for both Hero and enemy characters.">UDkPawnCombatComponent</a></span>. </p>
+<p>Currently, our Hero character does not use body collision boxes for melee attacks, only enemies do. So we implement this function here instead of in the base <span class="tt"><a class="el" href="class_u_dk_pawn_combat_component.html" title="Base combat component providing shared combat functionality for Hero and enemy characters.">UDkPawnCombatComponent</a></span>. </p>
 
 <p>Reimplemented from <a class="el" href="class_u_dk_pawn_combat_component.html#a89bdbe2a427f7d5fdb60991a2c032353">UDkPawnCombatComponent</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>

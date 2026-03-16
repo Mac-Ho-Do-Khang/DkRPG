@@ -1,5 +1,5 @@
 <map id="UDkGEEC_WitherHealthRecovered" name="UDkGEEC_WitherHealthRecovered">
-<area shape="rect" id="Node000001" title="Implements calculation logic related to wither health recovery. Applied to player character only." alt="" coords="5,96,238,123"/>
+<area shape="rect" id="Node000001" title="Gameplay Effect Execution Calculation that handles wither health recovery for the Hero." alt="" coords="5,96,238,123"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="30,5,213,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,62,124,97,119,94,120,66"/>
 </map>

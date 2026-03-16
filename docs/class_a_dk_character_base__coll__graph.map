@@ -1,11 +1,11 @@
 <map id="ADkCharacterBase" name="ADkCharacterBase">
-<area shape="rect" id="Node000001" title="Base class for all characters in the DkRPG game." alt="" coords="223,80,358,107"/>
+<area shape="rect" id="Node000001" title="Base character class shared by all characters in the game." alt="" coords="223,80,358,107"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,5,93,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,34,250,77,246,81,105,40"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="117,5,274,32"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,39,277,80,271,79,223,44"/>
-<area shape="rect" id="Node000004" href="$class_i_dk_pawn_combat_interface.html" title="Interface for Pawn Combat functionality." alt="" coords="299,5,471,32"/>
+<area shape="rect" id="Node000004" href="$class_i_dk_pawn_combat_interface.html" title="Interface defining shared combat behavior for Pawns." alt="" coords="299,5,471,32"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="359,41,308,82,305,77,354,43"/>
-<area shape="rect" id="Node000005" href="$class_i_dk_pawn_u_i_interface.html" title="Interface for pawns that have a Pawn UI Component." alt="" coords="495,5,635,32"/>
+<area shape="rect" id="Node000005" href="$class_i_dk_pawn_u_i_interface.html" title="Interface for pawns that expose UI&#45;related functionality." alt="" coords="495,5,635,32"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="505,36,339,82,338,77,500,37"/>
 </map>

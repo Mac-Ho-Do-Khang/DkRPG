@@ -1,10 +1,10 @@
 <map id="UDkPawnUIComponent" name="UDkPawnUIComponent">
-<area shape="rect" id="Node000001" title="Acts as a bridge between the gameplay layer (attribute sets, gameplay abilities, etc) and the UI laye..." alt="" coords="103,155,265,181"/>
-<area shape="rect" id="Node000004" href="$class_u_dk_enemy_u_i_component.html" title="Allows for more enemy&#45;specific UI functionality." alt="" coords="5,229,176,256"/>
+<area shape="rect" id="Node000001" title="Component that bridges gameplay systems (attributes, abilities) with the UI layer." alt="" coords="103,155,265,181"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_enemy_u_i_component.html" title="UI component providing enemy&#45;specific UI functionality." alt="" coords="5,229,176,256"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,190,108,231,105,227,153,192"/>
-<area shape="rect" id="Node000005" href="$class_u_dk_hero_u_i_component.html" title="Contains Hero&#45;specific UI functionality." alt="" coords="200,229,357,256"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_u_i_component.html" title="UI component providing Hero&#45;specific UI functionality." alt="" coords="200,229,357,256"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="213,189,265,229,260,229,212,194"/>
-<area shape="rect" id="Node000002" href="$class_u_dk_pawn_extension_component_base.html" title="Component responsible for handling general combat&#45;related functionalities only, no actual combat logi..." alt="" coords="66,80,302,107"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_pawn_extension_component_base.html" title="Base extension component providing shared pawn functionality without implementing combat logic." alt="" coords="66,80,302,107"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,120,186,155,181,153,182,125"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="119,5,248,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="185,45,186,80,181,79,183,50"/>

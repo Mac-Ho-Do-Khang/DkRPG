@@ -1,10 +1,10 @@
 <map id="UDkHeroGameplayAbility" name="UDkHeroGameplayAbility">
-<area shape="rect" id="Node000001" title="Provides hero&#45;specific utility functions. Most hero abilities are Blueprint subclasses of this class." alt="" coords="103,155,274,181"/>
-<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___pick_stones.html" title="Detects nearby stones upon activation, and shows a pick&#45;up prompt widget on HUD." alt="" coords="5,229,177,272"/>
+<area shape="rect" id="Node000001" title="Base gameplay ability class providing hero&#45;specific helper functions." alt="" coords="103,155,274,181"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_gameplay_ability___pick_stones.html" title="Gameplay Ability that detects nearby stones and displays a pick&#45;up prompt." alt="" coords="5,229,177,272"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,190,117,231,114,227,159,192"/>
-<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___target_lock.html" title="Enables the Hero to lock onto a target." alt="" coords="201,229,373,272"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_gameplay_ability___target_lock.html" title="Gameplay Ability that allows the Hero to lock onto a target." alt="" coords="201,229,373,272"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="216,189,264,229,259,229,215,194"/>
-<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html" title="Provides general helper functionalities. To be subclassed for each specific ability." alt="" coords="117,80,260,107"/>
+<area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html" title="Base Gameplay Ability class providing common helper functionality." alt="" coords="117,80,260,107"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,120,191,155,186,153,187,125"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="125,5,252,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,45,191,80,186,79,187,50"/>

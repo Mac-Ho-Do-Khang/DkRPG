@@ -1,5 +1,5 @@
 <map id="UDkAbilityTask_WaitSpawnEnemies" name="UDkAbilityTask_WaitSpawnEnemies">
-<area shape="rect" id="Node000001" title="Spawns a number of enemies based on several parameters, used by special enemies (e...." alt="" coords="5,80,191,123"/>
+<area shape="rect" id="Node000001" title="Gameplay Ability task that spawns enemies based on configurable parameters." alt="" coords="5,80,191,123"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="50,5,146,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,46,100,81,96,79,96,50"/>
 </map>

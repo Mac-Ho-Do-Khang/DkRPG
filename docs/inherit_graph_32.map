@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" title=" " alt="" coords="5,5,106,32"/>
-<area shape="rect" id="Node000001" href="$class_u_dk_widget_base.html" title="Blueprint of this will bind to delegates/events from the owning Pawn UI Component when initialized." alt="" coords="154,5,273,32"/>
+<area shape="rect" id="Node000001" href="$class_u_dk_widget_base.html" title="Base widget class that binds to events from the owning Pawn UI component." alt="" coords="154,5,273,32"/>
 <area shape="poly" id="edge58_Node000000_Node000001" title=" " alt="" coords="121,16,156,18,151,19,121,21"/>
 </map>

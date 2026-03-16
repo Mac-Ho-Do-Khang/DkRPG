@@ -1,9 +1,9 @@
 <map id="ADkHeroWeapon" name="ADkHeroWeapon">
-<area shape="rect" id="Node000001" title="Weapon class specifically for the hero character, whose blueprint will be subclassed for each weapon." alt="" coords="86,180,209,207"/>
-<area shape="rect" id="Node000002" href="$class_a_dk_weapon_base.html" title="Base class for all weapons in the game, offering mesh &amp; collision components and damage detection fun..." alt="" coords="5,81,130,108"/>
+<area shape="rect" id="Node000001" title="Weapon class used by the Hero. Blueprint subclasses represent specific weapon types." alt="" coords="86,180,209,207"/>
+<area shape="rect" id="Node000002" href="$class_a_dk_weapon_base.html" title="Base class for all weapons, providing mesh, collision, and damage detection functionality." alt="" coords="5,81,130,108"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,118,140,179,135,180,86,122"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="37,5,98,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,45,70,81,65,81,67,50"/>
-<area shape="rect" id="Node000004" href="$struct_f_dk_hero_weapon_data.html" title="Contains data related to a hero&#39;s weapon, such as abilities, animation layers, and input mappings." alt="" coords="154,81,304,108"/>
+<area shape="rect" id="Node000004" href="$struct_f_dk_hero_weapon_data.html" title="Data structure containing weapon&#45;related data for the Hero, including abilities, animations,..." alt="" coords="154,81,304,108"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,119,160,182,156,178,206,121"/>
 </map>

@@ -94,7 +94,7 @@ $(function(){initNavTree('class_u_dk_gameplay_ability.html','','class_u_dk_gamep
 </div><!--header-->
 <div class="contents">
 
-<p>Provides general helper functionalities. To be subclassed for each specific ability.  
+<p>Base Gameplay Ability class providing common helper functionality.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_dk_gameplay_ability_8h_source.html">DkGameplayAbility.h</a>&gt;</code></p>
@@ -103,16 +103,16 @@ Inheritance diagram for UDkGameplayAbility:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_u_dk_gameplay_ability__inherit__graph.png" border="0" usemap="#a_u_dk_gameplay_ability_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
 <map name="a_u_dk_gameplay_ability_inherit__map" id="a_u_dk_gameplay_ability_inherit__map">
-<area shape="rect" title="Provides general helper functionalities. To be subclassed for each specific ability." alt="" coords="126,80,269,107"/>
-<area shape="rect" href="class_u_dk_enemy_gameplay_ability.html" title="Gameplay ability class specific for enemy characters." alt="" coords="5,155,190,181"/>
+<area shape="rect" title="Base Gameplay Ability class providing common helper functionality." alt="" coords="126,80,269,107"/>
+<area shape="rect" href="class_u_dk_enemy_gameplay_ability.html" title="Gameplay Ability class used for enemy&#45;specific abilities." alt="" coords="5,155,190,181"/>
 <area shape="poly" title=" " alt="" coords="166,118,117,156,113,152,170,114"/>
-<area shape="rect" href="class_u_dk_hero_gameplay_ability.html" title="Provides hero&#45;specific utility functions. Most hero abilities are Blueprint subclasses of this class." alt="" coords="213,155,384,181"/>
+<area shape="rect" href="class_u_dk_hero_gameplay_ability.html" title="Base gameplay ability class providing hero&#45;specific helper functions." alt="" coords="213,155,384,181"/>
 <area shape="poly" title=" " alt="" coords="228,113,284,154,278,154,227,119"/>
 <area shape="rect" title=" " alt="" coords="134,5,261,32"/>
 <area shape="poly" title=" " alt="" coords="199,45,200,80,195,79,196,50"/>
-<area shape="rect" href="class_u_dk_hero_gameplay_ability___pick_stones.html" title="Detects nearby stones upon activation, and shows a pick&#45;up prompt widget on HUD." alt="" coords="114,229,286,272"/>
+<area shape="rect" href="class_u_dk_hero_gameplay_ability___pick_stones.html" title="Gameplay Ability that detects nearby stones and displays a pick&#45;up prompt." alt="" coords="114,229,286,272"/>
 <area shape="poly" title=" " alt="" coords="274,190,227,231,224,227,269,192"/>
-<area shape="rect" href="class_u_dk_hero_gameplay_ability___target_lock.html" title="Enables the Hero to lock onto a target." alt="" coords="310,229,482,272"/>
+<area shape="rect" href="class_u_dk_hero_gameplay_ability___target_lock.html" title="Gameplay Ability that allows the Hero to lock onto a target." alt="" coords="310,229,482,272"/>
 <area shape="poly" title=" " alt="" coords="326,189,374,229,369,228,325,194"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -121,7 +121,7 @@ Collaboration diagram for UDkGameplayAbility:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_u_dk_gameplay_ability__coll__graph.png" border="0" usemap="#a_u_dk_gameplay_ability_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_u_dk_gameplay_ability_coll__map" id="a_u_dk_gameplay_ability_coll__map">
-<area shape="rect" title="Provides general helper functionalities. To be subclassed for each specific ability." alt="" coords="5,80,149,107"/>
+<area shape="rect" title="Base Gameplay Ability class providing common helper functionality." alt="" coords="5,80,149,107"/>
 <area shape="rect" title=" " alt="" coords="14,5,140,32"/>
 <area shape="poly" title=" " alt="" coords="79,46,80,80,74,79,75,50"/>
 </map>
@@ -157,7 +157,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a72874aff6493875b8d025553666de3c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of gameplay tags and their corresponding triggers that can cancel this ability.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides general helper functionalities. To be subclassed for each specific ability. </p>
+<div class="textblock"><p>Base Gameplay Ability class providing common helper functionality. </p>
 <dl class="section user"><dt>Steps to configure a Gameplay ability</dt><dd><ul>
 <li>Create ability tag(s)</li>
 <li>Subclass this class into a new Blueprint</li>
@@ -456,7 +456,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Retrieves the pawn's combat component from the actor info. </p>
-<dl class="section warning"><dt>Warning</dt><dd>Assumes that the avatar actor has only one <span class="tt"><a class="el" href="class_u_dk_pawn_combat_component.html" title="Component responsible for handling combat-related functionalities for both Hero and enemy characters.">UDkPawnCombatComponent</a></span> attached to it. If there are multiple such components, only the first one found will be returned, which may lead to unexpected behavior. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Assumes that the avatar actor has only one <span class="tt"><a class="el" href="class_u_dk_pawn_combat_component.html" title="Base combat component providing shared combat functionality for Hero and enemy characters.">UDkPawnCombatComponent</a></span> attached to it. If there are multiple such components, only the first one found will be returned, which may lead to unexpected behavior. </dd></dl>
 <div class="fragment"><div class="line"><span class="lineno">   74</span>{</div>
 <div class="line"><span class="lineno">   75</span>    <span class="keywordflow">return</span> GetAvatarActorFromActorInfo()-&gt;FindComponentByClass&lt;UDkPawnCombatComponent&gt;();</div>
 <div class="line"><span class="lineno">   76</span>}</div>

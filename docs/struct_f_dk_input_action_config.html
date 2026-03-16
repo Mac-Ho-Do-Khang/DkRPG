@@ -94,7 +94,7 @@ $(function(){initNavTree('struct_f_dk_input_action_config.html','','struct_f_dk_
 </div><!--header-->
 <div class="contents">
 
-<p>Struct that defines a mapping between a Gameplay Tag and an Input Action. Used to look up input actions by tag instead of hard references.  
+<p>Data structure defining the mapping between a gameplay tag and an input action.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_dk_data_asset___input_config_8h_source.html">DkDataAsset_InputConfig.h</a>&gt;</code></p>
@@ -112,7 +112,8 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ae80942cf0e06b45bc3c31ce627bc981f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input Action associated with the specified Gameplay Tag.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Struct that defines a mapping between a Gameplay Tag and an Input Action. Used to look up input actions by tag instead of hard references. </p>
+<div class="textblock"><p>Data structure defining the mapping between a gameplay tag and an input action. </p>
+<p>Used to look up input actions by tag instead of hard references. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a58602db816cfa205e8be49ea92a9d8e1" name="a58602db816cfa205e8be49ea92a9d8e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58602db816cfa205e8be49ea92a9d8e1">&#9670;&#160;</a></span>IsValid()</h2>
@@ -138,11 +139,11 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p><span class="tt">true</span> when both <span class="tt"><a class="el" href="#a9ae9dc0fcf459736a589c580d399406d" title="Gameplay tag used to identify this input action.">InputTag</a></span> and <span class="tt"><a class="el" href="#ae80942cf0e06b45bc3c31ce627bc981f" title="Input Action associated with the specified Gameplay Tag.">InputAction</a></span> are valid </p>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>    {</div>
-<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a9ae9dc0fcf459736a589c580d399406d">InputTag</a>.IsValid() &amp;&amp; <a class="code hl_variable" href="#ae80942cf0e06b45bc3c31ce627bc981f">InputAction</a>;</div>
-<div class="line"><span class="lineno">   34</span>    }</div>
-<div class="ttc" id="astruct_f_dk_input_action_config_html_a9ae9dc0fcf459736a589c580d399406d"><div class="ttname"><a href="#a9ae9dc0fcf459736a589c580d399406d">FDkInputActionConfig::InputTag</a></div><div class="ttdeci">FGameplayTag InputTag</div><div class="ttdoc">Gameplay tag used to identify this input action.</div><div class="ttdef"><b>Definition</b> DkDataAsset_InputConfig.h:24</div></div>
-<div class="ttc" id="astruct_f_dk_input_action_config_html_ae80942cf0e06b45bc3c31ce627bc981f"><div class="ttname"><a href="#ae80942cf0e06b45bc3c31ce627bc981f">FDkInputActionConfig::InputAction</a></div><div class="ttdeci">TObjectPtr&lt; UInputAction &gt; InputAction</div><div class="ttdoc">Input Action associated with the specified Gameplay Tag.</div><div class="ttdef"><b>Definition</b> DkDataAsset_InputConfig.h:28</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>    {</div>
+<div class="line"><span class="lineno">   34</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="#a9ae9dc0fcf459736a589c580d399406d">InputTag</a>.IsValid() &amp;&amp; <a class="code hl_variable" href="#ae80942cf0e06b45bc3c31ce627bc981f">InputAction</a>;</div>
+<div class="line"><span class="lineno">   35</span>    }</div>
+<div class="ttc" id="astruct_f_dk_input_action_config_html_a9ae9dc0fcf459736a589c580d399406d"><div class="ttname"><a href="#a9ae9dc0fcf459736a589c580d399406d">FDkInputActionConfig::InputTag</a></div><div class="ttdeci">FGameplayTag InputTag</div><div class="ttdoc">Gameplay tag used to identify this input action.</div><div class="ttdef"><b>Definition</b> DkDataAsset_InputConfig.h:25</div></div>
+<div class="ttc" id="astruct_f_dk_input_action_config_html_ae80942cf0e06b45bc3c31ce627bc981f"><div class="ttname"><a href="#ae80942cf0e06b45bc3c31ce627bc981f">FDkInputActionConfig::InputAction</a></div><div class="ttdeci">TObjectPtr&lt; UInputAction &gt; InputAction</div><div class="ttdoc">Input Action associated with the specified Gameplay Tag.</div><div class="ttdef"><b>Definition</b> DkDataAsset_InputConfig.h:29</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="#ae80942cf0e06b45bc3c31ce627bc981f">InputAction</a>, <a class="el" href="#a9ae9dc0fcf459736a589c580d399406d">InputTag</a>, and <a class="el" href="#a58602db816cfa205e8be49ea92a9d8e1">IsValid()</a>.</p>
 

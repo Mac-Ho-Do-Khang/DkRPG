@@ -1,5 +1,5 @@
 <map id="UDkBTService_OrientToTargetActor" name="UDkBTService_OrientToTargetActor">
-<area shape="rect" id="Node000001" title="Behavior Tree Service that orients the AI character to face its target actor." alt="" coords="5,80,207,123"/>
+<area shape="rect" id="Node000001" title="Behavior Tree service that continuously orients the AI character toward a target actor." alt="" coords="5,80,207,123"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="60,5,152,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,46,108,81,104,79,104,50"/>
 </map>

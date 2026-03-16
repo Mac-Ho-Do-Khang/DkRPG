@@ -94,7 +94,7 @@ $(function(){initNavTree('class_a_dk_survival_game_mode.html','','class_a_dk_sur
 </div><!--header-->
 <div class="contents">
 
-<p>Class representing the survival game mode.  
+<p>Game mode implementing the survival gameplay rules.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_dk_survival_game_mode_8h_source.html">DkSurvivalGameMode.h</a>&gt;</code></p>
@@ -103,8 +103,8 @@ Inheritance diagram for ADkSurvivalGameMode:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_dk_survival_game_mode__inherit__graph.png" border="0" usemap="#a_a_dk_survival_game_mode_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
 <map name="a_a_dk_survival_game_mode_inherit__map" id="a_a_dk_survival_game_mode_inherit__map">
-<area shape="rect" title="Class representing the survival game mode." alt="" coords="5,155,167,181"/>
-<area shape="rect" href="class_a_dk_game_mode_base.html" title="Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules." alt="" coords="14,80,158,107"/>
+<area shape="rect" title="Game mode implementing the survival gameplay rules." alt="" coords="5,155,167,181"/>
+<area shape="rect" href="class_a_dk_game_mode_base.html" title="Base game mode for the DkRPG game that defines custom spawning behavior and game rules." alt="" coords="14,80,158,107"/>
 <area shape="poly" title=" " alt="" coords="88,121,88,155,84,153,84,124"/>
 <area shape="rect" title=" " alt="" coords="22,5,150,32"/>
 <area shape="poly" title=" " alt="" coords="87,45,89,80,83,79,85,50"/>
@@ -115,8 +115,8 @@ Collaboration diagram for ADkSurvivalGameMode:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_a_dk_survival_game_mode__coll__graph.png" border="0" usemap="#a_a_dk_survival_game_mode_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_a_dk_survival_game_mode_coll__map" id="a_a_dk_survival_game_mode_coll__map">
-<area shape="rect" title="Class representing the survival game mode." alt="" coords="5,155,167,181"/>
-<area shape="rect" href="class_a_dk_game_mode_base.html" title="Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules." alt="" coords="14,80,158,107"/>
+<area shape="rect" title="Game mode implementing the survival gameplay rules." alt="" coords="5,155,167,181"/>
+<area shape="rect" href="class_a_dk_game_mode_base.html" title="Base game mode for the DkRPG game that defines custom spawning behavior and game rules." alt="" coords="14,80,158,107"/>
 <area shape="poly" title=" " alt="" coords="88,121,88,155,84,153,84,124"/>
 <area shape="rect" title=" " alt="" coords="22,5,150,32"/>
 <area shape="poly" title=" " alt="" coords="87,45,89,80,83,79,85,50"/>
@@ -199,7 +199,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:ad311e4c9b77dbd0a5b46a3a52d06e27a inherit pro_attribs_class_a_dk_game_mode_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The gameplay tag associated with the music to play for this level.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class representing the survival game mode. </p>
+<div class="textblock"><p>Game mode implementing the survival gameplay rules. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a97b2d6e3225c3400cac47f1e489093a5" name="a97b2d6e3225c3400cac47f1e489093a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97b2d6e3225c3400cac47f1e489093a5">&#9670;&#160;</a></span>BeginPlay()</h2>
@@ -421,7 +421,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   74</span>        <a class="code hl_variable" href="class_a_dk_game_mode_base.html#a91ec6567e70b8fa1cc2574a65801a614">CurrentGameDifficultyLevel</a> = SavedDifficultyLevel;</div>
 <div class="line"><span class="lineno">   75</span>    }</div>
 <div class="line"><span class="lineno">   76</span>}</div>
-<div class="ttc" id="aclass_a_dk_game_mode_base_html_a91ec6567e70b8fa1cc2574a65801a614"><div class="ttname"><a href="class_a_dk_game_mode_base.html#a91ec6567e70b8fa1cc2574a65801a614">ADkGameModeBase::CurrentGameDifficultyLevel</a></div><div class="ttdeci">EDkGameDifficultyLevel CurrentGameDifficultyLevel</div><div class="ttdoc">The current game difficulty level.</div><div class="ttdef"><b>Definition</b> DkGameModeBase.h:26</div></div>
+<div class="ttc" id="aclass_a_dk_game_mode_base_html_a91ec6567e70b8fa1cc2574a65801a614"><div class="ttname"><a href="class_a_dk_game_mode_base.html#a91ec6567e70b8fa1cc2574a65801a614">ADkGameModeBase::CurrentGameDifficultyLevel</a></div><div class="ttdeci">EDkGameDifficultyLevel CurrentGameDifficultyLevel</div><div class="ttdoc">The current game difficulty level.</div><div class="ttdef"><b>Definition</b> DkGameModeBase.h:27</div></div>
 <div class="ttc" id="aclass_u_dk_r_p_g_function_library_html_a73441c826dfbdc68e0d632426e2d07bd"><div class="ttname"><a href="class_u_dk_r_p_g_function_library.html#a73441c826dfbdc68e0d632426e2d07bd">UDkRPGFunctionLibrary::TryLoadCurrentGameDifficultyLevel</a></div><div class="ttdeci">static bool TryLoadCurrentGameDifficultyLevel(EDkGameDifficultyLevel &amp;OutDifficultyLevel)</div><div class="ttdoc">Tries to load the current game difficulty level from the save game.</div><div class="ttdef"><b>Definition</b> DkRPGFunctionLibrary.cpp:330</div></div>
 <div class="ttc" id="agroup___gameplay_enums_html_gacbdfc7a7e4dbaa50e60190a119ce924d"><div class="ttname"><a href="group___gameplay_enums.html#gacbdfc7a7e4dbaa50e60190a119ce924d">EDkGameDifficultyLevel</a></div><div class="ttdeci">EDkGameDifficultyLevel</div><div class="ttdef"><b>Definition</b> DkEnumTypes.h:60</div></div>
 </div><!-- fragment -->

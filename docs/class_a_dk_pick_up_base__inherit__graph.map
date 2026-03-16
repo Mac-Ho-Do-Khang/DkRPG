@@ -1,6 +1,6 @@
 <map id="ADkPickUpBase" name="ADkPickUpBase">
-<area shape="rect" id="Node000001" title="Base class for all pickable items in the game. Provides basic functionality. To be subclassed for spe..." alt="" coords="22,80,143,107"/>
-<area shape="rect" id="Node000003" href="$class_a_dk_pick_up_stone_base.html" title="Base class for all pickable stones. Blueprints subclass for each specific stone type." alt="" coords="5,155,160,181"/>
+<area shape="rect" id="Node000001" title="Base class for all pick&#45;up items, providing common interaction and functionality." alt="" coords="22,80,143,107"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_pick_up_stone_base.html" title="Base class for pickable stones. Blueprint subclasses represent specific stone types." alt="" coords="5,155,160,181"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="84,121,85,155,80,153,81,124"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="52,5,113,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,45,85,80,80,79,81,50"/>

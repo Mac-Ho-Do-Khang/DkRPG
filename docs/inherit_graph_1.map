@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="Node000000" title=" " alt="" coords="5,5,105,32"/>
-<area shape="rect" id="Node000001" href="$class_a_dk_a_i_controller.html" title="AI Controller using Detour Crowd Avoidance." alt="" coords="153,5,269,32"/>
+<area shape="rect" id="Node000001" href="$class_a_dk_a_i_controller.html" title="AI controller that uses Detour Crowd for navigation and avoidance behavior." alt="" coords="153,5,269,32"/>
 <area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="120,16,155,18,150,19,121,21"/>
 </map>

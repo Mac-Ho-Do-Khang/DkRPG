@@ -1,5 +1,5 @@
 <map id="UDkRPGFunctionLibrary" name="UDkRPGFunctionLibrary">
-<area shape="rect" id="Node000001" title="A collection of static helper functions to be used in (1) Blueprints, (2) C++ and (3) both." alt="" coords="8,80,174,107"/>
+<area shape="rect" id="Node000001" title="Static helper function library accessible from (1) Blueprints, (2) C++ and (3) both." alt="" coords="8,80,174,107"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,5,177,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,46,93,81,89,79,89,50"/>
 </map>

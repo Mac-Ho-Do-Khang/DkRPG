@@ -94,7 +94,7 @@ $(function(){initNavTree('class_u_dk_pawn_combat_component.html','','class_u_dk_
 </div><!--header-->
 <div class="contents">
 
-<p>Component responsible for handling combat-related functionalities for both Hero and enemy characters.  
+<p>Base combat component providing shared combat functionality for Hero and enemy characters.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_dk_pawn_combat_component_8h_source.html">DkPawnCombatComponent.h</a>&gt;</code></p>
@@ -103,12 +103,12 @@ Inheritance diagram for UDkPawnCombatComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_u_dk_pawn_combat_component__inherit__graph.png" border="0" usemap="#a_u_dk_pawn_combat_component_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
 <map name="a_u_dk_pawn_combat_component_inherit__map" id="a_u_dk_pawn_combat_component_inherit__map">
-<area shape="rect" title="Component responsible for handling combat&#45;related functionalities for both Hero and enemy characters." alt="" coords="119,155,313,181"/>
-<area shape="rect" href="class_u_dk_enemy_combat_component.html" title="Combat component specific for the enemy characters." alt="" coords="5,229,208,256"/>
+<area shape="rect" title="Base combat component providing shared combat functionality for Hero and enemy characters." alt="" coords="119,155,313,181"/>
+<area shape="rect" href="class_u_dk_enemy_combat_component.html" title="Combat component implementing enemy&#45;specific combat behavior." alt="" coords="5,229,208,256"/>
 <area shape="poly" title=" " alt="" coords="187,190,127,231,124,226,181,191"/>
-<area shape="rect" href="class_u_dk_hero_combat_component.html" title="Component responsible for handling combat&#45;related functionalities specific to the Hero character." alt="" coords="232,229,421,256"/>
+<area shape="rect" href="class_u_dk_hero_combat_component.html" title="Combat component implementing Hero&#45;specific combat functionality." alt="" coords="232,229,421,256"/>
 <area shape="poly" title=" " alt="" coords="248,187,310,229,304,229,247,192"/>
-<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Component responsible for handling general combat&#45;related functionalities only, no actual combat logi..." alt="" coords="98,80,334,107"/>
+<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Base extension component providing shared pawn functionality without implementing combat logic." alt="" coords="98,80,334,107"/>
 <area shape="poly" title=" " alt="" coords="217,120,218,155,213,153,214,125"/>
 <area shape="rect" title=" " alt="" coords="151,5,280,32"/>
 <area shape="poly" title=" " alt="" coords="217,45,218,81,213,79,215,50"/>
@@ -119,8 +119,8 @@ Collaboration diagram for UDkPawnCombatComponent:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_u_dk_pawn_combat_component__coll__graph.png" border="0" usemap="#a_u_dk_pawn_combat_component_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="a_u_dk_pawn_combat_component_coll__map" id="a_u_dk_pawn_combat_component_coll__map">
-<area shape="rect" title="Component responsible for handling combat&#45;related functionalities for both Hero and enemy characters." alt="" coords="26,155,221,181"/>
-<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Component responsible for handling general combat&#45;related functionalities only, no actual combat logi..." alt="" coords="5,80,242,107"/>
+<area shape="rect" title="Base combat component providing shared combat functionality for Hero and enemy characters." alt="" coords="26,155,221,181"/>
+<area shape="rect" href="class_u_dk_pawn_extension_component_base.html" title="Base extension component providing shared pawn functionality without implementing combat logic." alt="" coords="5,80,242,107"/>
 <area shape="poly" title=" " alt="" coords="125,121,126,155,121,153,122,124"/>
 <area shape="rect" title=" " alt="" coords="59,5,188,32"/>
 <area shape="poly" title=" " alt="" coords="125,46,126,80,121,79,122,50"/>
@@ -174,7 +174,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ad30dba6b0d3241029c880084b53636fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of gameplay tags to the weapons currently carried by the character.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Component responsible for handling combat-related functionalities for both Hero and enemy characters. </p>
+<div class="textblock"><p>Base combat component providing shared combat functionality for Hero and enemy characters. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a9f108d837d85648eac62e7f4e14df793" name="a9f108d837d85648eac62e7f4e14df793"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f108d837d85648eac62e7f4e14df793">&#9670;&#160;</a></span>GetCharacterCarriedWeaponByTag()</h2>

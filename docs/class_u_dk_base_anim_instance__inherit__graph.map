@@ -1,11 +1,11 @@
 <map id="UDkBaseAnimInstance" name="UDkBaseAnimInstance">
-<area shape="rect" id="Node000001" title="Contains helper functions for both Hero and Enemy animation instances." alt="" coords="122,80,280,107"/>
-<area shape="rect" id="Node000003" href="$class_u_dk_character_anim_instance.html" title="Animation instance containing shared logics for both hero and enemies." alt="" coords="5,155,191,181"/>
+<area shape="rect" id="Node000001" title="Base animation instance providing shared helper functions for characters." alt="" coords="122,80,280,107"/>
+<area shape="rect" id="Node000003" href="$class_u_dk_character_anim_instance.html" title="Animation instance containing shared animation logic for heroes and enemies." alt="" coords="5,155,191,181"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,118,118,156,114,152,172,114"/>
-<area shape="rect" id="Node000005" href="$class_u_dk_hero_linked_anim_layer.html" title="Animation layer instance that is linked to a hero animation instance." alt="" coords="215,155,392,181"/>
+<area shape="rect" id="Node000005" href="$class_u_dk_hero_linked_anim_layer.html" title="Animation layer linked to the Hero animation instance." alt="" coords="215,155,392,181"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="232,113,288,154,283,154,231,119"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="145,5,256,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,45,203,80,198,79,199,50"/>
-<area shape="rect" id="Node000004" href="$class_u_dk_hero_anim_instance.html" title="Animation instance class specifically for the hero character." alt="" coords="20,229,176,256"/>
+<area shape="rect" id="Node000004" href="$class_u_dk_hero_anim_instance.html" title="Animation instance specifically for the Hero character." alt="" coords="20,229,176,256"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="100,195,100,230,96,228,96,199"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="ADkGameModeBase" name="ADkGameModeBase">
-<area shape="rect" id="Node000001" title="Base game mode class for the DkRPG game. Overrides default spawning behavior and game rules." alt="" coords="14,80,158,107"/>
-<area shape="rect" id="Node000003" href="$class_a_dk_survival_game_mode.html" title="Class representing the survival game mode." alt="" coords="5,155,167,181"/>
+<area shape="rect" id="Node000001" title="Base game mode for the DkRPG game that defines custom spawning behavior and game rules." alt="" coords="14,80,158,107"/>
+<area shape="rect" id="Node000003" href="$class_a_dk_survival_game_mode.html" title="Game mode implementing the survival gameplay rules." alt="" coords="5,155,167,181"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,121,88,155,84,153,84,124"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="22,5,150,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,45,89,80,83,79,85,50"/>
