@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DkRPG: Main Page</title>
+<title>DkRPG: DkRPG</title>
 <link rel="icon" href="DkRPG_Icon.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -89,10 +89,120 @@ $(function(){initNavTree('index.html','',''); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">DkRPG Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">DkRPG </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_intro_2_main_page"></a></p>
+<p>This project is an <b>Action RPG prototype built with Unreal Engine 5</b> using the <b>Gameplay Ability System (GAS)</b> framework. <br  />
+ The goal of this project is to implement flexible and scalable RPG mechanics such as abilities, attributes, buffs, debuffs, and combat interactions.</p>
+<hr  />
+<h1 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
+Unreal Engine</h1>
+<p><b>Unreal Engine 5</b> provides a powerful real-time 3D development environment used for games, simulations, and interactive experiences.</p>
+<p>Key features used in this project:</p>
+<ul>
+<li><b>C++ and Blueprint integration</b> for flexible gameplay programming</li>
+<li><b>Component-based architecture</b> for modular gameplay systems</li>
+<li><b>Animation system</b> for character actions</li>
+<li><b>Gameplay Ability System (GAS)</b> for managing abilities, attributes, and gameplay effects</li>
+</ul>
+<p>UE5 allows complex gameplay logic to be implemented in a structured and scalable way, which makes it well suited for RPG mechanics.</p>
+<hr  />
+<h1 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
+Gameplay Ability System</h1>
+<p>The <b>Gameplay Ability System (GAS)</b> is a framework designed by Epic Games to implement advanced gameplay mechanics such as:</p>
+<ul>
+<li>Character abilities</li>
+<li>Buffs and debuffs</li>
+<li>Attribute modifications</li>
+<li>Status effects</li>
+<li>Network replication for multiplayer</li>
+</ul>
+<p>GAS is built around several core components.</p>
+<div class="image">
+<img src="GAS.png" alt=""/>
+<div class="caption">
+Gameplay Ability System Overview</div></div>
+    <hr  />
+<h2 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
+Ability System Component</h2>
+<p>The <b>Ability System Component (ASC)</b> is the central manager of the Gameplay Ability System.</p>
+<p>It is responsible for:</p>
+<ul>
+<li>Granting and activating abilities</li>
+<li>Applying gameplay effects</li>
+<li>Managing gameplay cues</li>
+<li>Tracking attributes</li>
+<li>Handling ability costs and cooldowns</li>
+</ul>
+<p>Each character or actor that uses GAS typically owns an <b>Ability System Component</b>.</p>
+<hr  />
+<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+Gameplay Ability</h2>
+<p>A <b>Gameplay Ability</b> represents an action that a character can perform.</p>
+<p>Examples include:</p>
+<ul>
+<li>Attacking</li>
+<li>Casting spells</li>
+<li>Dodging</li>
+<li>Using skills</li>
+</ul>
+<p>Gameplay abilities define:</p>
+<ul>
+<li>Activation conditions</li>
+<li>Ability costs</li>
+<li>Cooldowns</li>
+<li>Gameplay effects applied during the ability</li>
+</ul>
+<p>They can be triggered by player input, AI decisions, or gameplay events.</p>
+<hr  />
+<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
+Gameplay Effect</h2>
+<p>A <b>Gameplay Effect</b> modifies attributes or applies status effects to an actor.</p>
+<p>Examples:</p>
+<ul>
+<li>Damage</li>
+<li>Healing</li>
+<li>Speed buffs</li>
+<li>Poison debuffs</li>
+</ul>
+<p>Gameplay effects can be:</p>
+<ul>
+<li><b>Instant</b> (e.g., damage)</li>
+<li><b>Duration-based</b> (e.g., poison)</li>
+<li><b>Infinite</b> (e.g., passive stat bonuses)</li>
+</ul>
+<p>They interact directly with the <b>Attribute Set</b>.</p>
+<hr  />
+<h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
+Gameplay Cue</h2>
+<p>A <b>Gameplay Cue</b> handles the <b>visual and audio feedback</b> associated with gameplay events.</p>
+<p>Examples:</p>
+<ul>
+<li>Particle effects when a spell is cast</li>
+<li>Sound effects when damage is applied</li>
+<li>Visual indicators for buffs or debuffs</li>
+</ul>
+<p>Gameplay cues help separate <b>game logic</b> from <b>presentation</b>.</p>
+<hr  />
+<h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
+Attribute Set</h2>
+<p>An <b>Attribute Set</b> defines the numerical attributes of a character.</p>
+<p>Common attributes include:</p>
+<ul>
+<li>Health</li>
+<li>Mana</li>
+<li>Stamina</li>
+<li>Attack Power</li>
+<li>Defense</li>
+</ul>
+<p>Attributes are modified through <b>Gameplay Effects</b> and are tracked by the <b>Ability System Component</b>.</p>
+<hr  />
+<h1 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+Project Goal</h1>
+<p>The goal of this project is to explore and implement a modular <b>Action RPG combat system</b> using GAS, demonstrating how abilities, attributes, and effects interact to create dynamic gameplay. </p>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->

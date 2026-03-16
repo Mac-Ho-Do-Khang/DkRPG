@@ -15,10 +15,11 @@ var searchData=
   ['preloadedenemyclassmap_12',['PreLoadedEnemyClassMap',['../class_a_dk_survival_game_mode.html#ae7d4835193e67fe51420bb5260c60e81',1,'ADkSurvivalGameMode']]],
   ['preloadnextwaveenemies_13',['PreLoadNextWaveEnemies',['../class_a_dk_survival_game_mode.html#aae7bab84b73e93662e1492d598ddabd5',1,'ADkSurvivalGameMode']]],
   ['print_14',['Print',['../namespace_debug.html#a03b067d0cdb87edc0cd0c65d8e5dcab5',1,'Debug::Print(const FString &amp;Message, const FColor &amp;Color=FColor::White, int32 InKey=-1, float Duration=5.0f)'],['../namespace_debug.html#ace8fd5e3a14107dab8cbcf84e147a0cc',1,'Debug::Print(const FString &amp;FloatTitle, float ValueToPrint, const FColor &amp;Color=FColor::White, int32 InKey=-1, float Duration=5.0f)']]],
-  ['projectilecollisionbox_15',['ProjectileCollisionBox',['../class_a_dk_projectile___base.html#ad1dbd14c77593f71eb4ae76fcdd4ea8a',1,'ADkProjectile_Base']]],
-  ['projectiledamageeffectspechandle_16',['ProjectileDamageEffectSpecHandle',['../class_a_dk_projectile___base.html#a33db58b21a59c41f95c9bb87e9b4048b',1,'ADkProjectile_Base']]],
-  ['projectiledamagepolicy_17',['ProjectileDamagePolicy',['../class_a_dk_projectile___base.html#aa90461b2af40481407da971e28192e4c',1,'ADkProjectile_Base']]],
-  ['projectilemovementcomponent_18',['ProjectileMovementComponent',['../class_a_dk_projectile___base.html#a6cd5a7344477e99cdbf3cd053c3eb70d',1,'ADkProjectile_Base']]],
-  ['projectileniagaracomponent_19',['ProjectileNiagaraComponent',['../class_a_dk_projectile___base.html#affe47b52a647581d932734cb867244d7',1,'ADkProjectile_Base']]],
-  ['pushmusic_20',['PushMusic',['../class_u_dk_game_instance.html#a5f154de0e31dc838927b89049d46c652',1,'UDkGameInstance']]]
+  ['project_20goal_15',['Project Goal',['../index.html#autotoc_md16',1,'']]],
+  ['projectilecollisionbox_16',['ProjectileCollisionBox',['../class_a_dk_projectile___base.html#ad1dbd14c77593f71eb4ae76fcdd4ea8a',1,'ADkProjectile_Base']]],
+  ['projectiledamageeffectspechandle_17',['ProjectileDamageEffectSpecHandle',['../class_a_dk_projectile___base.html#a33db58b21a59c41f95c9bb87e9b4048b',1,'ADkProjectile_Base']]],
+  ['projectiledamagepolicy_18',['ProjectileDamagePolicy',['../class_a_dk_projectile___base.html#aa90461b2af40481407da971e28192e4c',1,'ADkProjectile_Base']]],
+  ['projectilemovementcomponent_19',['ProjectileMovementComponent',['../class_a_dk_projectile___base.html#a6cd5a7344477e99cdbf3cd053c3eb70d',1,'ADkProjectile_Base']]],
+  ['projectileniagaracomponent_20',['ProjectileNiagaraComponent',['../class_a_dk_projectile___base.html#affe47b52a647581d932734cb867244d7',1,'ADkProjectile_Base']]],
+  ['pushmusic_21',['PushMusic',['../class_u_dk_game_instance.html#a5f154de0e31dc838927b89049d46c652',1,'UDkGameInstance']]]
 ];
