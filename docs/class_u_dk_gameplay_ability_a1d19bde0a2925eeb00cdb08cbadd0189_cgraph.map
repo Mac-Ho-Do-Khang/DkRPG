@@ -2,6 +2,4 @@
 <area shape="rect" id="Node000001" title="Called right before the ability is activated." alt="" coords="5,13,149,56"/>
 <area shape="rect" id="Node000002" href="$class_u_dk_gameplay_ability.html#af85a2648b0afa4c8cc7e1426efe69c44" title="Callback when a gameplay tag changes that may cancel this ability." alt="" coords="197,5,375,64"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,32,184,34,178,35,149,37"/>
-<area shape="rect" id="Node000003" href="$namespace_debug.html#a03b067d0cdb87edc0cd0c65d8e5dcab5" title="Prints a debug message to the screen and the output log." alt="" coords="423,21,517,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="375,32,410,35,405,35,375,37"/>
 </map>

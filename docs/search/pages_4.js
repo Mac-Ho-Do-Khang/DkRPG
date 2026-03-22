@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['gameplay_20ability_0',['Gameplay Ability',['../index.html#autotoc_md8',1,'']]],
-  ['gameplay_20ability_20system_1',['Gameplay Ability System',['../index.html#autotoc_md4',1,'']]],
-  ['gameplay_20cue_2',['Gameplay Cue',['../index.html#autotoc_md12',1,'']]],
-  ['gameplay_20effect_3',['Gameplay Effect',['../index.html#autotoc_md10',1,'']]],
-  ['goal_4',['Project Goal',['../index.html#autotoc_md16',1,'']]]
+  ['component_0',['Ability System Component',['../index.html#autotoc_md19',1,'']]],
+  ['components_1',['Main Components',['../index.html#autotoc_md18',1,'']]],
+  ['considerations_2',['Design Considerations',['../index.html#autotoc_md26',1,'']]],
+  ['contents_3',['Table of Contents',['../index.html#autotoc_md2',1,'']]],
+  ['cue_4',['Gameplay Cue',['../index.html#autotoc_md25',1,'']]],
+  ['custom_20logic_5',['To What Extent Shall Developers Implement Custom Logic?',['../index.html#autotoc_md30',1,'']]]
 ];

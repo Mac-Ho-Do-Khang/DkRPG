@@ -25,15 +25,7 @@
 var NAVTREE =
 [
   [ "DkRPG", "index.html", [
-    [ "Unreal Engine", "index.html#autotoc_md2", null ],
-    [ "Gameplay Ability System", "index.html#autotoc_md4", [
-      [ "Ability System Component", "index.html#autotoc_md6", null ],
-      [ "Gameplay Ability", "index.html#autotoc_md8", null ],
-      [ "Gameplay Effect", "index.html#autotoc_md10", null ],
-      [ "Gameplay Cue", "index.html#autotoc_md12", null ],
-      [ "Attribute Set", "index.html#autotoc_md14", null ]
-    ] ],
-    [ "Project Goal", "index.html#autotoc_md16", null ],
+    [ "Action RPG - Unreal Engine 5.3 - Gameplay Ability System", "index.html", "index" ],
     [ "Todo List", "todo.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
@@ -67,11 +59,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_dk_a_i_controller_8cpp.html",
-"class_a_dk_hero.html#a0b48e4b49f193a0672826528d157c6a1",
-"class_u_dk_game_instance.html#acdb6ac57bdee635e85e5a3fc9d96f88f",
-"group___execution_enums.html#gga4f88d4746ad3066bd0c0878e35751525aff0a3b7f3daef040faf89a88fdac01b7",
-"namespace_dk_gameplay_tags.html#addb3f125b6c4f26d2cae8e077a6616fc"
+"_anim_notifies_8png.html",
+"class_a_dk_game_mode_base.html",
+"class_u_dk_game_instance.html#a36f4b0fd82dd5093e3c6c2a47ce78d40",
+"functions_vars.html",
+"namespace_dk_gameplay_tags.html#abb5f3bb4becff536f48b3f524194ed9f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

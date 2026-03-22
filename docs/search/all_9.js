@@ -1,12 +1,17 @@
 var searchData=
 [
-  ['lefthand_0',['LeftHand',['../_dk_pawn_combat_component_8h.html#ac2511074b4ef459c300beda69ad6538ba03f7bbbc02c9006ea393ec4ef5843d7b',1,'DkPawnCombatComponent.h']]],
-  ['lefthandcollisionbox_1',['LeftHandCollisionBox',['../class_a_dk_enemy.html#af9003e010ac6ba11cf90db2741e115bb',1,'ADkEnemy']]],
-  ['lefthandcollisionboxattachbonename_2',['LeftHandCollisionBoxAttachBoneName',['../class_a_dk_enemy.html#a0867129f10417fe95b8d99aee65727b5',1,'ADkEnemy']]],
-  ['level_3',['Level',['../struct_f_dk_game_level_set.html#a46fb45c2134c536884add846b3603bda',1,'FDkGameLevelSet']]],
-  ['levelmusictag_4',['LevelMusicTag',['../class_a_dk_game_mode_base.html#ad311e4c9b77dbd0a5b46a3a52d06e27a',1,'ADkGameModeBase']]],
-  ['leveltag_5',['LevelTag',['../struct_f_dk_game_level_set.html#ad675278ce8aa899bd68b7846b32394e2',1,'FDkGameLevelSet']]],
-  ['lightattackstaminacost_6',['LightAttackStaminaCost',['../struct_f_dk_hero_weapon_data.html#a048013431f2f1d1d17e5de7136edfce8',1,'FDkHeroWeaponData']]],
-  ['list_7',['Todo List',['../todo.html',1,'']]],
-  ['locomotiondirection_8',['LocomotionDirection',['../class_u_dk_character_anim_instance.html#a7cdfc8850ff5c3ea510c22023fa31473',1,'UDkCharacterAnimInstance']]]
+  ['handleapplyprojectiledamage_0',['HandleApplyProjectileDamage',['../class_a_dk_projectile___base.html#a7192b8dce155aa49040865fff1f0d062',1,'ADkProjectile_Base']]],
+  ['hard_1',['Hard',['../group___gameplay_enums.html#ggacbdfc7a7e4dbaa50e60190a119ce924da3656183169810334a96b91129dc9d881',1,'DkEnumTypes.h']]],
+  ['hasfinishedallwaves_2',['HasFinishedAllWaves',['../class_a_dk_survival_game_mode.html#a2c8536cea51137dffc79aba1ee250710',1,'ADkSurvivalGameMode']]],
+  ['hasreachedangleprecision_3',['HasReachedAnglePrecision',['../class_u_dk_b_t_task___rotate_to_face_target.html#a2b1a76c56597823e254b47c243d90901',1,'UDkBTTask_RotateToFaceTarget']]],
+  ['heavyattackstaminacost_4',['HeavyAttackStaminaCost',['../struct_f_dk_hero_weapon_data.html#a643e0efb1adb50b090e5620f94f794b4',1,'FDkHeroWeaponData']]],
+  ['herocharacter_5',['HeroCharacter',['../class_u_dk_hero_gameplay_ability.html#acccf605c046eee4522ec74da59d04e68',1,'UDkHeroGameplayAbility']]],
+  ['herocombatcomponent_6',['HeroCombatComponent',['../class_a_dk_hero.html#aba8f21334e4d5346b048be1d3592cf3c',1,'ADkHero']]],
+  ['herocontroller_7',['HeroController',['../class_u_dk_hero_gameplay_ability.html#a889748f8abb56870190cba02e0bea93d',1,'UDkHeroGameplayAbility']]],
+  ['herostartupabilitysets_8',['HeroStartUpAbilitySets',['../class_u_dk_data_asset___hero_start_up_data.html#a36f8de3ad6241e9ccd74de68794abc9d',1,'UDkDataAsset_HeroStartUpData']]],
+  ['herostartupspecialabilitysets_9',['HeroStartUpSpecialAbilitySets',['../class_u_dk_data_asset___hero_start_up_data.html#a11e04dadce9d56e33c377fd76d4dfa92',1,'UDkDataAsset_HeroStartUpData']]],
+  ['heroteamid_10',['HeroTeamId',['../class_a_dk_hero_controller.html#a37d43822c486a1f64f9c3a7bc388daa6',1,'ADkHeroController']]],
+  ['herouicomponent_11',['HeroUIComponent',['../class_a_dk_hero.html#aaa4ba82f343c37afec8fb3ad727dce07',1,'ADkHero']]],
+  ['heroweapondata_12',['HeroWeaponData',['../class_a_dk_hero_weapon.html#a67cadc4abe2aba4eea99a5d03e969053',1,'ADkHeroWeapon']]],
+  ['hitlocation_13',['HitLocation',['../class_u_dk_weapon_hit_additional_info.html#a69ca100aa27c5c8d09d863ff70d9aa84',1,'UDkWeaponHitAdditionalInfo']]]
 ];

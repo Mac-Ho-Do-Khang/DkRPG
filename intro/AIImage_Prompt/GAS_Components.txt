@@ -1,0 +1,21 @@
+Create an image of a conceptual diagram of a **Gameplay Ability System (GAS)** in Unreal Engine. The diagram should visually represent the main components of the system and how they interact with each other with white background and.
+
+At the center is a large blue circle labeled **“Ability System Component”**, shown as interconnected gears, acting as the core hub. From it, arrows radiate uniformly outward to 6 key components:
+
+1. **Gameplay Ability**
+   Represented by a knight casting a fireball. This refers to the actual abilities a character can perform (e.g., attacks, spells, skills).
+
+2. **Gameplay Effect**
+   Shown with a potion and a shield being hit. These are the results or consequences of abilities, such as damage, healing, buffs, or debuffs.
+
+3. **Gameplay Tag**
+   Illustrated as labeled tags like *Player.Ability*, *Player.Ability.Attack*, and *Player.Ability.Attack.Light*. These are identifiers used to categorize and manage states or interactions in the system.
+
+4. **Attribute Set**
+   Represented by icons like a heart, potion, sword, and bars. These are character stats such as health, mana, stamina, or attack power.
+
+5. **Gameplay Cue**
+   Depicted as an explosion with a camera. These handle visual/audio feedback (e.g., particle effects, sounds) when something happens in-game.
+
+6. **Ability Task**
+   Represented by a series of icons showing different actions. These are the building blocks of abilities, allowing for complex sequences of actions to be executed within an ability.

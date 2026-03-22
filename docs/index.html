@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DkRPG: DkRPG</title>
+<title>DkRPG: Action RPG - Unreal Engine 5.3 - Gameplay Ability System</title>
 <link rel="icon" href="DkRPG_Icon.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -90,118 +90,484 @@ $(function(){initNavTree('index.html','',''); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">DkRPG </div></div>
+  <div class="headertitle"><div class="title">Action RPG - Unreal Engine 5.3 - Gameplay Ability System </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_intro_2_main_page"></a></p>
-<p>This project is an <b>Action RPG prototype built with Unreal Engine 5</b> using the <b>Gameplay Ability System (GAS)</b> framework. <br  />
- The goal of this project is to implement flexible and scalable RPG mechanics such as abilities, attributes, buffs, debuffs, and combat interactions.</p>
+<p><a class="el" href="#dkrpg" title="dkrpg">DkRPG</a> is a personal project made during a hands-on learning exercise for <a class="el" href="#ue" title="ue">Unreal Engine 5</a> and its <a class="el" href="#gas" title="gas">Gameplay Ability System</a>. The goal was to build a small but coherent Action RPG from the ground up, making real design and engineering decisions along the way, confronting the exact challenges that large projects do.</p>
+<p>Code accounts for roughly 30 % of the total work in this project. The remaining effort was poured into the Unreal Engine editor, doing things such as:</p>
+<ul>
+<li>Asset Creation</li>
+<li>Blueprint Wiring</li>
+<li>Animation Blueprints</li>
+<li>Behavior Trees</li>
+<li>Data Assets</li>
+<li>Level Design</li>
+<li>and so on.</li>
+</ul>
+<p>These non-code work is inherently embedded in the project's binary assets. The C++ source files are shared here as a transparent record of my coding practice, trying my best to follow the conventions of the Unreal Engine codebase itself, including naming conventions, comment style, system design, logic flow, etc.</p>
+<p>A short <a href="...">walkthrough video</a>.</p>
+<p>Available builds, each of which links to a downloadable <span class="tt">.zip</span> file, can be accessed via my <a href="https://mac-ho-do-khang.itch.io/dkrpg">itch.io page</a>. Below is a summary of the releases:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Version  </th><th class="markdownTableHeadNone">Description  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">1.0  </td><td class="markdownTableBodyNone">Initial release  </td></tr>
+</table>
+<p>Extracting the folder and you will find for yourself the following directory structure:</p>
+<div class="fragment"><div class="line">├── DkRPG</div>
+<div class="line">│   ├── Binaries</div>
+<div class="line">│   └── Content</div>
+<div class="line">├── DkRPG.exe</div>
+<div class="line">├── Engine</div>
+<div class="line">│   ├── Binaries</div>
+<div class="line">│   ├── Content</div>
+<div class="line">│   └── Extras</div>
+<div class="line">├── Manifest_DebugFiles_Win64.txt</div>
+<div class="line">├── Manifest_NonUFSFiles_Win64.txt</div>
+<div class="line">└── Manifest_UFSFiles_Win64.txt</div>
+</div><!-- fragment --><p>Play the game simply by running <span class="tt">DkRPG.exe</span>.</p>
 <hr  />
+<p> <a class="anchor" id="toc"></a> </p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
-Unreal Engine</h1>
-<p><b>Unreal Engine 5</b> provides a powerful real-time 3D development environment used for games, simulations, and interactive experiences.</p>
-<p>Key features used in this project:</p>
-<ul>
-<li><b>C++ and Blueprint integration</b> for flexible gameplay programming</li>
-<li><b>Component-based architecture</b> for modular gameplay systems</li>
-<li><b>Animation system</b> for character actions</li>
-<li><b>Gameplay Ability System (GAS)</b> for managing abilities, attributes, and gameplay effects</li>
-</ul>
-<p>UE5 allows complex gameplay logic to be implemented in a structured and scalable way, which makes it well suited for RPG mechanics.</p>
+Table of Contents</h1>
+<ol type="1">
+<li><a class="el" href="#ue" title="ue">Unreal Engine</a> <br  />
+ 1.1 <a class="el" href="#ue-overview" title="ue-overview">Overview</a> <br  />
+ 1.2 Gameplay Framework <br  />
+ 1.3 <a class="el" href="#ue-features" title="ue-features">Features Used</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;1.3.1 <a class="el" href="#ue-features-blueprints" title="ue-features-blueprints">Blueprints Visual Scripting</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;1.3.2 <a class="el" href="#ue-features-animation" title="ue-features-animation">Animation</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1.3.2.1 <a class="el" href="#ue-features-animation-sequence" title="ue-features-animation-sequence">Animation Sequence</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1.3.2.2 <a class="el" href="#ue-features-animation-blueprint" title="ue-features-animation-blueprint">Animation Blueprint</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1.3.2.3 <a class="el" href="#ue-features-animation-montage" title="ue-features-animation-montage">Animation Montage</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;1.3.3 <a class="el" href="#ue-features-behaviortree" title="ue-features-behaviortree">Behavior Tree</a> <br  />
+</li>
+<li><a class="el" href="#gas" title="gas">Gameplay Ability System</a> <br  />
+ 2.1 <a class="el" href="#gas-example" title="gas-example">A Real Life Scenario</a> <br  />
+ 2.2 <a class="el" href="#gas-components" title="gas-components">Main Components</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.2.1 <a class="el" href="#gas-asc" title="gas-asc">Ability System Component</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.2.2 <a class="el" href="#gas-ge" title="gas-ge">Gameplay Effect</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.2.3 <a class="el" href="#gas-ga" title="gas-ga">Gameplay Ability</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.2.4 <a class="el" href="#gas-at" title="gas-at">Ability Task</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.2.5 <a class="el" href="#gas-as" title="gas-as">Attribute Set</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.2.6 <a class="el" href="#gas-gameplaytag" title="gas-gameplaytag">Gameplay Tag</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.2.7 <a class="el" href="#gas-gc" title="gas-gc">Gameplay Cue</a> <br  />
+ 2.3 <a class="el" href="#gas-design" title="gas-design">Design Considerations</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.3.1 <a class="el" href="#gas-design-q1" title="gas-design-q1">What Systems Should Use GAS?</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.3.2 <a class="el" href="#gas-design-q2" title="gas-design-q2">Who Owns an ASC?</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.3.3 <a class="el" href="#gas-design-q3" title="gas-design-q3">Who Knows About What?</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.3.4 <a class="el" href="#gas-design-q4" title="gas-design-q4">To What Extent Shall Developers Implement Custom Logic?</a> <br  />
+ 2.4 <a class="el" href="#gas-whatelse" title="gas-whatelse">What GAS Also Offers</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.4.1 <a class="el" href="#gas-whatelse-debugging" title="gas-whatelse-debugging">Debugging and Visualization Tools</a> <br  />
+ &#160;&#160;&#160;&#160;&#160;&#160;2.4.2 <a class="el" href="#gas-whatelse-replication" title="gas-whatelse-replication">Replication and Networking</a></li>
+<li><a class="el" href="#dkrpg" title="dkrpg">The DkRPG Project</a></li>
+</ol>
 <hr  />
+<p> <a class="anchor" id="ue"></a> </p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
-Gameplay Ability System</h1>
-<p>The <b>Gameplay Ability System (GAS)</b> is a framework designed by Epic Games to implement advanced gameplay mechanics such as:</p>
-<ul>
-<li>Character abilities</li>
-<li>Buffs and debuffs</li>
-<li>Attribute modifications</li>
-<li>Status effects</li>
-<li>Network replication for multiplayer</li>
-</ul>
-<p>GAS is built around several core components.</p>
+Unreal Engine</h1>
+<p><a class="anchor" id="ue-overview"></a> </p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
+Overview</h2>
+<p><a href="https://www.unrealengine.com/en-US">Unreal Engine (UE)</a> is a 3D computer graphics game engine created by <a href="https://www.epicgames.com/site/en-US/home">Epic Games</a>. It was first developed for the 1998 first-person shooter game <a href="https://en.wikipedia.org/wiki/Unreal_(1998_video_game)">Unreal</a>. Although it began as a tool for PC first-person shooters, it has since been used across many different game genres and has expanded into other fields, especially film and television production. Written in C++, Unreal Engine is highly portable and supports a wide range of platforms, including desktop computers, mobile devices, consoles, and virtual reality systems.</p>
 <div class="image">
-<img src="GAS.png" alt=""/>
+<img src="UE_Logo.png" alt="" width="300" height="365"/>
+<div class="caption">
+Logo used since 2023</div></div>
+    <p><a href="https://en.wikipedia.org/wiki/Unreal_Engine_1">Unreal Engine 1</a> was developed in 1995 by Epic Games founder <a href="https://en.wikipedia.org/wiki/Tim_Sweeney">Tim Sweeney</a> for the game Unreal. It supported both software rendering and hardware rendering through early 3D accelerators such as the 3DFX Voodoo Graphics using the Glide API. The engine ran on Windows, Linux, Mac, and Unix systems. Epic later began licensing it to other game studios.</p>
+<p><a href="https://en.wikipedia.org/wiki/Unreal_Engine_2">Unreal Engine 2</a> marked the shift from software rendering to full hardware rendering. It also added support for consoles including the PlayStation 2, Xbox, and GameCube. The first game built with UE2 was released in 2002, and the engine received updates until 2005.</p>
+<p><a href="https://en.wikipedia.org/wiki/Unreal_Engine_3">Unreal Engine 3</a> introduced support for multithreading, allowing better performance on modern hardware. It used DirectX 9 as its primary graphics API, which helped simplify rendering. The first games using UE3 were released in late 2006.</p>
+<p><a href="https://en.wikipedia.org/wiki/Unreal_Engine_4">Unreal Engine 4</a> introduced physically based materials and the Blueprints visual scripting system, making development more accessible. The first UE4 game was released in April 2014. This version was also the first to be free to download, with Epic Games earning revenue through royalties on game sales.</p>
+<p><a href="https://en.wikipedia.org/wiki/Unreal_Engine_5">Unreal Engine 5</a> introduced major technologies such as Nanite, which enables extremely detailed geometry with automatic level of detail, and Lumen, a system for dynamic global illumination and reflections using ray tracing techniques. It was announced in May 2020 and officially released in April 2022.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p>Today, Unreal Engine powers many high-profile AAA titles across diverse genres, including:</p><ul>
+<li><a href="https://www.fortnite.com/?lang=en-US">Fortnite</a>: A Battle Royale game that has become a cultural phenomenon, attracting millions of players worldwide. It features a constantly evolving world with regular updates and events, showcasing the engine's ability to support large-scale multiplayer experiences.</li>
+<li><a href="https://www.mmorpg.com/paragon">Paragon</a>: A MOBA game that was eventually cancelled, it served as a testing ground for the Gameplay Ability System and demonstrated the engine's capabilities in handling complex character interactions and multiplayer mechanics.</li>
+<li><a href="https://gamesci.cn/wukong/">Black Myth: Wukong</a>: An Action RPG based on the classic Chinese novel "Journey to the West". It features stunning visuals and intricate combat mechanics, showcasing the engine's ability to create immersive single-player experiences.</li>
+<li><a href="https://lordsofthefallen.com/">Lords of the Fallen</a>: An Action RPG that emphasizes challenging combat and deep character customization. It demonstrates the engine's versatility in creating dark fantasy worlds and engaging gameplay.</li>
+</ul>
+<p><img src="Fortnite.webp" alt="" width="250" height="250" class="inline" title="Fortnite"/>     <img src="Paragon.webp" alt="" width="250" height="250" class="inline" title="Paragon"/>     <img src="BlackMyth.webp" alt="" width="250" height="250" class="inline" title="Black Myth: Wukong"/>     <img src="LOTF.webp" alt="" width="250" height="250" class="inline" title="Lords of the Fallen"/>    </p>
+<p>Beyond commercial titles, Epic does release prominent, complete sample projects as open-source resources freely available on the <a href="https://www.fab.com/channels/unreal-engine">Unreal Engine Marketplace</a>. These projects can be explored thoroughly and serve as invaluable references, significantly easing the learning journey for newcomers. Notable examples include:</p><ul>
+<li><a href="https://www.fab.com/listings/ef04a196-03c1-4204-998a-c7d5264fade7">Action RPG</a>: An UE4 sample demonstrating how to build a high-end mobile Action RPG for both Android and iOS.</li>
+<li><a href="https://www.fab.com/listings/93faede1-4434-47c0-85f1-bf27c0820ad0">Lyra Starter Game</a>: An UE5 multiplayer shooter project built around the Gameplay Ability System, designed as a starting point for production games.</li>
+<li><a href="https://www.fab.com/listings/0c19880e-21bd-42ba-8287-1caccc3951b1">Valley of the Ancient</a>: An UE5 showcase highlighting the rendering capabilities of Nanite, Lumen, and other next-generation features.</li>
+<li><a href="https://www.fab.com/listings/0c19880e-21bd-42ba-8287-1caccc3951b1">Slay Animation Sample</a>: A sample project focused on animated content, demonstrating high-quality character animation workflows.</li>
+</ul>
+<p><img src="ActionRPG.jpg" alt="" width="250" height="143" class="inline" title="Action RPG"/>     <img src="Lyra.jpg" alt="" width="250" height="143" class="inline" title="Lyra Starter Game"/>     <img src="Valley.jpg" alt="" width="250" height="143" class="inline" title="Valley of the Ancient"/>     <img src="Slay.jpg" alt="" width="250" height="143" class="inline" title="Slay Animation Sample"/>    </p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="ue-features"></a> </p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
+Features Used</h2>
+<p>UE offers an insanely wide range of features, and it would be impossible to discuss all of them in this document, nor would it be in any existing documentation for that matter. Instead, we will briefly cover the features that are directly relevant to the development of the <a class="el" href="#dkrpg" title="dkrpg">DkRPG project</a>.</p>
+<p>Note that this is not an exhaustive list of features used in the project, but rather a selection of the most important ones that are worth highlighting. Hyperlinks to the official documentation are provided for each feature in compensation for the lack of illustrations and in-depth explanations.</p>
+<p><a class="anchor" id="ue-features-gameframework"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md7"></a>
+Gameplay Framework</h3>
+<p>The <a class="el" href="#dkrpg" title="dkrpg">DkRPG project</a> is inevitably built on top of the standard <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-framework-in-unreal-engine?application_version=5.5">Unreal Engine Gameplay Framework</a>. Therefore, it is worth briefly discussing the key components:</p>
+<ul>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/actors-in-unreal-engine?application_version=5.5">Actor</a> is any object that can be placed into a level, such as a camera, static mesh, or player start location. It serves as the fundamental building block of the game world, can be dynamically spawned or destroyed during gameplay and act as containers for components that define their behavior, appearance, and interactions.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/components-in-unreal-engine?application_version=5.5">Actor Component</a> represents modular pieces of functionality that can be attached to an Actor to define specific behaviors or properties. This adheres to the <a href="https://gameprogrammingpatterns.com/component.html">Component Pattern</a>, allowing developers to compose complex Actors from reusable components rather than relying on deep inheritance hierarchies.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/pawn-in-unreal-engine?application_version=5.5">Pawn</a> is a specialized type of Actor that can be controlled by either a player or artificial intelligence (AI). It represents the physical presence of a controllable entity within the game world. Pawns serve as the link between input (from players or AI) and in-game actions, allowing movement, interaction, and other gameplay behaviors to be executed.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/characters-in-unreal-engine?application_version=5.5">Character</a> is a more advanced type of Pawn designed specifically for humanoid or vertically-oriented entities. It includes built-in functionality for common actions such as walking, running, jumping, flying, and swimming. Characters are typically used for player avatars or humanoid NPCs and come with additional systems like movement components and animation support.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/controllers-in-unreal-engine?application_version=5.5">Controller</a> is a non-physical Actor responsible for controlling a Pawn. It does not exist visually in the game world but instead processes input and dictates behavior. Controllers can represent either human players or AI systems, enabling the separation of control logic from the physical representation of the Pawn.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Engine/UWorld?application_version=5.7">World</a> is the top-level object that represents a game map or level. It acts as a container for all Actors, components, and gameplay systems that exist within that environment. The World manages essential elements such as the persistent level, game state, game mode, and collections of active Pawns and Controllers.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/game-mode-and-game-state-in-unreal-engine?application_version=5.5#gamemodes">Game Mode</a> defines the rules and structure of a particular gameplay experience. It specifies which classes should be used for key gameplay elements and governs how the game operates, including win conditions, player spawning, and scoring systems.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Engine/UGameInstance?application_version=5.7">Game Instance</a> is a persistent object that exists for the entire duration of the game, regardless of level transitions. It is used to store and manage data or systems that need to persist across multiple maps, such as player settings, global states, or session data.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/game-mode-and-game-state-in-unreal-engine?application_version=5.5#gamestate">Game State</a> contains data and logic that are relevant to all players within a game session. It tracks shared information such as team scores, objectives, and the list of connected players.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/user-interfaces-and-huds-in-unreal-engine?application_version=5.5">HUD</a> is a specialized object responsible for rendering on-screen information for the player. It displays elements such as health bars, minimaps, crosshairs, and other overlays.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/cameras-in-unreal-engine?application_version=5.5">Camera</a> defines the player’s point of view in the game world. It determines what is visible on the screen and how the scene is framed. Cameras are especially important for human-controlled players, as they directly affect how the player perceives and interacts with the environment.</li>
+</ul>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="ue-features-blueprints"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
+Blueprints Visual Scripting</h3>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/blueprints-visual-scripting-in-unreal-engine">Blueprints</a> is a visual scripting system that allows developers to create gameplay elements without writing code. It uses a node-based interface where developers can connect different nodes to define the flow of logic.</p>
+<p>Blueprints are designed to be user-friendly and accessible, making it easier for designers and artists to contribute to the development process without needing programming expertise. In fact, many game designers and artists of large game projects are non-coders.</p>
+<p>Blueprints are essentially a visual layer built on top of C++, thus, any logic that can be implemented in Blueprints can also be implemented in C++. Below shows a simple implementation of sinusoidal movement upon an Actor named <span class="tt">Item</span>:</p>
+<div class="image">
+<img src="SinusoidalMovement.png" alt="" width="1000" height="238"/>
+<div class="caption">
+Blueprint Sinusoidal Movement</div></div>
+    <p>which is equivalent to:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> AItem::Tick(<span class="keywordtype">float</span> DeltaSeconds)</div>
+<div class="line">{</div>
+<div class="line">    Super::Tick(DeltaSeconds);</div>
+<div class="line"> </div>
+<div class="line">    RunningTime += DeltaSeconds;</div>
+<div class="line">    <span class="keywordtype">float</span> DeltaZ = 0.25f * FMath::Sin(RunningTime * 10.f);</div>
+<div class="line">    AddActorWorldOffset(FVector(0.f, 0.f, DeltaZ));</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>We can always replicate Blueprint logic in C++, but not vice versa. Low-level implementations such as memory management, custom data structures, multithreading beyond async nodes can only be done in C++. However, there exist several features that are typically carried out in Blueprints and not in C++, <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/ik-setups?application_version=4.27">Inverse Kinematics solver</a> being a prime example.</p>
+<p>Generally speaking, Blueprints are ideal for high-level game logic, while C++ is better suited for low-level systems and performance-critical code. Large projects use a combination of both, leveraging the strengths of each to create a more efficient and flexible development process.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="ue-features-delegates"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md9"></a>
+Delegates</h3>
+<p>Imagine implementing a simple interation: pressing a button to open a door. A very, if not the most, straightforward way is to have the button directly call the door’s <span class="tt">Open()</span> function. This works fine at first. But as our game grows, we might also want that same button press to trigger a sound, spawn particle effects, or inform AI systems that a new area is accessible. As a result, our button class starts referencing all these different systems (audio, visuals, AI) and quickly becomes cluttered and tightly coupled. This makes it harder to reuse the button elsewhere, because it is no longer a simple, independent component. Any change forces we to modify multiple connections.</p>
+<p>Event-driven programming solve this problem by flipping the responsibility. Instead of the button controlling everything, it simply announces: “The button was pressed.” It now no longer cares who reacts. Other systems (the door, sound manager, or AI controller) can choose to listen and respond in their own way. Different game engines have different implementations adhering to this paradigm, and UE offers us <a href="https://dev.epicgames.com/community/learning/tutorials/eZmv/unreal-engine-delegates-c-and-blueprints">Delegates</a>.</p>
+<p>Let us walk through a minimal example. Initially, we declare a delegate type and instance it:</p>
+<div class="fragment"><div class="line"><span class="comment">// Declare a delegate type</span></div>
+<div class="line">DECLARE_DELEGATE(FOnButtonPressed);</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// Create an instance</span></div>
+<div class="line">FOnButtonPressed OnButtonPressed;</div>
+</div><!-- fragment --><p> Then, we can bind any function or lambda to this delegate:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> Setup()</div>
+<div class="line">{</div>
+<div class="line">    OnButtonPressed.BindLambda([]() {</div>
+<div class="line">        UE_LOG(LogTemp, Warning, TEXT(<span class="stringliteral">&quot;Button was pressed!&quot;</span>));</div>
+<div class="line">    });</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Finally, when the button is pressed, we simply execute the delegate:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> ButtonPressed()</div>
+<div class="line">{</div>
+<div class="line">   <span class="keywordflow">if</span> (OnButtonPressed.IsBound())</div>
+<div class="line">   {</div>
+<div class="line">      OnButtonPressed.Execute();</div>
+<div class="line">   }</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Notice how the button does not concern itself with who is listening or what they will do.</p>
+<p>In C++, the simplest relative term of a delegate is a <a href="https://www.geeksforgeeks.org/c/function-pointer-in-c/">function pointer</a>, which allows us to store the address of a function and call it later. In Blueprints, the equivalent concept is an Event Dispatcher, which serves the same purpose of allowing one Blueprint to broadcast an event that other Blueprints can listen to and react accordingly. UE itself makes heavy use of delegate‑like systems, as they they are the glue that lets systems talk without being hard‑wired together.</p>
+<p>UE offers us not only one type of delegate, but an entire family of them:</p><ul>
+<li>A <em>single-cast delegate</em> can only point to one function at a time, whereas a <em>multicast delegate</em> can have multiple functions bound at once.</li>
+<li><em>Non-dynamic delegates</em> are type-safe and more efficient but can only be used in C++. <em>Dynamic delegates</em>, on the other hand, can also be used in Blueprints, but they have some overhead due to relying on Unreal's reflection system .</li>
+</ul>
+<div class="image">
+<img src="DynamicDelegate.png" alt="" width="600" height="408"/>
+<div class="caption">
+Binding a dynamic delegate in Blueprints</div></div>
+    <p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="ue-features-animation"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
+Animation</h3>
+<p>Animation in UE is built around a layered system of assets and tools that work together to bring characters and creatures to life. The three most fundamental pieces of this system are Animation Sequences, Animation Blueprints, and Animation Montages.</p>
+<p><a class="anchor" id="ue-features-animation-sequence"></a> </p>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
+Animation Sequence</h4>
+<p>An <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-sequences-in-unreal-engine">Animation Sequence</a> is the atomic unit of animation in UE. It is a single clip that records how a <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/skeletal-mesh-assets-in-unreal-engine">Skeletal Mesh</a> should move over time by storing a series of keyframed bone transforms (i.e., position, rotation, and scale) sampled at a fixed rate. Because these keyframes are expressed relative to a particular bone hierarchy, every Animation Sequence is bound to a specific <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/skeletons-in-unreal-engine">Skeleton</a> asset. Two Skeletal Meshes that share the same Skeleton can therefore share all of their Animation Sequences, which is a common pattern when a game has multiple character skins built on the same rig.</p>
+<p>Sequences can be played back at variable rates and can be set to loop. They also serve as the source data consumed by higher-level tools such as Animation Blueprints and Montages.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="ue-features-animation-blueprint"></a> </p>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
+Animation Blueprint</h4>
+<p>An <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-blueprints-in-unreal-engine">Animation Blueprint</a> is a specialized Blueprint class that governs the pose of a Skeletal Mesh at runtime. It runs every frame and outputs the final bone transforms for the mesh to display. An Animation Blueprint is assigned to a specific Skeleton and contains two main graphs:</p>
+<ul>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/graphing-in-animation-blueprints-in-unreal-engine#eventgraph">Event Graph</a>: A standard Blueprint event graph that runs on the game thread. It is used to read gameplay state — velocity, whether the character is in the air, current health, and so on — and store the results in variables that the Anim Graph can reference.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/graphing-in-animation-blueprints-in-unreal-engine#animgraph">Anim Graph</a>: A dedicated pose graph that runs on a worker thread. It takes Animation Sequences and other pose sources as inputs, blends between them, and ultimately produces a single output pose each frame.</li>
+</ul>
+<p>Within the Anim Graph, a <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/state-machines-in-unreal-engine">State Machine</a> is the tool used to model locomotion and other complex, condition-driven animation logic. A State Machine is consist of:</p>
+<ul>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/state-machines-in-unreal-engine#states">States</a>: Contain its own mini-graph that evaluates to a pose. A typical idle/walk/run State Machine would have states for <span class="tt">Idle</span>, <span class="tt">Walk</span>, and <span class="tt">Run</span>, each playing the appropriate looping Animation Sequence.</li>
+<li><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/state-machines-in-unreal-engine#transitions">Transitions</a>: Defines the condition under which the machine moves from one state to another, as well as the blend duration and curve to use during that crossfade. For example, the transition from <span class="tt">Idle</span> to <span class="tt">Walk</span> might be triggered when the character's speed exceeds a threshold variable that the Event Graph writes every frame.</li>
+</ul>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/state-machines-in-unreal-engine"><div class="image">
+<img src="StateMachine.png" alt="" width="960" height="263"/>
+<div class="caption">
+A State Machine with four states</div></div>
+     </a></p>
+<p>State Machines can be nested and combined with blend nodes, Inverse Kinematics solvers, additive layers, and many other building blocks that make up the Anim Graph's node library.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="ue-features-animation-montage"></a> </p>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
+Animation Montage</h4>
+<p>An <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-montage-in-unreal-engine">Animation Montage</a> is an asset that wraps one or more Animation Sequences and adds a layer of runtime control on top of them. Where a State Machine handles continuous, looping locomotion, a Montage is the standard mechanism for one-shot, triggered actions such as attacks, dodges, item-use animations, or hit reactions.</p>
+<p>A Montage divides its timeline into named <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-montage-in-unreal-engine#sections">Sections</a>, enabling a GA or Blueprint to jump to specific parts of the clip or loop just a subsection. It also introduces the concept of <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-montage-in-unreal-engine#slotsandslotgroups">Slots</a>, which determine how the Montage blends on top of the base pose produced by the Animation Blueprint. For instance, an <span class="tt">UpperBody</span> slot can blend an attack animation onto the upper skeleton while the legs continue to be driven by the locomotion State Machine.</p>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-montage-in-unreal-engine"><div class="image">
+<img src="AnimationMontage.png" alt="" width="960" height="168"/>
+<div class="caption">
+An Animation Montage with three sections placed within one default slot</div></div>
+     </a></p>
+<p>A key feature of Montages is the support for <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-notifies-in-unreal-engine">Anim Notifies</a>, which are events that fire at precise points in the animation timeline. There are two flavors:</p>
+<ul>
+<li><em>Anim Notify</em>: A single fire-and-forget event. Common uses include triggering a particle effect or sound at the exact frame a sword connects with an enemy, spawning a projectile at the moment a hand reaches its release point, or signaling GAS that a specific window in the ability has opened.</li>
+<li><em>Anim Notify State</em>: An event with a start and an end, spanning a range of frames. This is typically used to open and close a damage window (i.e., the period during an attack where a hitbox should be active), or to manage a footstep effect that needs to be active while the foot is planted on the ground.</li>
+</ul>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-montage-in-unreal-engine#timeline"><div class="image">
+<img src="AnimNotifies.png" alt=""/>
+<div class="caption">
+Several Anim Notifies placed within a Montage</div></div>
+     </a></p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="ue-features-behaviortree"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
+Behavior Tree</h3>
+<p>We can create AI for characters using several approaches. Via Blueprint, we can define specific actions for a character such as playing animations, moving to a location, or reacting to events like being hit. However, if we want your AI characters to think and make decisions on their own, <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-trees-in-unreal-engine?application_version=5.5">Behavior Trees</a> provide a more advanced and flexible solution. It organizes logic in a tree structure that starts from a Root node and branches into different behaviors. The tree runs continuously, allowing AI characters to react dynamically to the game world.</p>
+<div class="image">
+<img src="BehaviorTree.png" alt=""/>
+<div class="caption">
+A Behavior Tree of an AI character switching between patrolling and chasing the player</div></div>
+    <p>The Root node is the starting point of the tree. It does not contain logic itself but simply connects to the rest of the structure, usually leading into a Composite node that controls the flow.</p>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-behavior-tree-node-reference-composites?application_version=5.5">Composite Nodes</a> determine how the tree executes its children:</p><ul>
+<li>A <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-behavior-tree-node-reference-composites?application_version=5.5#selector">Selector</a> tries options from left to right until one succeeds</li>
+<li>A <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-behavior-tree-node-reference-composites?application_version=5.5#sequence">Sequence</a> runs tasks in order and fails if any step fails.</li>
+<li>A <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-behavior-tree-node-reference-composites?application_version=5.5#simpleparallel">Simple Parallel</a> runs multiple tasks simultaneously. These nodes act like control flow statements such as if-else or sequential logic in programming.</li>
+</ul>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-behavior-tree-node-reference-tasks?application_version=5.5">Task Nodes</a> are where actual actions happen. These are the leaf nodes of the tree and perform operations like moving, attacking, or waiting.</p>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-behavior-tree-node-reference-decorators?application_version=5.5">Decorators Nodes</a> act as conditions that control whether a node can run. They are attached to tasks or composites and check things like visibility of an enemy or the AI’s health. If conditions are not met, they can block or interrupt execution.</p>
+<p><a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-behavior-tree-node-reference-services?application_version=5.5">Services Nodes</a> run in the background and update information regularly. They are often used to monitor the environment, such as tracking the player’s position, and update shared data while the tree is running.</p>
+<p>The Blackboard is the memory system of the Behavior Tree. It stores variables like targets, locations, or states, and all parts of the tree can read or write to it. This allows different nodes to share information and coordinate behavior.</p>
+<p>All of the mentioned components work together to create complex and dynamic AI behavior. A typical flow involves:</p><ul>
+<li>Behavior Tree starting at the root</li>
+<li>Composite nodes deciding which branch to proceed to</li>
+<li>Decorator nodes checking conditions to allow or block execution</li>
+<li>Service nodes updating the Blackboard data</li>
+<li>Task nodes doing the actual work.</li>
+</ul>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<hr  />
+<p> <a class="anchor" id="gas"></a> </p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
+Gameplay Ability System</h1>
+<p>According to the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-unreal-engine-gameplay-ability-system?application_version=5.5">Unreal Engine documentation</a>:</p>
+<blockquote class="doxtable">
+<p>The Gameplay Ability System is a framework for building abilities and interactions that Actors can own and trigger. This system is designed mainly for RPGs, action-adventure games, MOBAs, and other types of games where characters have abilities that need to coordinate mechanics, visual effects, animations, sounds, and data-driven elements, although it can be adapted to a wide variety of projects. The Gameplay Ability System also supports replication for multiplayer games, and can save developers a lot of time scaling up their designs to support multiplayer.</p>
+<p>With this system, you can create abilities as simple as a single attack, or as complex as a spell that triggers many status effects depending on data from the user and the targets. This page provides an overview of the Ability System and how its components work together. </p>
+</blockquote>
+<p>The official description sounds good but also vague at the same time. This is because the Gameplay Ability System itself is so vast and capable that it is impossible to condense it down to a single paragraph. Let us discuss the high-level concept of the system using a real life scenario.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-example"></a> </p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md17"></a>
+A Real Life Scenario</h2>
+<p>Suppose we a goal to create a video game. There are many different game genres, but for the sake of this example, let us choose to create an <em>Role-Playing Game (RPG)</em>. An RPG is typically a fairly large game project involving a number of elements, one of which is <em>Attributes</em>, commonly referred to as stats. Examples of attributes include a form of <em>Health</em> or <em>Life</em> for the character that the player will control throughout the game. Life is typically defined as the amount of damage the character can take before being killed or eliminated. <em>Damage</em> itself is often treated as an attribute and can be affected by a number of factors, including the character's other attributes equipment such as armor and weapons, and the effects of magical spells or anything else that we see fit.</p>
+<p>Usually, attribute values depend on other attributes as one attribute changes. Those derived from it often change according to some mathematical formula determined by game designers. For example, the character may have a <em>Critical Hit Chance</em> attribute that adds the chance to cause bonus damage when the character attacks, and this crit chance may be derived from the character's <em>Dexterity</em> attribute and the weapon's <em>Critical Bonus</em> attribute. Generally speaking, RPGs often have a large number of attributes that affect various aspects of gameplay. We can store these attributes in a structured architecture, an <a class="el" href="#gas-as" title="gas-as">Attribute Set</a>, and achieve the aforementioned relationships between them.</p>
+<p>Attributes are not the only feature of a game. We mentioned damage and the act of causing and taking damage. Damage is typically caused by abilities. An attack typically involves:</p><ul>
+<li>Hitting the target via some sort of attack animation (e.g., a sword swing or a spear thrust or casting a magical spell), and</li>
+<li>Causing damage to that target. Causing damage in an RPG means checking the values of attributes both on the attacker and the target, and performing a series of mathematical calculations that take these attributes into account before determining the final amount of damage caused. If the damage caused to a player or creature is fatal, meaning that it has brought the target's Health or Life attribute down to zero, the target may die. <a class="el" href="#gas-ga" title="gas-ga">Gameplay Abilities</a> are the means via which these actions are implemented, and <a class="el" href="#gas-ge" title="gas-ge">Gameplay Effects</a> are how we perform the calculations and apply the changes to the attributes.</li>
+</ul>
+<p>Most of the time, there is often some sort of visual or audio cue associated with any given gameplay mechanic. A sword hitting an enemy releases a splash of blood on contact.That's usually some kind of particle system. A magical fireball explodes on contact, which creates a loud boom sound. These visual and audio cues are every bit as important as the underlying mathematical calculations that affect the various attributes in the game. <a class="el" href="#gas-gc" title="gas-gc">Gameplay Cues</a> are how we implement these visual and audio cues in a way that is separate from the underlying game logic, allowing us to change the presentation of our game without having to change the core mechanics.</p>
+<p>Defeating an enemy is usually accompanied by a reward of some sort. The reward, often issued in RPGs, comes in the form of experience Points or XP. A character can accumulate experience, and once this character has amassed a certain amount determined by a threshold for that particular level, that character may reach a point where it is now eligible for an upgrade of some sort. We often call this upgrade a level up where the character's level a numerical value designed to be a measure of cumulative progress in the game goes up. Just about most games involve some sort of Health or Life, and nearly all games make use of a form of progress, even if it is not called the player's level.</p>
+<p>Games can get as complex as they are designed to be, and the more complex a game becomes, the more relationships the various game elements have with one another and the more difficult it can be to manage all of these relationships. It can help if there is a system that allows us to organize these relationships, these attributes, effects, abilities and gameplay cues. This is where the <em>Gameplay Ability System (GAS)</em> comes in.</p>
+<p>One may wonder whether we can make a complex game such as an RPG similar to what has just been described without GAS. We certainly can. Countless games, even super complex RPGs have been created before the advent of GAS. But those games, at least the ones successful enough to be heard about, succeeded as a result of impeccable design management and code framework. GAS provides us with such a framework. Its system was designed to handle the complexities of the game <em>Paragon</em>.</p>
+<p><a href="https://paragon.fandom.com/wiki/Paragon_Wiki#About_Paragon">Paragon</a> was a <em>Multiplayer Online Battle Arena (MOBA)</em> game developed by Epic Games. It featured a large roster of characters, each with unique abilities and interactions. A MOBA is a competitive multiplayer game involving multiple character types, each of which generally has its own set of unique abilities and strengths. Characters in MOBAs often gain experience, level up and earn new abilities, all in the space of a single multiplayer match. MOBA is a game genre that combines just about every technical challenge a game development team can face, and all of the complexities discussed thus far are generally implemented in it. Thus, it is the type of game project that absolutely requires a solid framework that is modular, flexible and scalable. It must have a code base that can accommodate for attributes, effects, abilities and cues and do so in a way that is handled well in multiplayer and allows for each element in the system to interact with any of the others in an efficient and well coded manner to handle such a complex system.</p>
+<p>Unfortunately, Paragon was eventually cancelled and Epic decided to focus its game development efforts primarily on <a href="https://www.fortnite.com/?lang=en-US">Fortnite</a>. However, Paragon was not a complete waste of time, talent and resources. It turned out that GAS was so well structured, so versatile and so expertly coded that it can be utilized in any number of situations. It allows a game to have a complex system of attributes, abilities, effects and cues in a fully replicated way (i.e. it works in a networked multiplayer environment with lag compensation providing a smooth gameplay experience even in the presence of lag). Currently, it is an integral part of Fortnite itself.</p>
+<p>Guillaume David in his paper, <a href="https://www.bing.com/search?q=gameplay%20ability%20system%20pdf&amp;qs=n&amp;form=QBRE&amp;sp=-1&amp;ghc=1&amp;lq=0&amp;pq=gameplay%20ability%20system%20pdf&amp;sc=10-27&amp;sk=&amp;cvid=3B9DFBB1244445BDBE9F29F24D0B7E15">Unreal Engine’s Gameplay Ability System, from programming framework to designer’s tool</a>, has written that:</p>
+<blockquote class="doxtable">
+<p>Then I read about UE4’s GAS and found out that any game could use it extensively. Basically anything that can happen in a game can be implemented using GAS, although maybe not everything should. </p>
+</blockquote>
+<p>Stephen Ulibarri, a game developer and a well-known educator, has stated in his <a href="https://www.udemy.com/course/unreal-engine-5-gas-top-down-rpg/">Gameplay Ability System - Top Down RPG course</a>:</p>
+<blockquote class="doxtable">
+<p>GAS is the most beautiful piece of software engineering that I've ever touched. </p>
+</blockquote>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-components"></a> </p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
+Main Components</h2>
+<div class="image">
+<img src="GAS_Components.png" alt="" width="800" height="533"/>
 <div class="caption">
 Gameplay Ability System Overview</div></div>
-    <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
-Ability System Component</h2>
-<p>The <b>Ability System Component (ASC)</b> is the central manager of the Gameplay Ability System.</p>
-<p>It is responsible for:</p>
-<ul>
-<li>Granting and activating abilities</li>
-<li>Applying gameplay effects</li>
-<li>Managing gameplay cues</li>
-<li>Tracking attributes</li>
-<li>Handling ability costs and cooldowns</li>
+    <p><a class="anchor" id="gas-asc"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
+Ability System Component</h3>
+<p>The <em>Ability System Component (ASC)</em> is the heart of GAS. Any Actor that intends to interact with the GAS either needs to own an ASC or be able to access one, such as a Player State or Player Controller. The latter case is useful for keeping persistent data that should not reset when the Pawn/Character is destroyed or replaced.</p>
+<p>ASC, as its name implies, is a component that can be added to any Actor. Similar to other components (e.g., a Static Mesh Component or a Character Movement Component), it adheres the Component Pattern, a common design pattern in game development that allows for modular and reusable code, that favors composition over inheritance.</p>
+<p>The <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-component-and-gameplay-attributes-in-unreal-engine">official documentation</a> already gives a brief but concise overview of the ASC, as well as how to set it up and use it.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-ge"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md20"></a>
+Gameplay Effect</h3>
+<p><em>Gameplay Effects (GE)</em> are the means through which GAs change attributes. The GAS framework provides us with three types of GEs:</p><ul>
+<li><em>Instant</em>: These are applied immediately and then removed. They are typically used for one-time effects like damage or healing.</li>
+<li><em>Duration</em>: These last for a specified duration and can have periodic effects. They are often used for buffs or debuffs that need to persist for a while.</li>
+<li><em>Infinite</em>: These last indefinitely until explicitly removed. They are useful for passive effects or permanent attribute changes.</li>
 </ul>
-<p>Each character or actor that uses GAS typically owns an <b>Ability System Component</b>.</p>
-<hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md8"></a>
-Gameplay Ability</h2>
-<p>A <b>Gameplay Ability</b> represents an action that a character can perform.</p>
-<p>Examples include:</p>
-<ul>
-<li>Attacking</li>
-<li>Casting spells</li>
+<p>The Gameplay Effect class is meant to be a data-only class that defines a single gameplay effect and no additional logic should be added to it. The actual action of changing attributes is achieved through the use of <em>Modifiers</em> and <em>Executions</em>. Modifiers are used for simple attribute changes, while Executions are used for more complex calculations that may involve multiple attributes and conditional logic.</p>
+<p>Duration and Infinite GEs also support a rich <em>Stacking</em> system. Without stacking, applying the same GE multiple times simply runs each instance independently, each with its own duration, causing attributes to change as many times and as fast as the number of concurrent instances. There are two stacking models: <em>Aggregate by Source</em> and <em>Aggregate by Target</em>, which are about how the stack count is tracked and how it interacts with the maximum stack limit. On top of the stacking type, GAS exposes additional policies that govern what happens when a new stack is successfully applied or when the effect expires: <em>Stack Duration Refresh Policy</em>, <em>Stack Period Reset Policy</em>, and <em>Stack Expiration Policy</em>.</p>
+<p>These levels of control would require significant effort to build from scratch. Fortunately, GAS provides them out of the box, allowing us to implement complex attribute interactions without having to worry about the underlying mechanics of how they work.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-ga"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
+Gameplay Ability</h3>
+<p><em>Gameplay Abilities (GA)</em> are the means through which characters perform actions. They can be activated by player input, AI decisions, or gameplay events. Basically any action that a character can perform can be implemented as a GA, although not every action necessarily needs to be so.</p>
+<p>Examples of actions that can be implemented as GAs include:</p><ul>
+<li>Jumping</li>
+<li>Sprinting</li>
 <li>Dodging</li>
-<li>Using skills</li>
+<li>Equipping a weapon</li>
+<li>Casting a spell</li>
+<li>Drinking a potion</li>
+<li>Opening a door</li>
 </ul>
-<p>Gameplay abilities define:</p>
+<p>Things that should not be GAs are:</p><ul>
+<li>Basic movement input</li>
+<li>Interactions with UIs</li>
+</ul>
+<p>The implementation of GAs itself does not put up a constraint on what can and cannot be a GA. Therefore, what should and what should not be GAs is ultimately up to us, the game developers.</p>
+<p>Zhi Kang Shao, a software engineer and developer at Epic Games, has summed up the concept of GAs and GEs during his <a href="https://www.youtube.com/watch?v=8bi0rnXnRj4&amp;t=230s">Unreal Fest Bali 2025</a> talk:</p>
+<blockquote class="doxtable">
+<p>Gameplay Effects are about what to do, whereas Gameplay Abilities are about when to do it. </p>
+</blockquote>
+<p>GAs are what game designers want to make. They can be granted to (or removed from) the ASC, and can block (or be blocked by) other GAs. They can apply GEs to the owner or to other targets.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-at"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md22"></a>
+Ability Task</h3>
+<p>GAs only execute in one frame. This does not allow for much flexibility on its own. To do actions that happen over time or require responding to delegates fired at some point later in time we use latent actions called <em>Ability Tasks (AT)</em>. These allow us to execute code that is asynchronous, meaning that once we start the task it may perform its job and finish immediately or its job may span across a period of time and may do different things depending on what is going on in the game for that specific ability. We can think of ability tasks as the workers that perform the work for the GA itself.</p>
+<p>In Blueprint, ATs appear as latent nodes that can resume execution asynchronously at a later point in time under specific conditions.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-as"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
+Attribute Set</h3>
+<p>Attributes are floating-point values that describe properties of an Actor, such as health or movement speed. Each attribute has both a base value and a current value, allowing temporary modifications like buffs or debuffs to be applied without permanently changing the original value. This concept seems straightforward at first glance, but we may encounter scenarios that make us ponder. For example, should we consider:</p><ul>
+<li>a destructible wall to have a "health" attribute, or</li>
+<li>a moving platform with a "speed" attribute?</li>
+</ul>
+<p>Alternatively, we can implement these simply as properties of the Actors. Similar to GAs, what should and what should not be attributes is ultimately up to us, the game developers.</p>
+<p>Attributes are organized into <em>Attribute Sets (AS)</em>. We can use a single, large AS shared across all Actors in our game, accessing only the attributes we need and ignoring the rest. Alternatively, we can organize attributes into multiple Attribute Sets based on their purpose and assign them to Actors as needed. For instance, we might have separate sets for health, mana, and other categories. In a MOBA game, heroes may require mana while minions do not, so only heroes would be given the mana Attribute Set.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-gameplaytag"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
+Gameplay Tag</h3>
+<p>As the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-tags?application_version=4.27">official documentation</a> states:</p>
+<blockquote class="doxtable">
+<p>Gameplay Tags are conceptual, hierarchical labels with user-defined names. These tags can have any number of hierarchical levels, separated by the "." character. </p>
+</blockquote>
+<p>A Gameplay Tag with three levels would take a form of "Animal.Mammal.Canine", with "Animal" being the broadest identifier in the hierarchy, and "Canine" being the most specific. And this also implies the existence of "Animal.Mammal" and "Animal" tags.</p>
+<p>While not strictly speaking part of the GAS, Gameplay Tags are tightly integrated in it.</p>
+<p>It is often the case that we find ourself replacing things that used to be handled with booleans or enums with Gameplay Tags and doing boolean logic on whether or not objects have certain Gameplay Tags. Similarly, GAS uses Gameplay Tags as conditions: GAs and GEs can be blocked based on their tags, or have tag requirements. The hierarchical capability of Gameplay Tags can be very useful for subcategories, so that a damage effect with the tag "Damage.Magic.Fire" would be recognized as an effect with "Damage.Magic"..</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-gc"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+Gameplay Cue</h3>
+<p><em>Gameplay Cues (GC)</em> are the means through which we implement visual and audio feedback for gameplay events. They allow us to separate game logic from presentation, making it easier to change the visual and audio effects without affecting the underlying mechanics, so that the gameplay outcome remains consistent regardless of how it is presented.</p>
+<p>In term of visual effects, we can use particle systems, decals, or even animations to provide feedback to the player. For audio effects, we can use sound cues or music to enhance the player's experience. GCs can also be used for UI feedback, such as showing a damage number when an attack hits or displaying a buff icon when a character receives a buff.</p>
+<p>Usually, GCs are triggered by sending a corresponding Gameplay Tag with the mandatory parent name of "GameplayCue".</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-design"></a> </p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+Design Considerations</h2>
+<p>Although GAS provides us with a solid framework to implement complex game mechanics, it does not dictate how we should design our game, as the framework is generic enough to allow multiple approaches. Once we have decided to use GAS for our project, we will likely encounter a number of design dilemmas that we need to resolve. The answers to all of these would be more implementation guidelines rather than strict rules.</p>
+<p><a class="anchor" id="gas-design-q1"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+What Systems Should Use GAS?</h3>
+<p>GAs act as an additional layer built on top of standard Blueprints, so in theory, anything that can be implemented with Blueprints could also be implemented as an Ability. The real question is not whether it can be done, but whether it should be done that way.</p>
+<p>Obvious candidates include character-specific powers, basic attacks, item usage, environmental interactions, and power-ups. Beyond that, the boundaries become less clear, as mentioned above, as for both GAs and GEs. For example, should basic movement be implemented as an Ability? Similarly, could selecting a unit with a click be considered an Ability? What about AI decision-making logic?</p>
+<p>Another consideration is how the UI reacts to changes, such as updating a health bar when an attribute changes. Should these updates be triggered through Gameplay Events, or handled separately?</p>
+<p><a class="anchor" id="gas-design-q2"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
+Who Owns an ASC?</h3>
+<p>Consider a common scenario where a player character can switch weapons. Actions like attacking, reloading, or parrying could all be modeled as GAs. The question is where these abilities should reside.</p>
+<p>Should each weapon actor have its own ASC, or should weapons simply grant abilities to the character’s existing component? Since the ASC also manages ASs, this raises further questions. For example, should weapon-specific properties like durability or ammo be treated as attributes within the system, attached to the character, or just stored as regular variables on the weapon actor?</p>
+<p>This issue extends beyond weapons. Should every non-player character (NPC) and objects have its own ASC? If many actors require such components, performance considerations may become important.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-design-q3"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+Who Knows About What?</h3>
+<p>At its core, this question is about distinguishing between general game mechanics and special-case behavior.</p>
+<p>Take a simple example: characters have a Health attribute, and a damage GE reduces that value. Should the effect directly modify the attribute? If so, how shall we handle damage upon an object that does not have health? Alternatively, should the AS itself handle how damage is applied, allowing different actors to process damage in different ways?</p>
+<p>When a GA spawns an Actor (like a projectile), should that Actor deliver the GE itself, or should it pass the target data back to the original Ability to handle?</p>
+<p>Then consider armor or other forms of damage mitigation. If all actors use armor, could it be implemented as an attribute and included in damage calculations? Shall we take a step further and armor could instead be represented as a GA that triggers upon receiving a damage GE and modifies the Gameplay Effect Spec accordingly?</p>
+<p>A similar question arises with status effects. One approach is to define a Gameplay Tag, such as "Stunned", and configure abilities to be blocked when that tag is present. This treats stun as a core mechanic that all abilities are aware of. But should every possible status effect be handled this way? And should every system in the game be responsible for checking every single relevant tag?</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-design-q4"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+To What Extent Shall Developers Implement Custom Logic?</h3>
+<p>Which building blocks should programmers provide ready-made, and which should be left for (technical) game designers to design? For example, should we create a generic "Damage" GA that takes parameters for damage type, amount, and other factors, or should we create specific GAs for each type of damage (e.g., "Fire Damage", "Ice Damage")? The former approach provides more flexibility and reusability but may require more setup for designers, whereas the latter is more straightforward for designers but can lead to a proliferation of abilities and less flexibility.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-whatelse"></a> </p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
+What GAS also offers?</h2>
+<p><a class="anchor" id="gas-whatelse-debugging"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
+Debugging and Visualization Tools</h3>
+<p>Debugging is an indispensable part of game development. Often during the process of implementing game mechanics with GAS, we may find ourselves asking: </p><blockquote class="doxtable">
 <ul>
-<li>Activation conditions</li>
-<li>Ability costs</li>
-<li>Cooldowns</li>
-<li>Gameplay effects applied during the ability</li>
+<li>"What are my attributes and their current values?"</li>
+<li>"What gameplay tags do I have?"</li>
+<li>"What gameplay effects do I currently have?"</li>
+<li>"What abilities do I have granted, which ones are running, and which ones are blocked from activating?" </li>
 </ul>
-<p>They can be triggered by player input, AI decisions, or gameplay events.</p>
+</blockquote>
+<p>The <span class="tt">showdebug abilitysystem</span> command provides us with a powerful tool to visualize all of this information in-game. We can see every gameplay tags owned by the ASC belonging to the currently selected Actor, which updates in real time as tags are added and removed. There are also different pages displaying more different information.</p>
+<p>The first page shows us a list of all attributes with their current values:</p>
+<p><a href="https://github.com/tranek/GASDocumentation?tab=readme-ov-file#61-showdebug-abilitysystem"><div class="image">
+<img src="showdebug_abilitysystem_pg1.png" alt=""/>
+<div class="caption">
+GAS `showdebug abilitysystem` Page 1</div></div>
+     </a></p>
+<p>The second page shows us all the active GEs, along with their given tags, duration and Modifiers:</p>
+<p><a href="https://github.com/tranek/GASDocumentation?tab=readme-ov-file#61-showdebug-abilitysystem"><div class="image">
+<img src="showdebug_abilitysystem_pg2.png" alt=""/>
+<div class="caption">
+GAS `showdebug abilitysystem` Page 2</div></div>
+     </a></p>
+<p>The third page shows all of the GAs that have been granted, whether they are currently running, whether they are blocked from activating, and the status of currently running Ability Tasks.</p>
+<p><a href="https://github.com/tranek/GASDocumentation?tab=readme-ov-file#61-showdebug-abilitysystem"><div class="image">
+<img src="showdebug_abilitysystem_pg3.png" alt=""/>
+<div class="caption">
+GAS `showdebug abilitysystem` Page 3</div></div>
+     </a></p>
+<p>Furthermore, GAS adds functionality to the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/using-the-gameplay-debugger-in-unreal-engine?application_version=5.5">Gameplay Debugger</a>. After navigating to the Abilities category by pressing 3 on the numpad, we are demonstrated with similar information as the <span class="tt">showdebug abilitysystem</span> command, toghether with additional information such as the source of the active GEs and the level of the GAs.</p>
+<p><a href="https://github.com/tranek/GASDocumentation?tab=readme-ov-file#62-gameplay-debugger"><div class="image">
+<img src="GameplayDebugger.png" alt=""/>
+<div class="caption">
+GAS Gameplay Debugger</div></div>
+     </a></p>
+<p>If we want to achieve such a level of debugging and visualization without GAS, we would have to implement it ourselves, which certainly takes a massive amount of effort. With GAS, we get these tools out of the box, allowing us to focus more on designing and implementing our game mechanics rather than building debugging tools.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
+<p><a class="anchor" id="gas-whatelse-replication"></a> </p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
+Replication and Networking</h3>
+<p>Up to now, we have discussed GAS primarily in the context of single-player games. However, a key feature of GAS that is just as prominent, if not more so, as other features, is its built-in support for replication and networking, making it an excellent choice for multiplayer games. Replication means that the state of the game is synchronized across all clients and the server, ensuring that all players see the same game state and experience consistent gameplay.</p>
+<p>The framework handles the complexities of synchronizing abilities, effects, and attributes across the network via a combination of client-side prediction, server authority, and lag compensation. Prediction means allowing the client to activate a GA and apply GEs immediately, without waiting for the server’s approval. Meanwhile, the server processes the same GA after a delay caused by network latency and then verifies the client’s actions. If the client’s predictions match the server’s results, everything continues smoothly. If not, the client corrects any mistakes by rolling back the incorrect changes and synchronizing with the server’s authoritative state.</p>
+<p>The replication system is still in the development process and not yet complete. Not everything is fully replicated out of the box, as can be read from <span class="tt">GameplayPrediction.h</span>:</p>
+<div class="fragment"><div class="line"><span class="comment">/*</span></div>
+<div class="line"><span class="comment"> *  Some things we don&#39;t predict (most of these we potentially could, but currently dont):</span></div>
+<div class="line"><span class="comment"> *  -GameplayEffect removal</span></div>
+<div class="line"><span class="comment"> *  -GameplayEffect periodic effects (dots ticking)</span></div>
+<div class="line"><span class="comment"> */</span></div>
+</div><!-- fragment --><p>In the very well-known <a href="https://github.com/tranek/GASDocumentation?tab=readme-ov-file#410-prediction">GASDocumentation</a>, a community-written, in-depth guide to GAS, the author states that:</p>
+<blockquote class="doxtable">
+<p>Regarding predicting damage, I personally do not recommend it despite it being one of the first things that most people try when starting with GAS. I especially do not recommend trying to predict death. While you can predict damage, doing so is tricky. If you mispredict applying damage, the player will see the enemy's health jump back up. This can be especially awkward and frustrating if you try to predict death. Say you mispredict a Character's death and it starts ragdolling only to stop ragdolling and continue shooting at you when the server corrects it. </p>
+</blockquote>
+<p>That said, it is important to note that while GAS provides the tools and framework for replication, it does not automatically make everything work perfectly in a multiplayer context. Developers still need to design their abilities and effects with replication in mind, ensuring that they are properly set up to work with the networked environment.</p>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b></p>
 <hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md10"></a>
-Gameplay Effect</h2>
-<p>A <b>Gameplay Effect</b> modifies attributes or applies status effects to an actor.</p>
-<p>Examples:</p>
-<ul>
-<li>Damage</li>
-<li>Healing</li>
-<li>Speed buffs</li>
-<li>Poison debuffs</li>
-</ul>
-<p>Gameplay effects can be:</p>
-<ul>
-<li><b>Instant</b> (e.g., damage)</li>
-<li><b>Duration-based</b> (e.g., poison)</li>
-<li><b>Infinite</b> (e.g., passive stat bonuses)</li>
-</ul>
-<p>They interact directly with the <b>Attribute Set</b>.</p>
-<hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
-Gameplay Cue</h2>
-<p>A <b>Gameplay Cue</b> handles the <b>visual and audio feedback</b> associated with gameplay events.</p>
-<p>Examples:</p>
-<ul>
-<li>Particle effects when a spell is cast</li>
-<li>Sound effects when damage is applied</li>
-<li>Visual indicators for buffs or debuffs</li>
-</ul>
-<p>Gameplay cues help separate <b>game logic</b> from <b>presentation</b>.</p>
-<hr  />
-<h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
-Attribute Set</h2>
-<p>An <b>Attribute Set</b> defines the numerical attributes of a character.</p>
-<p>Common attributes include:</p>
-<ul>
-<li>Health</li>
-<li>Mana</li>
-<li>Stamina</li>
-<li>Attack Power</li>
-<li>Defense</li>
-</ul>
-<p>Attributes are modified through <b>Gameplay Effects</b> and are tracked by the <b>Ability System Component</b>.</p>
-<hr  />
-<h1 class="doxsection"><a class="anchor" id="autotoc_md16"></a>
-Project Goal</h1>
-<p>The goal of this project is to explore and implement a modular <b>Action RPG combat system</b> using GAS, demonstrating how abilities, attributes, and effects interact to create dynamic gameplay. </p>
+<p><a class="anchor" id="dkrpg"></a> </p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
+The DkRPG Project</h1>
+<p><b><a class="el" href="#toc" title="toc">⬆ Back to Top</a></b> </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
