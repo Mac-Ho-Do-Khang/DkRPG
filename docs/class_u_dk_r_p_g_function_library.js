@@ -7,6 +7,7 @@ var class_u_dk_r_p_g_function_library =
     [ "ComputeHitReactDirectionTag", "class_u_dk_r_p_g_function_library.html#a49b5aeb64fcb14a562de8f1ff336646a", null ],
     [ "CountDown", "class_u_dk_r_p_g_function_library.html#a352756e19f683b27d91c72daf6ed8ecf", null ],
     [ "GetDisplayKeyNameFromInputAction", "class_u_dk_r_p_g_function_library.html#a2b9277d06ab9252bfda004acb8ebac04", null ],
+    [ "GetDisplayKeyNamesFromInputAction", "class_u_dk_r_p_g_function_library.html#a26ea3f6d1c94277ccc89b7395fa33af0", null ],
     [ "GetDkGameInstance", "class_u_dk_r_p_g_function_library.html#a11df395662112584b4fb614d3dfa2311", null ],
     [ "GetHeroDefaultInputMappingContextPriority", "class_u_dk_r_p_g_function_library.html#ab22b07924c232426443379dcecabbc32", null ],
     [ "GetScalableFloatValueAtLevel", "class_u_dk_r_p_g_function_library.html#abe0bb6cbc429cd380ed0711975687311", null ],

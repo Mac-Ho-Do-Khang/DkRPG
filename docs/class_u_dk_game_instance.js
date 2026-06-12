@@ -8,6 +8,7 @@ var class_u_dk_game_instance =
     [ "PopAllMusic", "class_u_dk_game_instance.html#a2ac6801a7df1afb33ecb8b93eb7b5023", null ],
     [ "PopMusic", "class_u_dk_game_instance.html#acdb6ac57bdee635e85e5a3fc9d96f88f", null ],
     [ "PushMusic", "class_u_dk_game_instance.html#a5f154de0e31dc838927b89049d46c652", null ],
+    [ "SetCurrentMusicVolume", "class_u_dk_game_instance.html#a4bf202064915fd52d1ae9b7d5209052b", null ],
     [ "StopMusicByTag", "class_u_dk_game_instance.html#a64623c4ae982c8c9bece3b03b5deec59", null ],
     [ "GameLevelSet", "class_u_dk_game_instance.html#a71e1ed4384219fb8cfb1741e3a335467", null ],
     [ "MusicComponent", "class_u_dk_game_instance.html#a36f4b0fd82dd5093e3c6c2a47ce78d40", null ],

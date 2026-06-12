@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['implement_20custom_20logic_0',['To What Extent Shall Developers Implement Custom Logic?',['../index.html#autotoc_md30',1,'']]]
+  ['main_20components_0',['Main Components',['../md_intro_2_g_a_s.html#autotoc_md4',1,'']]]
 ];

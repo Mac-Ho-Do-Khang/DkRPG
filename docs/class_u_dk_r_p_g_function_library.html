@@ -147,6 +147,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:acbdd5ce4f91a65c1845b8c82e18d7075"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given Gameplay Effect Spec Handle to the Target Actor.  <br /></td></tr>
 <tr class="memitem:a2b9277d06ab9252bfda004acb8ebac04" id="r_a2b9277d06ab9252bfda004acb8ebac04"><td class="memItemLeft">static FText&#160;</td><td class="memItemRight"><a class="el" href="#a2b9277d06ab9252bfda004acb8ebac04">GetDisplayKeyNameFromInputAction</a> (TArray&lt; UInputMappingContext * &gt; InputMappingContexts, UInputAction *InputAction)</td></tr>
 <tr class="memdesc:a2b9277d06ab9252bfda004acb8ebac04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the display name of the key(s) mapped to the given IA within the specified IMC(s).  <br /></td></tr>
+<tr class="memitem:a26ea3f6d1c94277ccc89b7395fa33af0" id="r_a26ea3f6d1c94277ccc89b7395fa33af0"><td class="memItemLeft">static TArray&lt; FName &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a26ea3f6d1c94277ccc89b7395fa33af0">GetDisplayKeyNamesFromInputAction</a> (TArray&lt; UInputMappingContext * &gt; InputMappingContexts, UInputAction *InputAction)</td></tr>
+<tr class="memdesc:a26ea3f6d1c94277ccc89b7395fa33af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the display name(s) of the key(s) mapped to the given IA within the specified IMC(s).  <br /></td></tr>
 <tr class="memitem:a352756e19f683b27d91c72daf6ed8ecf" id="r_a352756e19f683b27d91c72daf6ed8ecf"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a352756e19f683b27d91c72daf6ed8ecf">CountDown</a> (const UObject *WorldContextObject, float TotalTime, float UpdateInterval, float &amp;OutRemainingTime, <a class="el" href="group___execution_enums.html#ga60ca3cae9b5005ee846b29a2bd5b6ca2">EDkCountDownActionInput</a> CountDownActionInput, <a class="el" href="group___execution_enums.html#ga4f88d4746ad3066bd0c0878e35751525">EDkCountDownActionOutput</a> &amp;CountDownActionOutput, FLatentActionInfo LatentInfo)</td></tr>
 <tr class="memdesc:a352756e19f683b27d91c72daf6ed8ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a countdown over a specified total time, updating at given intervals.  <br /></td></tr>
 <tr class="memitem:a11df395662112584b4fb614d3dfa2311" id="r_a11df395662112584b4fb614d3dfa2311"><td class="memItemLeft">static <a class="el" href="class_u_dk_game_instance.html">UDkGameInstance</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a11df395662112584b4fb614d3dfa2311">GetDkGameInstance</a> (const UObject *WorldContextObject)</td></tr>
@@ -555,42 +557,42 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Performs a countdown over a specified total time, updating at given intervals. </p>
-<div class="fragment"><div class="line"><span class="lineno">  231</span>{</div>
-<div class="line"><span class="lineno">  232</span>    UWorld* World{};</div>
-<div class="line"><span class="lineno">  233</span>    <span class="keywordflow">if</span> (GEngine)</div>
-<div class="line"><span class="lineno">  234</span>    {</div>
-<div class="line"><span class="lineno">  235</span>        World = GEngine-&gt;GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull);</div>
-<div class="line"><span class="lineno">  236</span>    }</div>
-<div class="line"><span class="lineno">  237</span>    <span class="keywordflow">if</span> (!World)</div>
-<div class="line"><span class="lineno">  238</span>    {</div>
-<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  240</span>    }</div>
-<div class="line"><span class="lineno">  241</span> </div>
-<div class="line"><span class="lineno">  242</span>    FLatentActionManager&amp; LatentActionManager{ World-&gt;GetLatentActionManager() };</div>
-<div class="line"><span class="lineno">  243</span>    FDkCountDownAction* FoundAction{ </div>
-<div class="line"><span class="lineno">  244</span>        LatentActionManager.FindExistingAction&lt;FDkCountDownAction&gt;(LatentInfo.CallbackTarget, LatentInfo.UUID) </div>
-<div class="line"><span class="lineno">  245</span>    };</div>
-<div class="line"><span class="lineno">  246</span> </div>
-<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">if</span> (CountDownActionInput == <a class="code hl_enumvalue" href="group___execution_enums.html#gga60ca3cae9b5005ee846b29a2bd5b6ca2aa6122a65eaa676f700ae68d393054a37">EDkCountDownActionInput::Start</a>)</div>
-<div class="line"><span class="lineno">  248</span>    {</div>
-<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">if</span> (!FoundAction)</div>
-<div class="line"><span class="lineno">  250</span>        {</div>
-<div class="line"><span class="lineno">  251</span>            LatentActionManager.AddNewAction(</div>
-<div class="line"><span class="lineno">  252</span>                LatentInfo.CallbackTarget,</div>
-<div class="line"><span class="lineno">  253</span>                LatentInfo.UUID,</div>
-<div class="line"><span class="lineno">  254</span>                <span class="keyword">new</span> FDkCountDownAction(TotalTime, UpdateInterval, OutRemainingTime, CountDownActionOutput, LatentInfo)</div>
-<div class="line"><span class="lineno">  255</span>            );</div>
-<div class="line"><span class="lineno">  256</span>        }</div>
-<div class="line"><span class="lineno">  257</span>    }</div>
-<div class="line"><span class="lineno">  258</span>    </div>
-<div class="line"><span class="lineno">  259</span>    <span class="keywordflow">if</span> (CountDownActionInput == <a class="code hl_enumvalue" href="group___execution_enums.html#gga60ca3cae9b5005ee846b29a2bd5b6ca2aea4788705e6873b424c65e91c2846b19">EDkCountDownActionInput::Cancel</a>)</div>
-<div class="line"><span class="lineno">  260</span>    {</div>
-<div class="line"><span class="lineno">  261</span>        <span class="keywordflow">if</span> (FoundAction)</div>
-<div class="line"><span class="lineno">  262</span>        {</div>
-<div class="line"><span class="lineno">  263</span>            FoundAction-&gt;<a class="code hl_function" href="class_f_dk_count_down_action.html#ad86e9b99af7871384d247be83e35aa83">CancelAction</a>();</div>
-<div class="line"><span class="lineno">  264</span>        }</div>
-<div class="line"><span class="lineno">  265</span>    }</div>
-<div class="line"><span class="lineno">  266</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  285</span>{</div>
+<div class="line"><span class="lineno">  286</span>    UWorld* World{};</div>
+<div class="line"><span class="lineno">  287</span>    <span class="keywordflow">if</span> (GEngine)</div>
+<div class="line"><span class="lineno">  288</span>    {</div>
+<div class="line"><span class="lineno">  289</span>        World = GEngine-&gt;GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull);</div>
+<div class="line"><span class="lineno">  290</span>    }</div>
+<div class="line"><span class="lineno">  291</span>    <span class="keywordflow">if</span> (!World)</div>
+<div class="line"><span class="lineno">  292</span>    {</div>
+<div class="line"><span class="lineno">  293</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  294</span>    }</div>
+<div class="line"><span class="lineno">  295</span> </div>
+<div class="line"><span class="lineno">  296</span>    FLatentActionManager&amp; LatentActionManager{ World-&gt;GetLatentActionManager() };</div>
+<div class="line"><span class="lineno">  297</span>    FDkCountDownAction* FoundAction{ </div>
+<div class="line"><span class="lineno">  298</span>        LatentActionManager.FindExistingAction&lt;FDkCountDownAction&gt;(LatentInfo.CallbackTarget, LatentInfo.UUID) </div>
+<div class="line"><span class="lineno">  299</span>    };</div>
+<div class="line"><span class="lineno">  300</span> </div>
+<div class="line"><span class="lineno">  301</span>    <span class="keywordflow">if</span> (CountDownActionInput == <a class="code hl_enumvalue" href="group___execution_enums.html#gga60ca3cae9b5005ee846b29a2bd5b6ca2aa6122a65eaa676f700ae68d393054a37">EDkCountDownActionInput::Start</a>)</div>
+<div class="line"><span class="lineno">  302</span>    {</div>
+<div class="line"><span class="lineno">  303</span>        <span class="keywordflow">if</span> (!FoundAction)</div>
+<div class="line"><span class="lineno">  304</span>        {</div>
+<div class="line"><span class="lineno">  305</span>            LatentActionManager.AddNewAction(</div>
+<div class="line"><span class="lineno">  306</span>                LatentInfo.CallbackTarget,</div>
+<div class="line"><span class="lineno">  307</span>                LatentInfo.UUID,</div>
+<div class="line"><span class="lineno">  308</span>                <span class="keyword">new</span> FDkCountDownAction(TotalTime, UpdateInterval, OutRemainingTime, CountDownActionOutput, LatentInfo)</div>
+<div class="line"><span class="lineno">  309</span>            );</div>
+<div class="line"><span class="lineno">  310</span>        }</div>
+<div class="line"><span class="lineno">  311</span>    }</div>
+<div class="line"><span class="lineno">  312</span>    </div>
+<div class="line"><span class="lineno">  313</span>    <span class="keywordflow">if</span> (CountDownActionInput == <a class="code hl_enumvalue" href="group___execution_enums.html#gga60ca3cae9b5005ee846b29a2bd5b6ca2aea4788705e6873b424c65e91c2846b19">EDkCountDownActionInput::Cancel</a>)</div>
+<div class="line"><span class="lineno">  314</span>    {</div>
+<div class="line"><span class="lineno">  315</span>        <span class="keywordflow">if</span> (FoundAction)</div>
+<div class="line"><span class="lineno">  316</span>        {</div>
+<div class="line"><span class="lineno">  317</span>            FoundAction-&gt;<a class="code hl_function" href="class_f_dk_count_down_action.html#ad86e9b99af7871384d247be83e35aa83">CancelAction</a>();</div>
+<div class="line"><span class="lineno">  318</span>        }</div>
+<div class="line"><span class="lineno">  319</span>    }</div>
+<div class="line"><span class="lineno">  320</span>}</div>
 <div class="ttc" id="aclass_f_dk_count_down_action_html_ad86e9b99af7871384d247be83e35aa83"><div class="ttname"><a href="class_f_dk_count_down_action.html#ad86e9b99af7871384d247be83e35aa83">FDkCountDownAction::CancelAction</a></div><div class="ttdeci">void CancelAction()</div><div class="ttdoc">Requests cancellation of the latent action.</div><div class="ttdef"><b>Definition</b> DkCountDownAction.cpp:3</div></div>
 <div class="ttc" id="agroup___execution_enums_html_gga60ca3cae9b5005ee846b29a2bd5b6ca2aa6122a65eaa676f700ae68d393054a37"><div class="ttname"><a href="group___execution_enums.html#gga60ca3cae9b5005ee846b29a2bd5b6ca2aa6122a65eaa676f700ae68d393054a37">EDkCountDownActionInput::Start</a></div><div class="ttdeci">@ Start</div><div class="ttdef"><b>Definition</b> DkEnumTypes.h:42</div></div>
 <div class="ttc" id="agroup___execution_enums_html_gga60ca3cae9b5005ee846b29a2bd5b6ca2aea4788705e6873b424c65e91c2846b19"><div class="ttname"><a href="group___execution_enums.html#gga60ca3cae9b5005ee846b29a2bd5b6ca2aea4788705e6873b424c65e91c2846b19">EDkCountDownActionInput::Cancel</a></div><div class="ttdeci">@ Cancel</div><div class="ttdef"><b>Definition</b> DkEnumTypes.h:43</div></div>
@@ -644,7 +646,7 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Display names for the key(s). Chorded key are placed before the main key, separated by a " + " sign. If no mappings are found, returns "N/A".</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Display names for the key(s). Chorded key is placed before the main key, separated by a " + " sign. If no mappings are found, returns "N/A".</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If exist multiple mappings for the same main/chorded IA, returns the first one found for each. </dd></dl>
 <div class="fragment"><div class="line"><span class="lineno">  169</span>{</div>
 <div class="line"><span class="lineno">  170</span>    FText MainIAKeyName, ChordedIAKeyName;</div>
@@ -701,6 +703,98 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a26ea3f6d1c94277ccc89b7395fa33af0" name="a26ea3f6d1c94277ccc89b7395fa33af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ea3f6d1c94277ccc89b7395fa33af0">&#9670;&#160;</a></span>GetDisplayKeyNamesFromInputAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TArray&lt; FName &gt; UDkRPGFunctionLibrary::GetDisplayKeyNamesFromInputAction </td>
+          <td>(</td>
+          <td class="paramtype">TArray&lt; UInputMappingContext * &gt;</td>          <td class="paramname"><span class="paramname"><em>InputMappingContexts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInputAction *</td>          <td class="paramname"><span class="paramname"><em>InputAction</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the display name(s) of the key(s) mapped to the given IA within the specified IMC(s). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">InputMappingContexts</td><td>The list of IMCs to search for mappings to the given IA. </td></tr>
+    <tr><td class="paramname">InputAction</td><td>The IA for which to retrieve the display key name(s).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Array of display name(s) for the key(s). Chorded key comes before the main key. If no mappings are found, returns an empty array.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If exist multiple mappings for the same main/chorded IA, returns the first one found for each. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  223</span>{</div>
+<div class="line"><span class="lineno">  224</span>    FName MainIAKeyName, ChordedIAKeyName;</div>
+<div class="line"><span class="lineno">  225</span>    TArray&lt;FName&gt; DisplayKeyNames{};</div>
+<div class="line"><span class="lineno">  226</span> </div>
+<div class="line"><span class="lineno">  227</span>    <span class="keywordflow">for</span> (UInputMappingContext* IMC : InputMappingContexts)</div>
+<div class="line"><span class="lineno">  228</span>    {</div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> FEnhancedActionKeyMapping&amp; Mapping : IMC-&gt;GetMappings())</div>
+<div class="line"><span class="lineno">  230</span>        {</div>
+<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">if</span> (Mapping.Action == InputAction) <span class="comment">// Main IA found</span></div>
+<div class="line"><span class="lineno">  232</span>            {</div>
+<div class="line"><span class="lineno">  233</span>                <span class="comment">// Retrieve key name from chorded action(s) (if any)</span></div>
+<div class="line"><span class="lineno">  234</span>                <span class="keywordflow">if</span> (Mapping.Triggers.Num() &gt; 0)</div>
+<div class="line"><span class="lineno">  235</span>                {</div>
+<div class="line"><span class="lineno">  236</span>                    <span class="keywordflow">for</span> (<span class="keyword">const</span> UInputTrigger* Trigger : Mapping.Triggers)</div>
+<div class="line"><span class="lineno">  237</span>                    {</div>
+<div class="line"><span class="lineno">  238</span>                        <span class="keywordflow">if</span> (<span class="keyword">const</span> UInputTriggerChordAction * ChordTrigger{ Cast&lt;UInputTriggerChordAction&gt;(Trigger) }) <span class="comment">// Chorded IA found</span></div>
+<div class="line"><span class="lineno">  239</span>                        {</div>
+<div class="line"><span class="lineno">  240</span>                            UInputAction* ChordAction{ ChordTrigger-&gt;ChordAction };</div>
+<div class="line"><span class="lineno">  241</span>                            <span class="keywordflow">for</span> (UInputMappingContext* InnerIMC : InputMappingContexts)</div>
+<div class="line"><span class="lineno">  242</span>                            {</div>
+<div class="line"><span class="lineno">  243</span>                                <span class="keywordflow">for</span> (<span class="keyword">const</span> FEnhancedActionKeyMapping&amp; InnerMapping : InnerIMC-&gt;GetMappings())</div>
+<div class="line"><span class="lineno">  244</span>                                {</div>
+<div class="line"><span class="lineno">  245</span>                                    <span class="keywordflow">if</span> (InnerMapping.Action == ChordAction)</div>
+<div class="line"><span class="lineno">  246</span>                                    {</div>
+<div class="line"><span class="lineno">  247</span>                                        ChordedIAKeyName = InnerMapping.Key.GetFName();</div>
+<div class="line"><span class="lineno">  248</span>                                        <span class="keywordflow">break</span>; <span class="comment">// Only consider the first mapping found for the chord action</span></div>
+<div class="line"><span class="lineno">  249</span>                                    }</div>
+<div class="line"><span class="lineno">  250</span>                                }</div>
+<div class="line"><span class="lineno">  251</span>                            }</div>
+<div class="line"><span class="lineno">  252</span>                        }</div>
+<div class="line"><span class="lineno">  253</span>                    }</div>
+<div class="line"><span class="lineno">  254</span>                }</div>
+<div class="line"><span class="lineno">  255</span> </div>
+<div class="line"><span class="lineno">  256</span>                <span class="comment">// Retrieve key name from main action mapping</span></div>
+<div class="line"><span class="lineno">  257</span>                MainIAKeyName = Mapping.Key.GetFName();</div>
+<div class="line"><span class="lineno">  258</span>                <span class="keywordflow">break</span>; <span class="comment">// Only consider the first mapping found for the main action</span></div>
+<div class="line"><span class="lineno">  259</span>            }</div>
+<div class="line"><span class="lineno">  260</span>        }</div>
+<div class="line"><span class="lineno">  261</span>    }</div>
+<div class="line"><span class="lineno">  262</span> </div>
+<div class="line"><span class="lineno">  263</span>    <span class="keywordflow">if</span> (!ChordedIAKeyName.IsNone())</div>
+<div class="line"><span class="lineno">  264</span>    {</div>
+<div class="line"><span class="lineno">  265</span>        DisplayKeyNames.Add(ChordedIAKeyName);</div>
+<div class="line"><span class="lineno">  266</span>    }</div>
+<div class="line"><span class="lineno">  267</span> </div>
+<div class="line"><span class="lineno">  268</span>    <span class="keywordflow">if</span> (!MainIAKeyName.IsNone())</div>
+<div class="line"><span class="lineno">  269</span>    {</div>
+<div class="line"><span class="lineno">  270</span>        DisplayKeyNames.Add(MainIAKeyName);</div>
+<div class="line"><span class="lineno">  271</span>    }</div>
+<div class="line"><span class="lineno">  272</span> </div>
+<div class="line"><span class="lineno">  273</span>    <span class="keywordflow">return</span> DisplayKeyNames;</div>
+<div class="line"><span class="lineno">  274</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a11df395662112584b4fb614d3dfa2311" name="a11df395662112584b4fb614d3dfa2311"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11df395662112584b4fb614d3dfa2311">&#9670;&#160;</a></span>GetDkGameInstance()</h2>
 
@@ -725,17 +819,17 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Retrieves the Game Instance from the given World Context Object. </p>
-<div class="fragment"><div class="line"><span class="lineno">  269</span>{</div>
-<div class="line"><span class="lineno">  270</span>    <span class="keywordflow">if</span> (GEngine)</div>
-<div class="line"><span class="lineno">  271</span>    {</div>
-<div class="line"><span class="lineno">  272</span>        <span class="keywordflow">if</span> (UWorld * World{ GEngine-&gt;GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull) })</div>
-<div class="line"><span class="lineno">  273</span>        {</div>
-<div class="line"><span class="lineno">  274</span>            <span class="keywordflow">return</span> World-&gt;GetGameInstance&lt;UDkGameInstance&gt;();</div>
-<div class="line"><span class="lineno">  275</span>        }</div>
-<div class="line"><span class="lineno">  276</span>    }</div>
-<div class="line"><span class="lineno">  277</span> </div>
-<div class="line"><span class="lineno">  278</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  279</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  323</span>{</div>
+<div class="line"><span class="lineno">  324</span>    <span class="keywordflow">if</span> (GEngine)</div>
+<div class="line"><span class="lineno">  325</span>    {</div>
+<div class="line"><span class="lineno">  326</span>        <span class="keywordflow">if</span> (UWorld * World{ GEngine-&gt;GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull) })</div>
+<div class="line"><span class="lineno">  327</span>        {</div>
+<div class="line"><span class="lineno">  328</span>            <span class="keywordflow">return</span> World-&gt;GetGameInstance&lt;UDkGameInstance&gt;();</div>
+<div class="line"><span class="lineno">  329</span>        }</div>
+<div class="line"><span class="lineno">  330</span>    }</div>
+<div class="line"><span class="lineno">  331</span> </div>
+<div class="line"><span class="lineno">  332</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  333</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -763,9 +857,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Retrieves the main hero character default IMC priority when applied to the Enhanced Input Subsystem. </p>
-<div class="fragment"><div class="line"><span class="lineno">  346</span>{</div>
-<div class="line"><span class="lineno">  347</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  348</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  400</span>{</div>
+<div class="line"><span class="lineno">  401</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  402</span>}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_u_dk_hero_gameplay_ability___target_lock.html#aa692808ed50487b4a6aefa718a163234">UDkHeroGameplayAbility_TargetLock::InitTargetLockMappingContext()</a>, and <a class="el" href="class_a_dk_hero.html#ab678774fc640b45d244055cd48dd44e9">ADkHero::SetupPlayerInputComponent()</a>.</p>
 <div class="dynheader">
@@ -1229,16 +1323,16 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Saves the current game difficulty level to the save game. </p>
-<div class="fragment"><div class="line"><span class="lineno">  319</span>{</div>
-<div class="line"><span class="lineno">  320</span>    USaveGame* SaveGameObj{ UGameplayStatics::CreateSaveGameObject(UDkSaveGame::StaticClass()) };</div>
-<div class="line"><span class="lineno">  321</span>    <span class="keywordflow">if</span> (UDkSaveGame * DkSaveGameObj{ Cast&lt;UDkSaveGame&gt;(SaveGameObj) })</div>
-<div class="line"><span class="lineno">  322</span>    {</div>
-<div class="line"><span class="lineno">  323</span>        DkSaveGameObj-&gt;SavedCurrentGameDifficultyLevel = InDifficultyLevel;</div>
-<div class="line"><span class="lineno">  324</span>        <span class="keyword">const</span> <span class="keywordtype">bool</span> bWasSaved{</div>
-<div class="line"><span class="lineno">  325</span>            UGameplayStatics::SaveGameToSlot(DkSaveGameObj, DkGameplayTags::GameData_SaveGame_Slot_1.GetTag().ToString(), 0)</div>
-<div class="line"><span class="lineno">  326</span>        };</div>
-<div class="line"><span class="lineno">  327</span>    }</div>
-<div class="line"><span class="lineno">  328</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  373</span>{</div>
+<div class="line"><span class="lineno">  374</span>    USaveGame* SaveGameObj{ UGameplayStatics::CreateSaveGameObject(UDkSaveGame::StaticClass()) };</div>
+<div class="line"><span class="lineno">  375</span>    <span class="keywordflow">if</span> (UDkSaveGame * DkSaveGameObj{ Cast&lt;UDkSaveGame&gt;(SaveGameObj) })</div>
+<div class="line"><span class="lineno">  376</span>    {</div>
+<div class="line"><span class="lineno">  377</span>        DkSaveGameObj-&gt;SavedCurrentGameDifficultyLevel = InDifficultyLevel;</div>
+<div class="line"><span class="lineno">  378</span>        <span class="keyword">const</span> <span class="keywordtype">bool</span> bWasSaved{</div>
+<div class="line"><span class="lineno">  379</span>            UGameplayStatics::SaveGameToSlot(DkSaveGameObj, DkGameplayTags::GameData_SaveGame_Slot_1.GetTag().ToString(), 0)</div>
+<div class="line"><span class="lineno">  380</span>        };</div>
+<div class="line"><span class="lineno">  381</span>    }</div>
+<div class="line"><span class="lineno">  382</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1270,41 +1364,41 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Toggles the input mode. </p>
-<div class="fragment"><div class="line"><span class="lineno">  282</span>{</div>
-<div class="line"><span class="lineno">  283</span>    APlayerController* PC{};</div>
-<div class="line"><span class="lineno">  284</span> </div>
-<div class="line"><span class="lineno">  285</span>    <span class="keywordflow">if</span> (GEngine)</div>
-<div class="line"><span class="lineno">  286</span>    {</div>
-<div class="line"><span class="lineno">  287</span>        <span class="keywordflow">if</span> (UWorld * World{ GEngine-&gt;GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull) })</div>
-<div class="line"><span class="lineno">  288</span>        {</div>
-<div class="line"><span class="lineno">  289</span>            PC = World-&gt;GetFirstPlayerController();</div>
-<div class="line"><span class="lineno">  290</span>        }</div>
-<div class="line"><span class="lineno">  291</span>    }</div>
-<div class="line"><span class="lineno">  292</span> </div>
-<div class="line"><span class="lineno">  293</span>    <span class="keywordflow">if</span> (!PC)</div>
-<div class="line"><span class="lineno">  294</span>    {</div>
-<div class="line"><span class="lineno">  295</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  296</span>    }</div>
-<div class="line"><span class="lineno">  297</span> </div>
-<div class="line"><span class="lineno">  298</span>    FInputModeGameOnly GameOnlyInputMode;</div>
-<div class="line"><span class="lineno">  299</span>    FInputModeUIOnly UIOnlyInputMode;</div>
-<div class="line"><span class="lineno">  300</span> </div>
-<div class="line"><span class="lineno">  301</span>    <span class="keywordflow">switch</span> (InInputMode)</div>
-<div class="line"><span class="lineno">  302</span>    {</div>
-<div class="line"><span class="lineno">  303</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="group___gameplay_enums.html#gga1735c3e557ad672abe0e4ed12f4a50aea41cdeb279618e17d245a10574ddea652">EDkInputMode::GameOnly</a>:</div>
-<div class="line"><span class="lineno">  304</span>        PC-&gt;SetInputMode(GameOnlyInputMode);</div>
-<div class="line"><span class="lineno">  305</span>        PC-&gt;bShowMouseCursor = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  306</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  307</span> </div>
-<div class="line"><span class="lineno">  308</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="group___gameplay_enums.html#gga1735c3e557ad672abe0e4ed12f4a50aeac0e5fbfdb114540f8a486830ab6aeed1">EDkInputMode::UIOnly</a>:</div>
-<div class="line"><span class="lineno">  309</span>        PC-&gt;SetInputMode(UIOnlyInputMode);</div>
-<div class="line"><span class="lineno">  310</span>        PC-&gt;bShowMouseCursor = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  311</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  312</span> </div>
-<div class="line"><span class="lineno">  313</span>    <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  314</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  315</span>    }</div>
-<div class="line"><span class="lineno">  316</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  336</span>{</div>
+<div class="line"><span class="lineno">  337</span>    APlayerController* PC{};</div>
+<div class="line"><span class="lineno">  338</span> </div>
+<div class="line"><span class="lineno">  339</span>    <span class="keywordflow">if</span> (GEngine)</div>
+<div class="line"><span class="lineno">  340</span>    {</div>
+<div class="line"><span class="lineno">  341</span>        <span class="keywordflow">if</span> (UWorld * World{ GEngine-&gt;GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull) })</div>
+<div class="line"><span class="lineno">  342</span>        {</div>
+<div class="line"><span class="lineno">  343</span>            PC = World-&gt;GetFirstPlayerController();</div>
+<div class="line"><span class="lineno">  344</span>        }</div>
+<div class="line"><span class="lineno">  345</span>    }</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>    <span class="keywordflow">if</span> (!PC)</div>
+<div class="line"><span class="lineno">  348</span>    {</div>
+<div class="line"><span class="lineno">  349</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  350</span>    }</div>
+<div class="line"><span class="lineno">  351</span> </div>
+<div class="line"><span class="lineno">  352</span>    FInputModeGameOnly GameOnlyInputMode;</div>
+<div class="line"><span class="lineno">  353</span>    FInputModeUIOnly UIOnlyInputMode;</div>
+<div class="line"><span class="lineno">  354</span> </div>
+<div class="line"><span class="lineno">  355</span>    <span class="keywordflow">switch</span> (InInputMode)</div>
+<div class="line"><span class="lineno">  356</span>    {</div>
+<div class="line"><span class="lineno">  357</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="group___gameplay_enums.html#gga1735c3e557ad672abe0e4ed12f4a50aea41cdeb279618e17d245a10574ddea652">EDkInputMode::GameOnly</a>:</div>
+<div class="line"><span class="lineno">  358</span>        PC-&gt;SetInputMode(GameOnlyInputMode);</div>
+<div class="line"><span class="lineno">  359</span>        PC-&gt;bShowMouseCursor = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  360</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  361</span> </div>
+<div class="line"><span class="lineno">  362</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="group___gameplay_enums.html#gga1735c3e557ad672abe0e4ed12f4a50aeac0e5fbfdb114540f8a486830ab6aeed1">EDkInputMode::UIOnly</a>:</div>
+<div class="line"><span class="lineno">  363</span>        PC-&gt;SetInputMode(UIOnlyInputMode);</div>
+<div class="line"><span class="lineno">  364</span>        PC-&gt;bShowMouseCursor = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  365</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  366</span> </div>
+<div class="line"><span class="lineno">  367</span>    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  368</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  369</span>    }</div>
+<div class="line"><span class="lineno">  370</span>}</div>
 <div class="ttc" id="agroup___gameplay_enums_html_gga1735c3e557ad672abe0e4ed12f4a50aea41cdeb279618e17d245a10574ddea652"><div class="ttname"><a href="group___gameplay_enums.html#gga1735c3e557ad672abe0e4ed12f4a50aea41cdeb279618e17d245a10574ddea652">EDkInputMode::GameOnly</a></div><div class="ttdeci">@ GameOnly</div><div class="ttdef"><b>Definition</b> DkEnumTypes.h:70</div></div>
 <div class="ttc" id="agroup___gameplay_enums_html_gga1735c3e557ad672abe0e4ed12f4a50aeac0e5fbfdb114540f8a486830ab6aeed1"><div class="ttname"><a href="group___gameplay_enums.html#gga1735c3e557ad672abe0e4ed12f4a50aeac0e5fbfdb114540f8a486830ab6aeed1">EDkInputMode::UIOnly</a></div><div class="ttdeci">@ UIOnly</div><div class="ttdef"><b>Definition</b> DkEnumTypes.h:71</div></div>
 </div><!-- fragment -->
@@ -1336,19 +1430,19 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Tries to load the current game difficulty level from the save game. </p>
-<div class="fragment"><div class="line"><span class="lineno">  331</span>{</div>
-<div class="line"><span class="lineno">  332</span>    <span class="keywordflow">if</span> (UGameplayStatics::DoesSaveGameExist(DkGameplayTags::GameData_SaveGame_Slot_1.GetTag().ToString(), 0))</div>
-<div class="line"><span class="lineno">  333</span>    {</div>
-<div class="line"><span class="lineno">  334</span>        USaveGame* SaveGameObj{ UGameplayStatics::LoadGameFromSlot(DkGameplayTags::GameData_SaveGame_Slot_1.GetTag().ToString(), 0) };</div>
-<div class="line"><span class="lineno">  335</span>        <span class="keywordflow">if</span> (UDkSaveGame* DkSaveGameObj{ Cast&lt;UDkSaveGame&gt;(SaveGameObj) })</div>
-<div class="line"><span class="lineno">  336</span>        {</div>
-<div class="line"><span class="lineno">  337</span>            OutDifficultyLevel = DkSaveGameObj-&gt;SavedCurrentGameDifficultyLevel;</div>
-<div class="line"><span class="lineno">  338</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  339</span>        }</div>
-<div class="line"><span class="lineno">  340</span>    }</div>
-<div class="line"><span class="lineno">  341</span> </div>
-<div class="line"><span class="lineno">  342</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  343</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  385</span>{</div>
+<div class="line"><span class="lineno">  386</span>    <span class="keywordflow">if</span> (UGameplayStatics::DoesSaveGameExist(DkGameplayTags::GameData_SaveGame_Slot_1.GetTag().ToString(), 0))</div>
+<div class="line"><span class="lineno">  387</span>    {</div>
+<div class="line"><span class="lineno">  388</span>        USaveGame* SaveGameObj{ UGameplayStatics::LoadGameFromSlot(DkGameplayTags::GameData_SaveGame_Slot_1.GetTag().ToString(), 0) };</div>
+<div class="line"><span class="lineno">  389</span>        <span class="keywordflow">if</span> (UDkSaveGame* DkSaveGameObj{ Cast&lt;UDkSaveGame&gt;(SaveGameObj) })</div>
+<div class="line"><span class="lineno">  390</span>        {</div>
+<div class="line"><span class="lineno">  391</span>            OutDifficultyLevel = DkSaveGameObj-&gt;SavedCurrentGameDifficultyLevel;</div>
+<div class="line"><span class="lineno">  392</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  393</span>        }</div>
+<div class="line"><span class="lineno">  394</span>    }</div>
+<div class="line"><span class="lineno">  395</span> </div>
+<div class="line"><span class="lineno">  396</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  397</span>}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="class_a_dk_survival_game_mode.html#acaff346875ba5d49c0461d989d6b6c77">ADkSurvivalGameMode::InitGame()</a>.</p>
 <div class="dynheader">

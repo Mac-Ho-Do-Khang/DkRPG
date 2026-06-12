@@ -21,6 +21,7 @@ var annotated_dup =
     [ "FDkHeroSpecialAbilitySet", "struct_f_dk_hero_special_ability_set.html", "struct_f_dk_hero_special_ability_set" ],
     [ "FDkHeroWeaponData", "struct_f_dk_hero_weapon_data.html", "struct_f_dk_hero_weapon_data" ],
     [ "FDkInputActionConfig", "struct_f_dk_input_action_config.html", "struct_f_dk_input_action_config" ],
+    [ "FDkKeyIconData", "struct_f_dk_key_icon_data.html", "struct_f_dk_key_icon_data" ],
     [ "FDkMusicSet", "struct_f_dk_music_set.html", "struct_f_dk_music_set" ],
     [ "FRotateToFaceTargetTaskMemory", "struct_f_rotate_to_face_target_task_memory.html", "struct_f_rotate_to_face_target_task_memory" ],
     [ "IDkPawnCombatInterface", "class_i_dk_pawn_combat_interface.html", "class_i_dk_pawn_combat_interface" ],

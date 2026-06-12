@@ -34,6 +34,7 @@ var hierarchy =
     ] ],
     [ "FDkHeroWeaponData", "struct_f_dk_hero_weapon_data.html", null ],
     [ "FDkInputActionConfig", "struct_f_dk_input_action_config.html", null ],
+    [ "FDkKeyIconData", "struct_f_dk_key_icon_data.html", null ],
     [ "FDkMusicSet", "struct_f_dk_music_set.html", null ],
     [ "FPendingLatentAction", null, [
       [ "FDkCountDownAction", "class_f_dk_count_down_action.html", null ]

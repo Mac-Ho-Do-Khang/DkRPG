@@ -25,8 +25,36 @@
 var NAVTREE =
 [
   [ "DkRPG", "index.html", [
-    [ "Action RPG - Unreal Engine 5.3 - Gameplay Ability System", "index.html", "index" ],
+    [ "Gameplay Ability System", "md_intro_2_g_a_s.html", [
+      [ "Demo", "index.html#autotoc_md21", null ],
+      [ "Documentation", "index.html#autotoc_md22", null ],
+      [ "Releases", "index.html#autotoc_md23", null ],
+      [ "Assets", "index.html#autotoc_md24", null ],
+      [ "Table of Contents", "md_intro_2_g_a_s.html#autotoc_md1", null ],
+      [ "A Real Life Scenario", "md_intro_2_g_a_s.html#autotoc_md3", null ],
+      [ "Main Components", "md_intro_2_g_a_s.html#autotoc_md4", [
+        [ "Ability System Component", "md_intro_2_g_a_s.html#autotoc_md5", null ],
+        [ "Gameplay Effect", "md_intro_2_g_a_s.html#autotoc_md6", null ],
+        [ "Gameplay Ability", "md_intro_2_g_a_s.html#autotoc_md7", null ],
+        [ "Ability Task", "md_intro_2_g_a_s.html#autotoc_md8", null ],
+        [ "Attribute Set", "md_intro_2_g_a_s.html#autotoc_md9", null ],
+        [ "Gameplay Tag", "md_intro_2_g_a_s.html#autotoc_md10", null ],
+        [ "Gameplay Cue", "md_intro_2_g_a_s.html#autotoc_md11", null ]
+      ] ],
+      [ "Design Considerations", "md_intro_2_g_a_s.html#autotoc_md12", [
+        [ "What Systems Should Use GAS?", "md_intro_2_g_a_s.html#autotoc_md13", null ],
+        [ "Who Owns an ASC?", "md_intro_2_g_a_s.html#autotoc_md14", null ],
+        [ "Who Knows About What?", "md_intro_2_g_a_s.html#autotoc_md15", null ],
+        [ "To What Extent Shall Developers Implement Custom Logic?", "md_intro_2_g_a_s.html#autotoc_md16", null ]
+      ] ],
+      [ "What GAS also offers?", "md_intro_2_g_a_s.html#autotoc_md17", [
+        [ "Debugging and Visualization Tools", "md_intro_2_g_a_s.html#autotoc_md18", null ],
+        [ "Replication and Networking", "md_intro_2_g_a_s.html#autotoc_md19", null ]
+      ] ]
+    ] ],
+    [ "Unreal Engine", "md_intro_2_u_e.html", null ],
     [ "Todo List", "todo.html", null ],
+    [ "Bug List", "bug.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -60,10 +88,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_anim_notifies_8png.html",
-"class_a_dk_game_mode_base.html",
-"class_u_dk_game_instance.html#a36f4b0fd82dd5093e3c6c2a47ce78d40",
-"functions_vars.html",
-"namespace_dk_gameplay_tags.html#abb5f3bb4becff536f48b3f524194ed9f"
+"class_a_dk_enemy.html#affa9002f492643a009e9741be81b3d02",
+"class_u_dk_game_instance.html#a2ac6801a7df1afb33ecb8b93eb7b5023",
+"functions_s.html",
+"namespace_dk_gameplay_tags.html#ac39694dfaaa6f7e1eb4b9ab261d17322"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
