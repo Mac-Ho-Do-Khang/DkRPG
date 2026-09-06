@@ -94,7 +94,8 @@ $(function(){initNavTree('index.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_intro_2_main_page"></a></p>
-<p>DkRPG is my personal project made during a hands-on learning exercise for <a class="el" href="md_intro_2_u_e.html" title="Unreal Engine"><b>Unreal Engine</b></a> and its <a class="el" href="md_intro_2_g_a_s.html" title="Gameplay Ability System"><b>Gameplay Ability System</b></a>. The goal was to build a small but coherent <b>single-player Action RPG</b> from scratch, making real design and engineering decisions along the way, confronting the similar challenges that large projects do. Game features include:</p>
+<p><img src="ActionPhase1.png" alt="" width="500" height="286" class="inline" title="Action Phase 1"/>     <img src="Paragon.webp" alt="" width="500" height="286" class="inline" title="Paragon"/>    </p>
+<p><a href="https://www.fab.com/listings/ef04a196-03c1-4204-998a-c7d5264fade7"><b>Action RPG</b></a> is Epic's official Unreal 4 single-player, third-person action role-playing game template. <b>DkRPG</b> is my personal re-implementation of the project in Unreal 5, made during a hands-on learning exercise for <a class="el" href="md_intro_2_u_e.html" title="Unreal Engine"><b>Unreal Engine</b></a> and its <a class="el" href="md_intro_2_g_a_s.html" title="Gameplay Ability System"><b>Gameplay Ability System</b></a>. Game features include:</p>
 <ul>
 <li><b>Enemy system</b>: normal vs boss enemies, each with unique behavior and attack patterns.</li>
 <li><b>Combat mechanics</b>: target lock, dodge, roll, parry, and block.</li>
@@ -104,6 +105,7 @@ $(function(){initNavTree('index.html','',''); });
 <li><b>Audio</b>: sound effects and background music.</li>
 <li><b>Game loop</b>: survival mode with wave-based enemy spawning.</li>
 </ul>
+<p><img src="MainMenu.png" alt="" width="250" height="143" class="inline" title="Main Menu"/>     <img src="KeysBindingMenu.png" alt="" width="250" height="143" class="inline" title="Key Bindings"/>     <img src="PauseMenu.png" alt="" width="250" height="143" class="inline" title="Pause Menu"/>     <img src="GameOverMenu.png" alt="" width="250" height="143" class="inline" title="Game Over"/>    </p>
 <p>Main Tech Stack</p>
 <ul>
 <li>Unreal Engine 5.3+</li>
@@ -126,24 +128,10 @@ Documentation</h2>
 <li>and so on.</li>
 </ul>
 <p>These non-code work is inherently embedded in the project's binary assets. The C++ source files are shared <a href="../DkRPG/annotated.html"><b>here</b></a> as a transparent record of my coding practice, trying my best to follow the conventions of the Unreal Engine codebase itself, including naming conventions, comment style, system design, etc.</p>
+<p>By convention, Unreal Engine game projects typically use a project-specific prefix for their classes and structs to distinguish custom types from those provided by the engine itself. In this project, I use Dk, the initials of my name, as the prefix for all custom classes and structs.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md23"></a>
 Releases</h2>
-<p>Available builds, each of which links to a downloadable <span class="tt">.zip</span> file, can be accessed via my <a href="https://mac-ho-do-khang.itch.io/dkrpg"><b>itch.io page</b></a>. Below is a summary of the releases:</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Version  </th><th class="markdownTableHeadNone">Description  </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1.0  </td><td class="markdownTableBodyNone">Complete re-implementation of <a href="https://www.udemy.com/course/unreal-engine-5-advanced-action-rpg">Advanced Action RPG</a>.  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">1.1  </td><td class="markdownTableBodyNone">Implement stamina mechanics. Add Sprint ability.  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1.2  </td><td class="markdownTableBodyNone">Add Healing ability, which is weapon-independent.  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">1.3  </td><td class="markdownTableBodyNone">Gameplay abilities' VFX revamp.  </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">1.4  </td><td class="markdownTableBodyNone">Add Control menu, displaying all key bindings.  </td></tr>
-</table>
-<p>Extracting the folder and you will find for yourself the following directory structure:</p>
+<p>Available build, which links to a downloadable <span class="tt">.zip</span> file, can be accessed via my <a href="https://mac-ho-do-khang.itch.io/dkrpg"><b>itch.io page</b></a>. Extracting the folder and you will find for yourself the following directory structure:</p>
 <div class="fragment"><div class="line">├── DkRPG</div>
 <div class="line">│   ├── Binaries</div>
 <div class="line">│   └── Content</div>

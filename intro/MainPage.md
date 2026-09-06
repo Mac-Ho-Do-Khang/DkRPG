@@ -22,7 +22,7 @@ Main Tech Stack
 
 ### Demo
 
-Here is a short 🎞️ [**walkthrough video**](...) of the latest version.
+Here is a short 🎞️ [**walkthrough video**](https://drive.google.com/file/d/1mwrxOT0ZIanrlv1DxguIFR_l0cuuGSQs/view?usp=sharing) of the latest version.
 
 ### Documentation
 

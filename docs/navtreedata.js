@@ -53,45 +53,15 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Unreal Engine", "md_intro_2_u_e.html", null ],
-    [ "Todo List", "todo.html", null ],
-    [ "Bug List", "bug.html", null ],
-    [ "Topics", "topics.html", "topics" ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ]
-      ] ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ]
-      ] ]
-    ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_anim_notifies_8png.html",
-"class_a_dk_enemy.html#affa9002f492643a009e9741be81b3d02",
-"class_u_dk_game_instance.html#a2ac6801a7df1afb33ecb8b93eb7b5023",
-"functions_s.html",
-"namespace_dk_gameplay_tags.html#ac39694dfaaa6f7e1eb4b9ab261d17322"
+"_action_phase1_8png.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
