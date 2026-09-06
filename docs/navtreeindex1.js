@@ -1,5 +1,11 @@
 var NAVTREEINDEX1 =
 {
+"class_a_dk_enemy.html#a97eec0a66094fcb8d55453421b30601b":[6,0,2,5],
+"class_a_dk_enemy.html#a99d7b038b654011997c1efaf2258b32e":[6,0,2,7],
+"class_a_dk_enemy.html#a9d24388d2ff6c563091fb803cbfcbf0d":[6,0,2,13],
+"class_a_dk_enemy.html#ad0e54cd4b5779fbe176bb15032a4c6f1":[6,0,2,2],
+"class_a_dk_enemy.html#af1b91e896475653b865029c699037e09":[6,0,2,0],
+"class_a_dk_enemy.html#af9003e010ac6ba11cf90db2741e115bb":[6,0,2,14],
 "class_a_dk_enemy.html#affa9002f492643a009e9741be81b3d02":[6,0,2,12],
 "class_a_dk_game_mode_base.html":[6,0,3],
 "class_a_dk_game_mode_base.html#a525fb4336f26b700a444e65560b6107a":[6,0,3,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX1 =
 "class_u_dk_g_e_e_c___damage_taken.html#ab0a2e4bd254c16c2f2bfa4f8e4335907":[6,0,44,3],
 "class_u_dk_g_e_e_c___wither_health_recovered.html":[6,0,45],
 "class_u_dk_g_e_e_c___wither_health_recovered.html#a0aae1d6b461c7f530c0a43683ea1178e":[6,0,45,0],
-"class_u_dk_g_e_e_c___wither_health_recovered.html#a80b4970bb4a0158d5bf29e6c1eea1618":[6,0,45,2],
-"class_u_dk_g_e_e_c___wither_health_recovered.html#ab17e28852d819a2e2fc3c5d36495c977":[6,0,45,1],
-"class_u_dk_g_m_m_c___attack_stamina_cost.html":[6,0,46],
-"class_u_dk_g_m_m_c___attack_stamina_cost.html#a105468e6d9a1064c8096b56e5c8e4bc1":[6,0,46,0],
-"class_u_dk_g_m_m_c___attack_stamina_cost.html#aabdae050de31bcb1c1a8846e6f6b92ed":[6,0,46,1],
-"class_u_dk_game_instance.html":[6,0,42],
-"class_u_dk_game_instance.html#a21f5280a595c91555e1fab5d793c2dcf":[6,0,42,12]
+"class_u_dk_g_e_e_c___wither_health_recovered.html#a80b4970bb4a0158d5bf29e6c1eea1618":[6,0,45,2]
 };

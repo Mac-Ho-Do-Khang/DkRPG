@@ -1,6 +1,6 @@
 # DkRPG
 
-![Action Phase 1](ActionPhase1.png){width=500 height=286} ![Paragon](Paragon.webp){width=500 height=286}
+![Action Phase 1](ActionPhase1.png){width=600 height=375} ![Action Phase 2](ActionPhase2.png){width=600 height=375}
 
 [**Action RPG**](https://www.fab.com/listings/ef04a196-03c1-4204-998a-c7d5264fade7) is Epic's official Unreal 4 single-player, third-person action role-playing game template. **DkRPG** is my personal re-implementation of the project in Unreal 5, made during a hands-on learning exercise for [**Unreal Engine**](UE.md) and its [**Gameplay Ability System**](GAS.md). Game features include:
 
@@ -12,7 +12,7 @@
 - **Audio**: sound effects and background music.
 - **Game loop**: survival mode with wave-based enemy spawning.
 
-![Main Menu](MainMenu.png){width=250 height=143} ![Key Bindings](KeysBindingMenu.png){width=250 height=143} ![Pause Menu](PauseMenu.png){width=250 height=143} ![Game Over](GameOverMenu.png){width=250 height=143}
+![Main Menu](MainMenu.png){width=300 height=188} ![Key Bindings](KeysBindingMenu.png){width=300 height=188} ![Pause Menu](PauseMenu.png){width=300 height=188} ![Game Over](GameOverMenu.png){width=300 height=188}
 
 Main Tech Stack
 
