@@ -1,6 +1,8 @@
 # DkRPG
 
-DkRPG is my personal project made during a hands-on learning exercise for [**Unreal Engine**](UE.md) and its [**Gameplay Ability System**](GAS.md). The goal was to build a small but coherent **single-player Action RPG** from scratch, making real design and engineering decisions along the way, confronting the similar challenges that large projects do. Game features include:
+![Action Phase 1](ActionPhase1.png){width=500 height=286} ![Paragon](Paragon.webp){width=500 height=286}
+
+[**Action RPG**](https://www.fab.com/listings/ef04a196-03c1-4204-998a-c7d5264fade7) is Epic's official Unreal 4 single-player, third-person action role-playing game template. **DkRPG** is my personal re-implementation of the project in Unreal 5, made during a hands-on learning exercise for [**Unreal Engine**](UE.md) and its [**Gameplay Ability System**](GAS.md). Game features include:
 
 - **Enemy system**: normal vs boss enemies, each with unique behavior and attack patterns.
 - **Combat mechanics**: target lock, dodge, roll, parry, and block.
@@ -9,6 +11,8 @@ DkRPG is my personal project made during a hands-on learning exercise for [**Unr
 - **UI screens**: main menu, pause menu, result menu, and loading screen.
 - **Audio**: sound effects and background music.
 - **Game loop**: survival mode with wave-based enemy spawning.
+
+![Main Menu](MainMenu.png){width=250 height=143} ![Key Bindings](KeysBindingMenu.png){width=250 height=143} ![Pause Menu](PauseMenu.png){width=250 height=143} ![Game Over](GameOverMenu.png){width=250 height=143}
 
 Main Tech Stack
 
@@ -34,19 +38,11 @@ Code only accounts for part of the total work in this project. The remaining eff
 
 These non-code work is inherently embedded in the project's binary assets. The C++ source files are shared [**here**](../DkRPG/annotated.html) as a transparent record of my coding practice, trying my best to follow the conventions of the Unreal Engine codebase itself, including naming conventions, comment style, system design, etc.
 
+By convention, Unreal Engine game projects typically use a project-specific prefix for their classes and structs to distinguish custom types from those provided by the engine itself. In this project, I use Dk, the initials of my name, as the prefix for all custom classes and structs.
+
 ### Releases
 
-Available builds, each of which links to a downloadable `.zip` file, can be accessed via my [**itch.io page**](https://mac-ho-do-khang.itch.io/dkrpg). Below is a summary of the releases:
-
-| Version |            Description            |
-|---------|-----------------------------------|
-|   1.0   | Complete re-implementation of [Advanced Action RPG](https://www.udemy.com/course/unreal-engine-5-advanced-action-rpg). |
-|   1.1   | Implement stamina mechanics. Add Sprint ability. |
-|   1.2   | Add Healing ability, which is weapon-independent. |
-|   1.3   | Gameplay abilities' VFX revamp. |
-|   1.4   | Add Control menu, displaying all key bindings. |
-
-Extracting the folder and you will find for yourself the following directory structure:
+Available build, which links to a downloadable `.zip` file, can be accessed via my [**itch.io page**](https://mac-ho-do-khang.itch.io/dkrpg). Extracting the folder and you will find for yourself the following directory structure:
 
 ```
 ├── DkRPG
